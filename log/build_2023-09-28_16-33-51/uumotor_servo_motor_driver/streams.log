@@ -1,0 +1,21 @@
+[0.016s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.053s] [ 16%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test.cpp.o[0m
+[0.057s] [ 33%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/test.cpp.o[0m
+[0.059s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kuumotor_servo_motor_driver/test.h: No such file or directory
+[0.059s]     2 | #include [01;31m[K"uumotor_servo_motor_driver/test.h"[m[K
+[0.060s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.060s] compilation terminated.
+[0.060s] make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test.cpp.o] Error 1
+[0.060s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/driver.dir/all] Error 2
+[0.061s] make[1]: *** Waiting for unfinished jobs....
+[0.223s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[0.223s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp:15:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kfun[m[K’ was not declared in this scope
+[0.223s]    15 |     uint16_t crc = [01;31m[Kfun[m[K.Calc_Crc(cmd, arraySize);
+[0.223s]       |                    [01;31m[K^~~[m[K
+[0.223s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp:12:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kval[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.223s]    12 |     uint8_t [01;35m[Kval[m[K[6];
+[0.223s]       |             [01;35m[K^~~[m[K
+[0.247s] make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:104: CMakeFiles/uumotor_servo_motor_driver.dir/src/test.cpp.o] Error 1
+[0.247s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+[0.247s] make: *** [Makefile:146: all] Error 2
+[0.251s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

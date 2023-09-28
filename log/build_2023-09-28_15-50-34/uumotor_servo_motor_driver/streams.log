@@ -1,0 +1,42 @@
+[0.016s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.054s] [ 50%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o[0m
+[0.078s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:35:47:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+[0.078s]    35 |                 const unsigned char cmd[6] = {[01;35m[K'0xEE'[m[K, '0x06', '0x51', '0x00', '0x00', '0x00'};
+[0.078s]       |                                               [01;35m[K^~~~~~[m[K
+[0.078s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:35:55:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+[0.078s]    35 |                 const unsigned char cmd[6] = {'0xEE', [01;35m[K'0x06'[m[K, '0x51', '0x00', '0x00', '0x00'};
+[0.078s]       |                                                       [01;35m[K^~~~~~[m[K
+[0.078s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:35:63:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+[0.078s]    35 |                 const unsigned char cmd[6] = {'0xEE', '0x06', [01;35m[K'0x51'[m[K, '0x00', '0x00', '0x00'};
+[0.078s]       |                                                               [01;35m[K^~~~~~[m[K
+[0.078s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:35:71:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+[0.078s]    35 |                 const unsigned char cmd[6] = {'0xEE', '0x06', '0x51', [01;35m[K'0x00'[m[K, '0x00', '0x00'};
+[0.078s]       |                                                                       [01;35m[K^~~~~~[m[K
+[0.078s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:35:79:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+[0.078s]    35 |                 const unsigned char cmd[6] = {'0xEE', '0x06', '0x51', '0x00', [01;35m[K'0x00'[m[K, '0x00'};
+[0.078s]       |                                                                               [01;35m[K^~~~~~[m[K
+[0.079s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:35:87:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+[0.079s]    35 |                 const unsigned char cmd[6] = {'0xEE', '0x06', '0x51', '0x00', '0x00', [01;35m[K'0x00'[m[K};
+[0.079s]       |                                                                                       [01;35m[K^~~~~~[m[K
+[0.079s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:36:35:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+[0.079s]    36 |                 command.push_back([01;35m[K'0xEE'[m[K);
+[0.079s]       |                                   [01;35m[K^~~~~~[m[K
+[0.170s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kvoid Commands::set_control_mode(std::vector<unsigned char>&, int, std::string)[m[K’:
+[0.171s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:35:93:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K813188421[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;31m[K-Wnarrowing[m[K]
+[0.171s]    35 |                 const unsigned char cmd[6] = {'0xEE', '0x06', '0x51', '0x00', '0x00', '0x00'[01;31m[K}[m[K;
+[0.171s]       |                                                                                             [01;31m[K^[m[K
+[0.172s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:35:93:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K813183030[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;31m[K-Wnarrowing[m[K]
+[0.172s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:35:93:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K813184305[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;31m[K-Wnarrowing[m[K]
+[0.172s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:35:93:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K813183024[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;31m[K-Wnarrowing[m[K]
+[0.172s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:35:93:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K813183024[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;31m[K-Wnarrowing[m[K]
+[0.172s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:35:93:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K813183024[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;31m[K-Wnarrowing[m[K]
+[0.173s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:36:35:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::vector<unsigned char>::value_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K813188421[m[K’ to ‘[01m[K69[m[K’ [[01;35m[K-Woverflow[m[K]
+[0.173s]    36 |                 command.push_back([01;35m[K'0xEE'[m[K);
+[0.173s]       |                                   [01;35m[K^~~~~~[m[K
+[0.173s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:35:37:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.174s]    35 |                 const unsigned char [01;35m[Kcmd[m[K[6] = {'0xEE', '0x06', '0x51', '0x00', '0x00', '0x00'};
+[0.174s]       |                                     [01;35m[K^~~[m[K
+[0.199s] make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:76: CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o] Error 1
+[0.199s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+[0.199s] make: *** [Makefile:146: all] Error 2
+[0.203s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

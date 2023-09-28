@@ -1,0 +1,39 @@
+[0.013s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.048s] [ 50%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o[0m
+[0.160s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kvoid Commands::set_control_mode(std::vector<unsigned char>&, int, std::string)[m[K’:
+[0.161s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:35:37:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.161s]    35 |                 const unsigned char [01;35m[Kcmd[m[K[6] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x00};
+[0.162s]       |                                     [01;35m[K^~~[m[K
+[0.163s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:28:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcommand[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.163s]    28 | void Commands::set_control_mode([01;35m[Kstd::vector<unsigned char> &command[m[K, int motor, std::string mode)
+[0.163s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[0.220s] [100%] [32m[1mLinking CXX shared library libuumotor_servo_motor_driver.so[0m
+[0.271s] [100%] Built target uumotor_servo_motor_driver
+[0.277s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.310s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --install /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver
+[0.330s] -- Install configuration: ""
+[0.330s] -- Execute custom install script
+[0.330s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/lib/libuumotor_servo_motor_driver.so
+[0.331s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h
+[0.331s] -- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h
+[0.333s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/environment/library_path.sh
+[0.333s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/environment/library_path.dsv
+[0.333s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/ament_index/resource_index/package_run_dependencies/uumotor_servo_motor_driver
+[0.333s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/ament_index/resource_index/parent_prefix_path/uumotor_servo_motor_driver
+[0.333s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/environment/ament_prefix_path.sh
+[0.333s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/environment/ament_prefix_path.dsv
+[0.334s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/environment/path.sh
+[0.334s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/environment/path.dsv
+[0.334s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/local_setup.bash
+[0.334s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/local_setup.sh
+[0.334s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/local_setup.zsh
+[0.334s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/local_setup.dsv
+[0.334s] -- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/package.dsv
+[0.336s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/ament_index/resource_index/packages/uumotor_servo_motor_driver
+[0.336s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.336s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[0.336s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.337s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/cmake/uumotor_servo_motor_driverConfig.cmake
+[0.337s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/cmake/uumotor_servo_motor_driverConfig-version.cmake
+[0.337s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/package.xml
+[0.340s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --install /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver

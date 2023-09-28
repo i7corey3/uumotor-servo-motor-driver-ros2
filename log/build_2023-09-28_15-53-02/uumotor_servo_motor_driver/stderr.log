@@ -1,0 +1,7 @@
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kvoid Commands::set_control_mode(std::vector<unsigned char>&, int, std::string)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:35:37:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   35 |                 const unsigned char [01;35m[Kcmd[m[K[6] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x00};
+      |                                     [01;35m[K^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:28:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcommand[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   28 | void Commands::set_control_mode([01;35m[Kstd::vector<unsigned char> &command[m[K, int motor, std::string mode)
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K

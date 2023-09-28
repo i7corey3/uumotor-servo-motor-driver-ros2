@@ -1,0 +1,1 @@
+Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/serial': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake /home/corey/uumotor-servo-motor-driver-ros2/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/corey/uumotor-servo-motor-driver-ros2/install/serial

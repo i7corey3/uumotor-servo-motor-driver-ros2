@@ -1,0 +1,53 @@
+[0.017s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.049s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.050s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.050s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.050s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.050s]   the cmake_policy command to set the policy and suppress this warning.
+[0.050s] 
+[0.051s] Call Stack (most recent call first):
+[0.051s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.051s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.051s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.051s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.051s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.051s]   CMakeLists.txt:9 (find_package)
+[0.051s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.051s] [0m
+[0.068s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.116s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.122s] -- Found serial: 1.2.1 (/usr/local/share/serial/cmake)
+[0.124s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.175s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.175s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.175s] -- Configured cppcheck include dirs: /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include
+[0.175s] -- Configured cppcheck exclude dirs and/or files: 
+[0.175s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.175s] -- Configured cpplint exclude dirs and/or files: 
+[0.175s] -- Added test 'lint_cmake' to check CMake code style
+[0.176s] -- Added test 'uncrustify' to check C / C++ code style
+[0.176s] -- Configured uncrustify additional arguments: 
+[0.176s] -- Added test 'xmllint' to check XML markup files
+[0.181s] -- Configuring done (0.1s)
+[0.187s] -- Generating done (0.0s)
+[0.188s] -- Build files have been written to: /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver
+[0.199s] [ 16%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test.cpp.o[0m
+[0.203s] [ 33%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/test.cpp.o[0m
+[0.206s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kuumotor_servo_motor_driver/test.h: No such file or directory
+[0.206s]     2 | #include [01;31m[K"uumotor_servo_motor_driver/test.h"[m[K
+[0.206s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.206s] compilation terminated.
+[0.208s] make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test.cpp.o] Error 1
+[0.208s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/driver.dir/all] Error 2
+[0.209s] make[1]: *** Waiting for unfinished jobs....
+[0.366s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[0.366s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp:15:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kfun[m[K’ was not declared in this scope
+[0.366s]    15 |     uint16_t crc = [01;31m[Kfun[m[K.Calc_Crc(cmd, arraySize);
+[0.366s]       |                    [01;31m[K^~~[m[K
+[0.366s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp:12:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kval[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.366s]    12 |     uint8_t [01;35m[Kval[m[K[6];
+[0.367s]       |             [01;35m[K^~~[m[K
+[0.388s] make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:104: CMakeFiles/uumotor_servo_motor_driver.dir/src/test.cpp.o] Error 1
+[0.389s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+[0.389s] make: *** [Makefile:146: all] Error 2
+[0.392s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

@@ -1,0 +1,42 @@
+[0.016s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/serial': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake /home/corey/uumotor-servo-motor-driver-ros2/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/corey/uumotor-servo-motor-driver-ros2/install/serial
+[0.074s] -- The C compiler identification is GNU 9.4.0
+[0.114s] -- The CXX compiler identification is GNU 9.4.0
+[0.125s] -- Detecting C compiler ABI info
+[0.168s] -- Detecting C compiler ABI info - done
+[0.177s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.177s] -- Detecting C compile features
+[0.178s] -- Detecting C compile features - done
+[0.185s] -- Detecting CXX compiler ABI info
+[0.234s] -- Detecting CXX compiler ABI info - done
+[0.243s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.243s] -- Detecting CXX compile features
+[0.244s] -- Detecting CXX compile features - done
+[0.246s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.249s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.249s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.249s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.249s]   the cmake_policy command to set the policy and suppress this warning.
+[0.249s] 
+[0.249s] Call Stack (most recent call first):
+[0.249s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.250s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.250s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.250s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.250s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.250s]   CMakeLists.txt:5 (find_package)
+[0.250s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.250s] [0m
+[0.263s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.263s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.301s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.319s] -- Found ament_cmake_gtest: 1.1.6 (/opt/ros/galactic/share/ament_cmake_gtest/cmake)
+[0.325s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[0.327s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.329s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.374s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.374s] -- Check if compiler accepts -pthread
+[0.418s] -- Check if compiler accepts -pthread - yes
+[0.418s] -- Found Threads: TRUE  
+[0.475s] -- Configuring done (0.4s)
+[0.486s] -- Generating done (0.0s)
+[0.488s] -- Build files have been written to: /home/corey/uumotor-servo-motor-driver-ros2/build/serial

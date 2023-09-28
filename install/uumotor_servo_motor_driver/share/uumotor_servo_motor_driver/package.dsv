@@ -1,0 +1,5 @@
+source;share/uumotor_servo_motor_driver/local_setup.bash
+source;share/uumotor_servo_motor_driver/local_setup.dsv
+source;share/uumotor_servo_motor_driver/local_setup.ps1
+source;share/uumotor_servo_motor_driver/local_setup.sh
+source;share/uumotor_servo_motor_driver/local_setup.zsh

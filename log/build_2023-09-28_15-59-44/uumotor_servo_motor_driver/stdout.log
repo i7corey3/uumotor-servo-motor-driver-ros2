@@ -1,0 +1,46 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found serial: 1.2.1 (/usr/local/share/serial/cmake)
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver
+[ 33%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library libuumotor_servo_motor_driver.so[0m
+[100%] Built target uumotor_servo_motor_driver
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/lib/libuumotor_servo_motor_driver.so
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/environment/library_path.sh
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/environment/library_path.dsv
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/ament_index/resource_index/package_run_dependencies/uumotor_servo_motor_driver
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/ament_index/resource_index/parent_prefix_path/uumotor_servo_motor_driver
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/environment/path.sh
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/environment/path.dsv
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/local_setup.bash
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/local_setup.sh
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/local_setup.zsh
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/local_setup.dsv
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/package.dsv
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/ament_index/resource_index/packages/uumotor_servo_motor_driver
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/cmake/uumotor_servo_motor_driverConfig.cmake
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/cmake/uumotor_servo_motor_driverConfig-version.cmake
+-- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/package.xml

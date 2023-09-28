@@ -1,0 +1,64 @@
+[0.020s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake /home/corey/uumotor-servo-motor-driver-ros2/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/corey/uumotor-servo-motor-driver-ros2/install/serial
+[0.084s] -- The C compiler identification is GNU 9.4.0
+[0.129s] -- The CXX compiler identification is GNU 9.4.0
+[0.142s] -- Detecting C compiler ABI info
+[0.187s] -- Detecting C compiler ABI info - done
+[0.197s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.197s] -- Detecting C compile features
+[0.197s] -- Detecting C compile features - done
+[0.206s] -- Detecting CXX compiler ABI info
+[0.259s] -- Detecting CXX compiler ABI info - done
+[0.268s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.268s] -- Detecting CXX compile features
+[0.269s] -- Detecting CXX compile features - done
+[0.270s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.275s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.275s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.275s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.275s]   the cmake_policy command to set the policy and suppress this warning.
+[0.275s] 
+[0.275s] Call Stack (most recent call first):
+[0.275s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.275s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.275s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.276s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.276s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.276s]   CMakeLists.txt:5 (find_package)
+[0.276s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.276s] [0m
+[0.293s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.293s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.336s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.354s] -- Found ament_cmake_gtest: 1.1.6 (/opt/ros/galactic/share/ament_cmake_gtest/cmake)
+[0.361s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[0.363s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.365s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.405s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.405s] -- Check if compiler accepts -pthread
+[0.450s] -- Check if compiler accepts -pthread - yes
+[0.451s] -- Found Threads: TRUE  
+[0.500s] -- Configuring done (0.5s)
+[0.508s] -- Generating done (0.0s)
+[0.509s] -- Build files have been written to: /home/corey/uumotor-servo-motor-driver-ros2/build/serial
+[0.517s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake /home/corey/uumotor-servo-motor-driver-ros2/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/corey/uumotor-servo-motor-driver-ros2/install/serial
+[0.518s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/serial -- -j16 -l16
+[0.549s] [  7%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[0.549s] [ 21%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[0.549s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.550s] [ 28%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[0.550s] [ 35%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.948s] [ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[0.960s] [ 42%] Built target serial
+[0.965s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[1.142s] [ 57%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.152s] [ 57%] Built target gtest_main
+[1.210s] [ 64%] [32m[1mLinking CXX executable serial_example[0m
+[1.260s] [ 64%] Built target serial_example
+[2.885s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[2.909s] [ 71%] Built target gtest
+[2.916s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[2.916s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[3.423s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[3.503s] [ 92%] Built target serial-test-timer
+[3.509s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[3.599s] [100%] Built target serial-test

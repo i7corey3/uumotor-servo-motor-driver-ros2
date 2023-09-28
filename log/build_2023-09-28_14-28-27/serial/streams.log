@@ -1,0 +1,21 @@
+[0.020s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/serial': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/serial -- -j16 -l16
+[0.055s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.056s] [ 28%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[0.056s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.056s] [ 28%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[0.056s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[0.422s] [ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[0.434s] [ 42%] Built target serial
+[0.439s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[0.578s] [ 57%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[0.586s] [ 57%] Built target gtest_main
+[0.674s] [ 64%] [32m[1mLinking CXX executable serial_example[0m
+[0.722s] [ 64%] Built target serial_example
+[2.263s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[2.287s] [ 71%] Built target gtest
+[2.292s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[2.292s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[2.798s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[2.877s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[2.881s] [100%] Built target serial-test-timer
+[2.958s] [100%] Built target serial-test

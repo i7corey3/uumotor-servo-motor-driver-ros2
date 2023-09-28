@@ -1,0 +1,30 @@
+[ 42%] Built target gtest
+[ 42%] Built target gtest_main
+[ 57%] Built target serial
+[ 71%] Built target serial_example
+[ 85%] Built target serial-test-timer
+[100%] Built target serial-test
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/lib/libserial.a
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/include/serial/serial.h
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/include/serial/v8stdint.h
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/share/serial/environment/library_path.sh
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/share/serial/environment/library_path.dsv
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/share/serial/environment/ament_prefix_path.sh
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/share/serial/environment/ament_prefix_path.dsv
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/share/serial/environment/path.sh
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/share/serial/environment/path.dsv
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/share/serial/local_setup.bash
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/share/serial/local_setup.sh
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/share/serial/local_setup.zsh
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/share/serial/local_setup.dsv
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/share/serial/package.dsv
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/share/ament_index/resource_index/packages/serial
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/share/serial/cmake/serialConfig.cmake
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/share/serial/cmake/serialConfig-version.cmake
+-- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/serial/share/serial/package.xml

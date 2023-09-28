@@ -1,0 +1,25 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/test.cpp.o[0m
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kuumotor_servo_motor_driver/functions.h: No such file or directory
+    1 | #include [01;31m[K"uumotor_servo_motor_driver/functions.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/driver.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp:6:1:[m[K [01;31m[Kerror: [m[K‘[01m[K::main[m[K’ must return ‘[01m[Kint[m[K’
+    6 | [01;31m[Kvoid[m[K main()
+      | [01;31m[K^~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp:10:5:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kconst[m[K’
+   10 |     [01;31m[Kconst[m[K unsigned char cmd[6] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x00};
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp:11:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd[m[K’ was not declared in this scope
+   11 |     int arraySize = sizeof([01;31m[Kcmd[m[K)/sizeof(cmd[0]);
+      |                            [01;31m[K^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp:12:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kfun[m[K’ was not declared in this scope
+   12 |     uint16_t crc = [01;31m[Kfun[m[K.Calc_Crc(cmd, arraySize);
+      |                    [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:104: CMakeFiles/uumotor_servo_motor_driver.dir/src/test.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

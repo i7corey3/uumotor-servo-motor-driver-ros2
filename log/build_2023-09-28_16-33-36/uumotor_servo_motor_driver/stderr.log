@@ -1,0 +1,31 @@
+[33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:9 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kuumotor_servo_motor_driver/test.h: No such file or directory
+    2 | #include [01;31m[K"uumotor_servo_motor_driver/test.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/driver.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp:15:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kfun[m[K’ was not declared in this scope
+   15 |     uint16_t crc = [01;31m[Kfun[m[K.Calc_Crc(cmd, arraySize);
+      |                    [01;31m[K^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp:12:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kval[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   12 |     uint8_t [01;35m[Kval[m[K[6];
+      |             [01;35m[K^~~[m[K
+make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:104: CMakeFiles/uumotor_servo_motor_driver.dir/src/test.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2
