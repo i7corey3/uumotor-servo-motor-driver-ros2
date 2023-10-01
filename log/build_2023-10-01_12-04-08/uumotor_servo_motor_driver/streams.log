@@ -1,0 +1,45 @@
+[0.133s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.164s] [ 18%] Built target fun
+[0.170s] [ 27%] [32mBuilding CXX object CMakeFiles/cmd.dir/src/commands.cpp.o[0m
+[0.171s] [ 36%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o[0m
+[1.349s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In function ‘[01m[Kstd::vector<unsigned char> set_location_mode(int, std::string)[m[K’:
+[1.349s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:176:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kfun[m[K’ was not declared in this scope
+[1.349s]   176 |                 [01;31m[Kfun[m[K.get_hex_msg(command.data());
+[1.349s]       |                 [01;31m[K^~~[m[K
+[1.350s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:196:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kfun[m[K’ was not declared in this scope
+[1.350s]   196 |                 [01;31m[Kfun[m[K.get_hex_msg(command.data());
+[1.350s]       |                 [01;31m[K^~~[m[K
+[1.351s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In function ‘[01m[Kstd::vector<unsigned char> set_location_mode(int, std::string)[m[K’:
+[1.351s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:176:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kfun[m[K’ was not declared in this scope
+[1.351s]   176 |                 [01;31m[Kfun[m[K.get_hex_msg(command.data());
+[1.351s]       |                 [01;31m[K^~~[m[K
+[1.351s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In function ‘[01m[Kstd::vector<unsigned char> set_acceleration_max(int, long int)[m[K’:
+[1.351s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:225:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.351s]   225 | [01;35m[K}[m[K
+[1.351s]       | [01;35m[K^[m[K
+[1.351s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:217:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.351s]   217 | std::vector<uint8_t> set_acceleration_max([01;35m[Kint motor[m[K, long value)
+[1.352s]       |                                           [01;35m[K~~~~^~~~~[m[K
+[1.352s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:217:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.352s]   217 | std::vector<uint8_t> set_acceleration_max(int motor, [01;35m[Klong value[m[K)
+[1.352s]       |                                                      [01;35m[K~~~~~^~~~~[m[K
+[1.352s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:196:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kfun[m[K’ was not declared in this scope
+[1.352s]   196 |                 [01;31m[Kfun[m[K.get_hex_msg(command.data());
+[1.352s]       |                 [01;31m[K^~~[m[K
+[1.353s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In function ‘[01m[Kstd::vector<unsigned char> set_acceleration_max(int, long int)[m[K’:
+[1.353s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:225:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.353s]   225 | [01;35m[K}[m[K
+[1.353s]       | [01;35m[K^[m[K
+[1.353s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:217:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.353s]   217 | std::vector<uint8_t> set_acceleration_max([01;35m[Kint motor[m[K, long value)
+[1.353s]       |                                           [01;35m[K~~~~^~~~~[m[K
+[1.354s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:217:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.354s]   217 | std::vector<uint8_t> set_acceleration_max(int motor, [01;35m[Klong value[m[K)
+[1.354s]       |                                                      [01;35m[K~~~~~^~~~~[m[K
+[1.805s] make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:76: CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o] Error 1
+[1.805s] make[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+[1.805s] make[1]: *** Waiting for unfinished jobs....
+[1.812s] make[2]: *** [CMakeFiles/cmd.dir/build.make:76: CMakeFiles/cmd.dir/src/commands.cpp.o] Error 1
+[1.812s] make[1]: *** [CMakeFiles/Makefile2:222: CMakeFiles/cmd.dir/all] Error 2
+[1.812s] make: *** [Makefile:146: all] Error 2
+[1.816s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

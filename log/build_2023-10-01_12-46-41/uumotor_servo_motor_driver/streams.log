@@ -1,0 +1,686 @@
+[0.133s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.163s] [  9%] [32mBuilding CXX object CMakeFiles/fun.dir/src/functions.cpp.o[0m
+[0.166s] [ 18%] [32mBuilding CXX object CMakeFiles/cmd.dir/src/commands.cpp.o[0m
+[0.166s] [ 36%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o[0m
+[0.166s] [ 36%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o[0m
+[0.309s] [ 45%] [32m[1mLinking CXX static library libfun.a[0m
+[0.317s] [ 45%] Built target fun
+[1.356s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_acceleration_max(int, int)[m[K’:
+[1.356s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:231:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.356s]   231 |             fun.get_hex_msg(command.data())
+[1.356s]       |                                            [01;31m[K^[m[K
+[1.356s]       |                                            [32m[K;[m[K
+[1.356s]   232 | 
+[1.356s]   233 |             [32m[Kreturn[m[K command;
+[1.356s]       |             [32m[K~~~~~~[m[K                          
+[1.356s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:235:14:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.356s]   235 |         case [01;31m[K2[m[K:
+[1.356s]       |              [01;31m[K^[m[K
+[1.356s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:229:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.356s]   229 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+[1.356s]       |                                  [01;36m[K^[m[K
+[1.356s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:236:34:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.356s]   236 |             std::vector<uint8_t> [01;31m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+[1.356s]       |                                  [01;31m[K^[m[K
+[1.356s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:229:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<unsigned char> v[m[K’ previously declared here
+[1.356s]   229 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+[1.357s]       |                                  [01;36m[K^[m[K
+[1.357s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:238:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.357s]   238 |             fun.get_hex_msg(command.data())
+[1.357s]       |                                            [01;31m[K^[m[K
+[1.357s]       |                                            [32m[K;[m[K
+[1.357s]   239 | 
+[1.357s]   240 |             [32m[Kreturn[m[K command;
+[1.357s]       |             [32m[K~~~~~~[m[K                          
+[1.357s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:242:9:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.357s]   242 |         [01;31m[Kdefault[m[K:
+[1.357s]       |         [01;31m[K^~~~~~~[m[K
+[1.357s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:229:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.357s]   229 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+[1.357s]       |                                  [01;36m[K^[m[K
+[1.357s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_deceleration_max(int, int)[m[K’:
+[1.357s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:256:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.357s]   256 |             fun.get_hex_msg(command.data())
+[1.358s]       |                                            [01;31m[K^[m[K
+[1.358s]       |                                            [32m[K;[m[K
+[1.358s]   257 | 
+[1.358s]   258 |             [32m[Kreturn[m[K command;
+[1.358s]       |             [32m[K~~~~~~[m[K                          
+[1.358s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:260:14:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.358s]   260 |         case [01;31m[K2[m[K:
+[1.358s]       |              [01;31m[K^[m[K
+[1.358s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:254:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.358s]   254 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+[1.358s]       |                                  [01;36m[K^[m[K
+[1.358s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:261:34:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.358s]   261 |             std::vector<uint8_t> [01;31m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+[1.358s]       |                                  [01;31m[K^[m[K
+[1.358s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:254:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<unsigned char> v[m[K’ previously declared here
+[1.358s]   254 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+[1.358s]       |                                  [01;36m[K^[m[K
+[1.358s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:263:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.358s]   263 |             fun.get_hex_msg(command.data())
+[1.359s]       |                                            [01;31m[K^[m[K
+[1.359s]       |                                            [32m[K;[m[K
+[1.359s]   264 | 
+[1.359s]   265 |             [32m[Kreturn[m[K command;
+[1.359s]       |             [32m[K~~~~~~[m[K                          
+[1.359s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:267:9:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.359s]   267 |         [01;31m[Kdefault[m[K:
+[1.359s]       |         [01;31m[K^~~~~~~[m[K
+[1.359s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:254:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.359s]   254 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+[1.359s]       |                                  [01;36m[K^[m[K
+[1.359s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_speed(int, int)[m[K’:
+[1.359s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:281:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.359s]   281 |             fun.get_hex_msg(command.data())
+[1.359s]       |                                            [01;31m[K^[m[K
+[1.359s]       |                                            [32m[K;[m[K
+[1.359s]   282 | 
+[1.359s]   283 |             [32m[Kreturn[m[K command;
+[1.359s]       |             [32m[K~~~~~~[m[K                          
+[1.360s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:285:14:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.360s]   285 |         case [01;31m[K2[m[K:
+[1.360s]       |              [01;31m[K^[m[K
+[1.360s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:279:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.360s]   279 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(speed, max_speed_, true);
+[1.360s]       |                                  [01;36m[K^[m[K
+[1.360s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:286:34:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.360s]   286 |             std::vector<uint8_t> [01;31m[Kv[m[K = fun.int2hex(speed, max_speed_, true);
+[1.360s]       |                                  [01;31m[K^[m[K
+[1.360s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:279:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<unsigned char> v[m[K’ previously declared here
+[1.360s]   279 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(speed, max_speed_, true);
+[1.360s]       |                                  [01;36m[K^[m[K
+[1.360s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:288:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.360s]   288 |             fun.get_hex_msg(command.data())
+[1.360s]       |                                            [01;31m[K^[m[K
+[1.360s]       |                                            [32m[K;[m[K
+[1.361s]   289 | 
+[1.361s]   290 |             [32m[Kreturn[m[K command;
+[1.361s]       |             [32m[K~~~~~~[m[K                          
+[1.361s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:292:9:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.361s]   292 |         [01;31m[Kdefault[m[K:
+[1.361s]       |         [01;31m[K^~~~~~~[m[K
+[1.361s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:279:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.361s]   279 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(speed, max_speed_, true);
+[1.361s]       |                                  [01;36m[K^[m[K
+[1.361s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_current(int, int)[m[K’:
+[1.361s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:306:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.361s]   306 |             fun.get_hex_msg(command.data())
+[1.361s]       |                                            [01;31m[K^[m[K
+[1.361s]       |                                            [32m[K;[m[K
+[1.361s]   307 | 
+[1.361s]   308 |             [32m[Kreturn[m[K command;
+[1.361s]       |             [32m[K~~~~~~[m[K                          
+[1.361s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:310:14:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.361s]   310 |         case [01;31m[K2[m[K:
+[1.362s]       |              [01;31m[K^[m[K
+[1.362s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:304:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.362s]   304 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(current, max_amp_, true);
+[1.362s]       |                                  [01;36m[K^[m[K
+[1.362s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:311:34:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.362s]   311 |             std::vector<uint8_t> [01;31m[Kv[m[K = fun.int2hex(current, max_amp_, true);
+[1.362s]       |                                  [01;31m[K^[m[K
+[1.362s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:304:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<unsigned char> v[m[K’ previously declared here
+[1.362s]   304 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(current, max_amp_, true);
+[1.363s]       |                                  [01;36m[K^[m[K
+[1.363s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:313:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.363s]   313 |             fun.get_hex_msg(command.data())
+[1.363s]       |                                            [01;31m[K^[m[K
+[1.363s]       |                                            [32m[K;[m[K
+[1.363s]   314 | 
+[1.363s]   315 |             [32m[Kreturn[m[K command;
+[1.363s]       |             [32m[K~~~~~~[m[K                          
+[1.363s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:317:9:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.363s]   317 |         [01;31m[Kdefault[m[K:
+[1.363s]       |         [01;31m[K^~~~~~~[m[K
+[1.363s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:304:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.363s]   304 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(current, max_amp_, true);
+[1.363s]       |                                  [01;36m[K^[m[K
+[1.364s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_sensor_type(int, std::string)[m[K’:
+[1.364s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:332:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.364s]   332 |                 fun.get_hex_msg(command.data())
+[1.364s]       |                                                [01;31m[K^[m[K
+[1.364s]       |                                                [32m[K;[m[K
+[1.364s]   333 | 
+[1.364s]   334 |                 [32m[Kreturn[m[K command;
+[1.364s]       |                 [32m[K~~~~~~[m[K                          
+[1.364s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:338:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.364s]   338 |                 fun.get_hex_msg(command.data())
+[1.364s]       |                                                [01;31m[K^[m[K
+[1.364s]       |                                                [32m[K;[m[K
+[1.364s]   339 | 
+[1.364s]   340 |                 [32m[Kreturn[m[K command;
+[1.364s]       |                 [32m[K~~~~~~[m[K                          
+[1.364s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:353:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.365s]   353 |                 fun.get_hex_msg(command.data())
+[1.365s]       |                                                [01;31m[K^[m[K
+[1.365s]       |                                                [32m[K;[m[K
+[1.365s]   354 | 
+[1.365s]   355 |                 [32m[Kreturn[m[K command;
+[1.365s]       |                 [32m[K~~~~~~[m[K                          
+[1.365s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:359:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.365s]   359 |                 fun.get_hex_msg(command.data())
+[1.365s]       |                                                [01;31m[K^[m[K
+[1.365s]       |                                                [32m[K;[m[K
+[1.365s]   360 | 
+[1.365s]   361 |                 [32m[Kreturn[m[K command;
+[1.365s]       |                 [32m[K~~~~~~[m[K                          
+[1.365s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:374:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.365s]   374 |                 fun.get_hex_msg(command.data())
+[1.365s]       |                                                [01;31m[K^[m[K
+[1.365s]       |                                                [32m[K;[m[K
+[1.365s]   375 | 
+[1.365s]   376 |                 [32m[Kreturn[m[K command;
+[1.366s]       |                 [32m[K~~~~~~[m[K                          
+[1.366s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:380:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.366s]   380 |                 fun.get_hex_msg(command.data())
+[1.366s]       |                                                [01;31m[K^[m[K
+[1.366s]       |                                                [32m[K;[m[K
+[1.366s]   381 | 
+[1.366s]   382 |                 [32m[Kreturn[m[K command;
+[1.366s]       |                 [32m[K~~~~~~[m[K                          
+[1.366s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_acceleration_max(int, int)[m[K’:
+[1.366s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:231:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.366s]   231 |             fun.get_hex_msg(command.data())
+[1.366s]       |                                            [01;31m[K^[m[K
+[1.366s]       |                                            [32m[K;[m[K
+[1.366s]   232 | 
+[1.366s]   233 |             [32m[Kreturn[m[K command;
+[1.366s]       |             [32m[K~~~~~~[m[K                          
+[1.366s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:235:14:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.366s]   235 |         case [01;31m[K2[m[K:
+[1.366s]       |              [01;31m[K^[m[K
+[1.366s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:229:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.367s]   229 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+[1.367s]       |                                  [01;36m[K^[m[K
+[1.367s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:236:34:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.367s]   236 |             std::vector<uint8_t> [01;31m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+[1.367s]       |                                  [01;31m[K^[m[K
+[1.367s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:229:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<unsigned char> v[m[K’ previously declared here
+[1.367s]   229 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+[1.367s]       |                                  [01;36m[K^[m[K
+[1.367s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:238:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.367s]   238 |             fun.get_hex_msg(command.data())
+[1.367s]       |                                            [01;31m[K^[m[K
+[1.367s]       |                                            [32m[K;[m[K
+[1.367s]   239 | 
+[1.367s]   240 |             [32m[Kreturn[m[K command;
+[1.367s]       |             [32m[K~~~~~~[m[K                          
+[1.367s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:242:9:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.368s]   242 |         [01;31m[Kdefault[m[K:
+[1.368s]       |         [01;31m[K^~~~~~~[m[K
+[1.368s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:229:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.368s]   229 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+[1.368s]       |                                  [01;36m[K^[m[K
+[1.368s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::control_motor(int, std::string)[m[K’:
+[1.368s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:405:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.368s]   405 |                 fun.get_hex_msg(command.data())
+[1.368s]       |                                                [01;31m[K^[m[K
+[1.368s]       |                                                [32m[K;[m[K
+[1.368s]   406 | 
+[1.368s]   407 |                 [32m[Kreturn[m[K command;
+[1.368s]       |                 [32m[K~~~~~~[m[K                          
+[1.368s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:411:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.368s]   411 |                 fun.get_hex_msg(command.data())
+[1.368s]       |                                                [01;31m[K^[m[K
+[1.368s]       |                                                [32m[K;[m[K
+[1.368s]   412 | 
+[1.368s]   413 |                 [32m[Kreturn[m[K command;
+[1.368s]       |                 [32m[K~~~~~~[m[K                          
+[1.369s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_deceleration_max(int, int)[m[K’:
+[1.369s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:256:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.369s]   256 |             fun.get_hex_msg(command.data())
+[1.369s]       |                                            [01;31m[K^[m[K
+[1.369s]       |                                            [32m[K;[m[K
+[1.369s]   257 | 
+[1.369s]   258 |             [32m[Kreturn[m[K command;
+[1.369s]       |             [32m[K~~~~~~[m[K                          
+[1.369s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:260:14:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.369s]   260 |         case [01;31m[K2[m[K:
+[1.369s]       |              [01;31m[K^[m[K
+[1.369s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:254:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.369s]   254 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+[1.369s]       |                                  [01;36m[K^[m[K
+[1.369s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:261:34:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.369s]   261 |             std::vector<uint8_t> [01;31m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+[1.369s]       |                                  [01;31m[K^[m[K
+[1.369s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:254:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<unsigned char> v[m[K’ previously declared here
+[1.369s]   254 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+[1.369s]       |                                  [01;36m[K^[m[K
+[1.370s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:263:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.370s]   263 |             fun.get_hex_msg(command.data())
+[1.370s]       |                                            [01;31m[K^[m[K
+[1.370s]       |                                            [32m[K;[m[K
+[1.370s]   264 | 
+[1.370s]   265 |             [32m[Kreturn[m[K command;
+[1.370s]       |             [32m[K~~~~~~[m[K                          
+[1.370s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:267:9:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.370s]   267 |         [01;31m[Kdefault[m[K:
+[1.370s]       |         [01;31m[K^~~~~~~[m[K
+[1.370s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:254:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.370s]   254 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+[1.370s]       |                                  [01;36m[K^[m[K
+[1.370s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:426:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.370s]   426 |                 fun.get_hex_msg(command.data())
+[1.370s]       |                                                [01;31m[K^[m[K
+[1.370s]       |                                                [32m[K;[m[K
+[1.370s]   427 | 
+[1.370s]   428 |                 [32m[Kreturn[m[K command;
+[1.370s]       |                 [32m[K~~~~~~[m[K                          
+[1.370s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:432:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.370s]   432 |                 fun.get_hex_msg(command.data())
+[1.371s]       |                                                [01;31m[K^[m[K
+[1.371s]       |                                                [32m[K;[m[K
+[1.371s]   433 | 
+[1.371s]   434 |                 [32m[Kreturn[m[K command;
+[1.371s]       |                 [32m[K~~~~~~[m[K                          
+[1.371s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:447:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.371s]   447 |                 fun.get_hex_msg(command.data())
+[1.371s]       |                                                [01;31m[K^[m[K
+[1.371s]       |                                                [32m[K;[m[K
+[1.371s]   448 | 
+[1.371s]   449 |                 [32m[Kreturn[m[K command;
+[1.371s]       |                 [32m[K~~~~~~[m[K                          
+[1.371s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_speed(int, int)[m[K’:
+[1.371s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:281:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.371s]   281 |             fun.get_hex_msg(command.data())
+[1.371s]       |                                            [01;31m[K^[m[K
+[1.371s]       |                                            [32m[K;[m[K
+[1.371s]   282 | 
+[1.371s]   283 |             [32m[Kreturn[m[K command;
+[1.371s]       |             [32m[K~~~~~~[m[K                          
+[1.371s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:285:14:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.371s]   285 |         case [01;31m[K2[m[K:
+[1.372s]       |              [01;31m[K^[m[K
+[1.372s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:453:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.372s]   453 |                 fun.get_hex_msg(command.data())
+[1.372s]       |                                                [01;31m[K^[m[K
+[1.372s]       |                                                [32m[K;[m[K
+[1.372s]   454 | 
+[1.372s]   455 |                 [32m[Kreturn[m[K command;
+[1.372s]       |                 [32m[K~~~~~~[m[K                          
+[1.372s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:279:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.372s]   279 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(speed, max_speed_, true);
+[1.372s]       |                                  [01;36m[K^[m[K
+[1.372s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:286:34:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.372s]   286 |             std::vector<uint8_t> [01;31m[Kv[m[K = fun.int2hex(speed, max_speed_, true);
+[1.372s]       |                                  [01;31m[K^[m[K
+[1.372s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:279:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<unsigned char> v[m[K’ previously declared here
+[1.372s]   279 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(speed, max_speed_, true);
+[1.372s]       |                                  [01;36m[K^[m[K
+[1.372s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:288:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.372s]   288 |             fun.get_hex_msg(command.data())
+[1.372s]       |                                            [01;31m[K^[m[K
+[1.372s]       |                                            [32m[K;[m[K
+[1.372s]   289 | 
+[1.373s]   290 |             [32m[Kreturn[m[K command;
+[1.373s]       |             [32m[K~~~~~~[m[K                          
+[1.373s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:292:9:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.373s]   292 |         [01;31m[Kdefault[m[K:
+[1.373s]       |         [01;31m[K^~~~~~~[m[K
+[1.373s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:279:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.373s]   279 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(speed, max_speed_, true);
+[1.373s]       |                                  [01;36m[K^[m[K
+[1.373s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_current(int, int)[m[K’:
+[1.373s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:306:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.373s]   306 |             fun.get_hex_msg(command.data())
+[1.373s]       |                                            [01;31m[K^[m[K
+[1.373s]       |                                            [32m[K;[m[K
+[1.373s]   307 | 
+[1.373s]   308 |             [32m[Kreturn[m[K command;
+[1.373s]       |             [32m[K~~~~~~[m[K                          
+[1.373s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:310:14:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.373s]   310 |         case [01;31m[K2[m[K:
+[1.373s]       |              [01;31m[K^[m[K
+[1.373s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:304:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.373s]   304 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(current, max_amp_, true);
+[1.373s]       |                                  [01;36m[K^[m[K
+[1.374s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:311:34:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.374s]   311 |             std::vector<uint8_t> [01;31m[Kv[m[K = fun.int2hex(current, max_amp_, true);
+[1.374s]       |                                  [01;31m[K^[m[K
+[1.374s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:304:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<unsigned char> v[m[K’ previously declared here
+[1.374s]   304 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(current, max_amp_, true);
+[1.374s]       |                                  [01;36m[K^[m[K
+[1.374s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::calibrate(int)[m[K’:
+[1.374s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:476:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.374s]   476 |             fun.get_hex_msg(command.data())
+[1.374s]       |                                            [01;31m[K^[m[K
+[1.374s]       |                                            [32m[K;[m[K
+[1.374s]   477 | 
+[1.374s]   478 |             [32m[Kreturn[m[K command;
+[1.374s]       |             [32m[K~~~~~~[m[K                          
+[1.374s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:313:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.374s]   313 |             fun.get_hex_msg(command.data())
+[1.374s]       |                                            [01;31m[K^[m[K
+[1.374s]       |                                            [32m[K;[m[K
+[1.374s]   314 | 
+[1.374s]   315 |             [32m[Kreturn[m[K command;
+[1.374s]       |             [32m[K~~~~~~[m[K                          
+[1.375s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:481:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.375s]   481 |             fun.get_hex_msg(command.data())
+[1.375s]       |                                            [01;31m[K^[m[K
+[1.375s]       |                                            [32m[K;[m[K
+[1.375s]   482 | 
+[1.375s]   483 |             [32m[Kreturn[m[K command;
+[1.375s]       |             [32m[K~~~~~~[m[K                          
+[1.375s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:317:9:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.375s]   317 |         [01;31m[Kdefault[m[K:
+[1.375s]       |         [01;31m[K^~~~~~~[m[K
+[1.375s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:304:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+[1.375s]   304 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(current, max_amp_, true);
+[1.375s]       |                                  [01;36m[K^[m[K
+[1.375s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_sensor_type(int, std::string)[m[K’:
+[1.375s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:332:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.375s]   332 |                 fun.get_hex_msg(command.data())
+[1.375s]       |                                                [01;31m[K^[m[K
+[1.375s]       |                                                [32m[K;[m[K
+[1.375s]   333 | 
+[1.375s]   334 |                 [32m[Kreturn[m[K command;
+[1.375s]       |                 [32m[K~~~~~~[m[K                          
+[1.375s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:338:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.376s]   338 |                 fun.get_hex_msg(command.data())
+[1.376s]       |                                                [01;31m[K^[m[K
+[1.376s]       |                                                [32m[K;[m[K
+[1.376s]   339 | 
+[1.376s]   340 |                 [32m[Kreturn[m[K command;
+[1.376s]       |                 [32m[K~~~~~~[m[K                          
+[1.376s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:353:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.376s]   353 |                 fun.get_hex_msg(command.data())
+[1.376s]       |                                                [01;31m[K^[m[K
+[1.376s]       |                                                [32m[K;[m[K
+[1.376s]   354 | 
+[1.376s]   355 |                 [32m[Kreturn[m[K command;
+[1.376s]       |                 [32m[K~~~~~~[m[K                          
+[1.376s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:359:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.376s]   359 |                 fun.get_hex_msg(command.data())
+[1.376s]       |                                                [01;31m[K^[m[K
+[1.376s]       |                                                [32m[K;[m[K
+[1.376s]   360 | 
+[1.376s]   361 |                 [32m[Kreturn[m[K command;
+[1.376s]       |                 [32m[K~~~~~~[m[K                          
+[1.376s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:374:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.376s]   374 |                 fun.get_hex_msg(command.data())
+[1.376s]       |                                                [01;31m[K^[m[K
+[1.377s]       |                                                [32m[K;[m[K
+[1.377s]   375 | 
+[1.377s]   376 |                 [32m[Kreturn[m[K command;
+[1.377s]       |                 [32m[K~~~~~~[m[K                          
+[1.377s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:380:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.377s]   380 |                 fun.get_hex_msg(command.data())
+[1.377s]       |                                                [01;31m[K^[m[K
+[1.377s]       |                                                [32m[K;[m[K
+[1.377s]   381 | 
+[1.377s]   382 |                 [32m[Kreturn[m[K command;
+[1.377s]       |                 [32m[K~~~~~~[m[K                          
+[1.377s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::control_motor(int, std::string)[m[K’:
+[1.377s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:405:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.377s]   405 |                 fun.get_hex_msg(command.data())
+[1.377s]       |                                                [01;31m[K^[m[K
+[1.377s]       |                                                [32m[K;[m[K
+[1.377s]   406 | 
+[1.377s]   407 |                 [32m[Kreturn[m[K command;
+[1.377s]       |                 [32m[K~~~~~~[m[K                          
+[1.377s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:411:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.377s]   411 |                 fun.get_hex_msg(command.data())
+[1.377s]       |                                                [01;31m[K^[m[K
+[1.378s]       |                                                [32m[K;[m[K
+[1.378s]   412 | 
+[1.378s]   413 |                 [32m[Kreturn[m[K command;
+[1.378s]       |                 [32m[K~~~~~~[m[K                          
+[1.378s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:426:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.378s]   426 |                 fun.get_hex_msg(command.data())
+[1.378s]       |                                                [01;31m[K^[m[K
+[1.378s]       |                                                [32m[K;[m[K
+[1.378s]   427 | 
+[1.378s]   428 |                 [32m[Kreturn[m[K command;
+[1.378s]       |                 [32m[K~~~~~~[m[K                          
+[1.378s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:432:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.378s]   432 |                 fun.get_hex_msg(command.data())
+[1.378s]       |                                                [01;31m[K^[m[K
+[1.378s]       |                                                [32m[K;[m[K
+[1.378s]   433 | 
+[1.378s]   434 |                 [32m[Kreturn[m[K command;
+[1.378s]       |                 [32m[K~~~~~~[m[K                          
+[1.378s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:447:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.378s]   447 |                 fun.get_hex_msg(command.data())
+[1.378s]       |                                                [01;31m[K^[m[K
+[1.378s]       |                                                [32m[K;[m[K
+[1.379s]   448 | 
+[1.379s]   449 |                 [32m[Kreturn[m[K command;
+[1.379s]       |                 [32m[K~~~~~~[m[K                          
+[1.379s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:453:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.379s]   453 |                 fun.get_hex_msg(command.data())
+[1.379s]       |                                                [01;31m[K^[m[K
+[1.379s]       |                                                [32m[K;[m[K
+[1.379s]   454 | 
+[1.379s]   455 |                 [32m[Kreturn[m[K command;
+[1.379s]       |                 [32m[K~~~~~~[m[K                          
+[1.379s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::calibrate(int)[m[K’:
+[1.379s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:476:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.379s]   476 |             fun.get_hex_msg(command.data())
+[1.379s]       |                                            [01;31m[K^[m[K
+[1.379s]       |                                            [32m[K;[m[K
+[1.379s]   477 | 
+[1.379s]   478 |             [32m[Kreturn[m[K command;
+[1.379s]       |             [32m[K~~~~~~[m[K                          
+[1.379s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:481:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[1.379s]   481 |             fun.get_hex_msg(command.data())
+[1.379s]       |                                            [01;31m[K^[m[K
+[1.379s]       |                                            [32m[K;[m[K
+[1.380s]   482 | 
+[1.380s]   483 |             [32m[Kreturn[m[K command;
+[1.380s]       |             [32m[K~~~~~~[m[K                          
+[1.819s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_acceleration_max(int, int)[m[K’:
+[1.820s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:246:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[1.820s]   246 | [01;35m[K}[m[K
+[1.820s]       | [01;35m[K^[m[K
+[1.820s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_deceleration_max(int, int)[m[K’:
+[1.820s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:271:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[1.820s]   271 | [01;35m[K}[m[K
+[1.820s]       | [01;35m[K^[m[K
+[1.820s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_speed(int, int)[m[K’:
+[1.820s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:296:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[1.820s]   296 | [01;35m[K}[m[K
+[1.820s]       | [01;35m[K^[m[K
+[1.820s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_current(int, int)[m[K’:
+[1.820s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:321:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[1.820s]   321 | [01;35m[K}[m[K
+[1.820s]       | [01;35m[K^[m[K
+[1.820s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_sensor_type(int, std::string)[m[K’:
+[1.820s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:332:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.821s]   332 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.821s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.821s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:336:13:[m[K [01;36m[Knote: [m[Khere
+[1.821s]   336 |             [01;36m[Kcase[m[K 2:
+[1.821s]       |             [01;36m[K^~~~[m[K
+[1.821s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:338:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.821s]   338 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.821s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.821s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:342:13:[m[K [01;36m[Knote: [m[Khere
+[1.821s]   342 |             [01;36m[Kdefault[m[K:
+[1.821s]       |             [01;36m[K^~~~~~~[m[K
+[1.821s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:353:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.821s]   353 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.821s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.821s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:357:13:[m[K [01;36m[Knote: [m[Khere
+[1.821s]   357 |             [01;36m[Kcase[m[K 2:
+[1.821s]       |             [01;36m[K^~~~[m[K
+[1.822s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:359:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.822s]   359 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.822s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.822s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:363:13:[m[K [01;36m[Knote: [m[Khere
+[1.822s]   363 |             [01;36m[Kdefault[m[K:
+[1.822s]       |             [01;36m[K^~~~~~~[m[K
+[1.822s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:374:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.822s]   374 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.822s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.822s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:378:13:[m[K [01;36m[Knote: [m[Khere
+[1.822s]   378 |             [01;36m[Kcase[m[K 2:
+[1.822s]       |             [01;36m[K^~~~[m[K
+[1.822s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:380:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.822s]   380 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.822s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.822s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:384:13:[m[K [01;36m[Knote: [m[Khere
+[1.822s]   384 |             [01;36m[Kdefault[m[K:
+[1.822s]       |             [01;36m[K^~~~~~~[m[K
+[1.822s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::control_motor(int, std::string)[m[K’:
+[1.822s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:405:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.822s]   405 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.823s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.823s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:409:13:[m[K [01;36m[Knote: [m[Khere
+[1.823s]   409 |             [01;36m[Kcase[m[K 2:
+[1.823s]       |             [01;36m[K^~~~[m[K
+[1.823s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:411:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.823s]   411 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.823s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.823s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:415:13:[m[K [01;36m[Knote: [m[Khere
+[1.823s]   415 |             [01;36m[Kdefault[m[K:
+[1.823s]       |             [01;36m[K^~~~~~~[m[K
+[1.823s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:426:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.823s]   426 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.823s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.823s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:430:13:[m[K [01;36m[Knote: [m[Khere
+[1.823s]   430 |             [01;36m[Kcase[m[K 2:
+[1.823s]       |             [01;36m[K^~~~[m[K
+[1.823s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:432:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.823s]   432 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.823s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.823s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:436:13:[m[K [01;36m[Knote: [m[Khere
+[1.823s]   436 |             [01;36m[Kdefault[m[K:
+[1.823s]       |             [01;36m[K^~~~~~~[m[K
+[1.823s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:447:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.824s]   447 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.824s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.824s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:451:13:[m[K [01;36m[Knote: [m[Khere
+[1.824s]   451 |             [01;36m[Kcase[m[K 2:
+[1.824s]       |             [01;36m[K^~~~[m[K
+[1.824s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:453:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.824s]   453 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.824s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.824s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:457:13:[m[K [01;36m[Knote: [m[Khere
+[1.824s]   457 |             [01;36m[Kdefault[m[K:
+[1.824s]       |             [01;36m[K^~~~~~~[m[K
+[1.824s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::calibrate(int)[m[K’:
+[1.824s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:476:28:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.824s]   476 |             [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.824s]       |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.824s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:479:9:[m[K [01;36m[Knote: [m[Khere
+[1.824s]   479 |         [01;36m[Kcase[m[K 2:
+[1.824s]       |         [01;36m[K^~~~[m[K
+[1.824s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:481:28:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.824s]   481 |             [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.825s]       |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.825s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:484:9:[m[K [01;36m[Knote: [m[Khere
+[1.825s]   484 |         [01;36m[Kdefault[m[K:
+[1.825s]       |         [01;36m[K^~~~~~~[m[K
+[1.825s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_acceleration_max(int, int)[m[K’:
+[1.825s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:246:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[1.825s]   246 | [01;35m[K}[m[K
+[1.825s]       | [01;35m[K^[m[K
+[1.825s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_deceleration_max(int, int)[m[K’:
+[1.825s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:271:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[1.825s]   271 | [01;35m[K}[m[K
+[1.825s]       | [01;35m[K^[m[K
+[1.825s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_speed(int, int)[m[K’:
+[1.825s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:296:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[1.825s]   296 | [01;35m[K}[m[K
+[1.825s]       | [01;35m[K^[m[K
+[1.825s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_current(int, int)[m[K’:
+[1.825s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:321:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[1.826s]   321 | [01;35m[K}[m[K
+[1.826s]       | [01;35m[K^[m[K
+[1.826s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_sensor_type(int, std::string)[m[K’:
+[1.826s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:332:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.826s]   332 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.826s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.826s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:336:13:[m[K [01;36m[Knote: [m[Khere
+[1.826s]   336 |             [01;36m[Kcase[m[K 2:
+[1.826s]       |             [01;36m[K^~~~[m[K
+[1.826s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:338:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.826s]   338 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.826s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.826s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:342:13:[m[K [01;36m[Knote: [m[Khere
+[1.826s]   342 |             [01;36m[Kdefault[m[K:
+[1.826s]       |             [01;36m[K^~~~~~~[m[K
+[1.826s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:353:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.826s]   353 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.826s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.827s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:357:13:[m[K [01;36m[Knote: [m[Khere
+[1.827s]   357 |             [01;36m[Kcase[m[K 2:
+[1.827s]       |             [01;36m[K^~~~[m[K
+[1.827s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:359:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.827s]   359 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.827s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.827s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:363:13:[m[K [01;36m[Knote: [m[Khere
+[1.827s]   363 |             [01;36m[Kdefault[m[K:
+[1.827s]       |             [01;36m[K^~~~~~~[m[K
+[1.827s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:374:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.827s]   374 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.827s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.827s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:378:13:[m[K [01;36m[Knote: [m[Khere
+[1.827s]   378 |             [01;36m[Kcase[m[K 2:
+[1.827s]       |             [01;36m[K^~~~[m[K
+[1.827s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:380:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.827s]   380 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.827s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.827s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:384:13:[m[K [01;36m[Knote: [m[Khere
+[1.827s]   384 |             [01;36m[Kdefault[m[K:
+[1.827s]       |             [01;36m[K^~~~~~~[m[K
+[1.828s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::control_motor(int, std::string)[m[K’:
+[1.828s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:405:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.828s]   405 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.828s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.828s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:409:13:[m[K [01;36m[Knote: [m[Khere
+[1.828s]   409 |             [01;36m[Kcase[m[K 2:
+[1.828s]       |             [01;36m[K^~~~[m[K
+[1.828s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:411:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.828s]   411 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.828s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.828s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:415:13:[m[K [01;36m[Knote: [m[Khere
+[1.828s]   415 |             [01;36m[Kdefault[m[K:
+[1.828s]       |             [01;36m[K^~~~~~~[m[K
+[1.828s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:426:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.828s]   426 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.828s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.828s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:430:13:[m[K [01;36m[Knote: [m[Khere
+[1.828s]   430 |             [01;36m[Kcase[m[K 2:
+[1.828s]       |             [01;36m[K^~~~[m[K
+[1.828s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:432:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.828s]   432 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.828s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.828s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:436:13:[m[K [01;36m[Knote: [m[Khere
+[1.829s]   436 |             [01;36m[Kdefault[m[K:
+[1.829s]       |             [01;36m[K^~~~~~~[m[K
+[1.829s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:447:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.829s]   447 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.829s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.829s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:451:13:[m[K [01;36m[Knote: [m[Khere
+[1.829s]   451 |             [01;36m[Kcase[m[K 2:
+[1.829s]       |             [01;36m[K^~~~[m[K
+[1.829s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:453:32:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.829s]   453 |                 [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.829s]       |                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.829s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:457:13:[m[K [01;36m[Knote: [m[Khere
+[1.829s]   457 |             [01;36m[Kdefault[m[K:
+[1.829s]       |             [01;36m[K^~~~~~~[m[K
+[1.829s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::calibrate(int)[m[K’:
+[1.829s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:476:28:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.829s]   476 |             [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.829s]       |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.829s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:479:9:[m[K [01;36m[Knote: [m[Khere
+[1.829s]   479 |         [01;36m[Kcase[m[K 2:
+[1.829s]       |         [01;36m[K^~~~[m[K
+[1.829s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:481:28:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[1.830s]   481 |             [01;35m[Kfun.get_hex_msg(command.data())[m[K
+[1.830s]       |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.830s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:484:9:[m[K [01;36m[Knote: [m[Khere
+[1.830s]   484 |         [01;36m[Kdefault[m[K:
+[1.830s]       |         [01;36m[K^~~~~~~[m[K
+[1.839s] make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:76: CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o] Error 1
+[1.839s] make[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+[1.839s] make[1]: *** Waiting for unfinished jobs....
+[1.843s] make[2]: *** [CMakeFiles/cmd.dir/build.make:76: CMakeFiles/cmd.dir/src/commands.cpp.o] Error 1
+[1.843s] make[1]: *** [CMakeFiles/Makefile2:222: CMakeFiles/cmd.dir/all] Error 2
+[1.844s] make: *** [Makefile:146: all] Error 2
+[1.847s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

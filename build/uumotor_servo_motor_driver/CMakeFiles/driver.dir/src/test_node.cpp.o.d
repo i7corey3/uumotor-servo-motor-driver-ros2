@@ -559,4 +559,5 @@ CMakeFiles/driver.dir/src/test_node.cpp.o: \
  /opt/ros/galactic/include/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/galactic/include/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/galactic/include/rclcpp/wait_set_template.hpp \
- /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h
+ /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h \
+ /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h

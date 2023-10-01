@@ -1,0 +1,713 @@
+[0.000000] (-) TimerEvent: {}
+[0.000226] (uumotor_servo_motor_driver) JobQueued: {'identifier': 'uumotor_servo_motor_driver', 'dependencies': OrderedDict()}
+[0.000384] (uumotor_servo_motor_driver) JobStarted: {'identifier': 'uumotor_servo_motor_driver'}
+[0.099876] (-) TimerEvent: {}
+[0.130690] (uumotor_servo_motor_driver) JobProgress: {'identifier': 'uumotor_servo_motor_driver', 'progress': 'cmake'}
+[0.131160] (uumotor_servo_motor_driver) JobProgress: {'identifier': 'uumotor_servo_motor_driver', 'progress': 'build'}
+[0.131638] (uumotor_servo_motor_driver) Command: {'cmd': ['/home/corey/.local/bin/cmake', '--build', '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver', '--', '-j16', '-l16'], 'cwd': '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'corey'), ('GIO_MODULE_DIR', '/home/corey/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '2199'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/140/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/corey'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.82.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/140/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('JETSON_L4T', ''), ('GTK_IM_MODULE_FILE', '/home/corey/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', ''), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/140/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/140/usr/share/code/code'), ('MANAGERPID', '2018'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4882'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/corey/uumotor-servo-motor-driver-ros2/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'corey'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', ''), ('JOURNAL_STREAM', '8:55695'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'corey'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/corey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/corey-System-Product-Name:@/tmp/.ICE-unix/2234,unix/corey-System-Product-Name:/tmp/.ICE-unix/2234'), ('GTK_EXE_PREFIX', '/snap/code/140/usr'), ('INVOCATION_ID', '5d85badd81a343918883811ee4b8940c'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/140/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-544d5432da.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/corey/snap/code/140/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('PM_PACKAGES_ROOT', '/home/corey/packman-repo'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', ''), ('PWD', '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/corey/snap/code/140/.local/share:/home/corey/snap/code/140:/snap/code/140/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver:/opt/ros/galactic')]), 'shell': False}
+[0.163079] (uumotor_servo_motor_driver) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/fun.dir/src/functions.cpp.o\x1b[0m\n'}
+[0.166255] (uumotor_servo_motor_driver) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/cmd.dir/src/commands.cpp.o\x1b[0m\n'}
+[0.166495] (uumotor_servo_motor_driver) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o\x1b[0m\n'}
+[0.166553] (uumotor_servo_motor_driver) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o\x1b[0m\n'}
+[0.199969] (-) TimerEvent: {}
+[0.300245] (-) TimerEvent: {}
+[0.308984] (uumotor_servo_motor_driver) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX static library libfun.a\x1b[0m\n'}
+[0.316984] (uumotor_servo_motor_driver) StdoutLine: {'line': b'[ 45%] Built target fun\n'}
+[0.400338] (-) TimerEvent: {}
+[0.500574] (-) TimerEvent: {}
+[0.600808] (-) TimerEvent: {}
+[0.701052] (-) TimerEvent: {}
+[0.801294] (-) TimerEvent: {}
+[0.901524] (-) TimerEvent: {}
+[1.001760] (-) TimerEvent: {}
+[1.101996] (-) TimerEvent: {}
+[1.202238] (-) TimerEvent: {}
+[1.302493] (-) TimerEvent: {}
+[1.355780] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::set_acceleration_max(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.356015] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:231:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.356071] (uumotor_servo_motor_driver) StderrLine: {'line': b'  231 |             fun.get_hex_msg(command.data())\n'}
+[1.356117] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.356163] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.356208] (uumotor_servo_motor_driver) StderrLine: {'line': b'  232 | \n'}
+[1.356252] (uumotor_servo_motor_driver) StderrLine: {'line': b'  233 |             \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.356297] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.356341] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:235:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[1.356386] (uumotor_servo_motor_driver) StderrLine: {'line': b'  235 |         case \x1b[01;31m\x1b[K2\x1b[m\x1b[K:\n'}
+[1.356432] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.356480] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:229:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.356529] (uumotor_servo_motor_driver) StderrLine: {'line': b'  229 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(value, max_speed_, true);\n'}
+[1.356578] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.356626] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:236:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.356675] (uumotor_servo_motor_driver) StderrLine: {'line': b'  236 |             std::vector<uint8_t> \x1b[01;31m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(value, max_speed_, true);\n'}
+[1.356723] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.356772] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:229:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[1.356821] (uumotor_servo_motor_driver) StderrLine: {'line': b'  229 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(value, max_speed_, true);\n'}
+[1.356870] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.356919] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:238:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.357063] (uumotor_servo_motor_driver) StderrLine: {'line': b'  238 |             fun.get_hex_msg(command.data())\n'}
+[1.357109] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.357153] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.357201] (uumotor_servo_motor_driver) StderrLine: {'line': b'  239 | \n'}
+[1.357249] (uumotor_servo_motor_driver) StderrLine: {'line': b'  240 |             \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.357306] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.357358] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:242:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[1.357408] (uumotor_servo_motor_driver) StderrLine: {'line': b'  242 |         \x1b[01;31m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.357456] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.357504] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:229:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.357656] (uumotor_servo_motor_driver) StderrLine: {'line': b'  229 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(value, max_speed_, true);\n'}
+[1.357706] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.357750] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::set_deceleration_max(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.357795] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:256:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.357841] (uumotor_servo_motor_driver) StderrLine: {'line': b'  256 |             fun.get_hex_msg(command.data())\n'}
+[1.357890] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.358002] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.358049] (uumotor_servo_motor_driver) StderrLine: {'line': b'  257 | \n'}
+[1.358098] (uumotor_servo_motor_driver) StderrLine: {'line': b'  258 |             \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.358146] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.358193] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:260:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[1.358295] (uumotor_servo_motor_driver) StderrLine: {'line': b'  260 |         case \x1b[01;31m\x1b[K2\x1b[m\x1b[K:\n'}
+[1.358341] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.358385] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:254:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.358435] (uumotor_servo_motor_driver) StderrLine: {'line': b'  254 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(value, max_speed_, true);\n'}
+[1.358480] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.358526] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:261:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.358571] (uumotor_servo_motor_driver) StderrLine: {'line': b'  261 |             std::vector<uint8_t> \x1b[01;31m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(value, max_speed_, true);\n'}
+[1.358615] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.358659] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:254:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[1.358704] (uumotor_servo_motor_driver) StderrLine: {'line': b'  254 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(value, max_speed_, true);\n'}
+[1.358751] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.358799] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:263:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.358849] (uumotor_servo_motor_driver) StderrLine: {'line': b'  263 |             fun.get_hex_msg(command.data())\n'}
+[1.358896] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.358944] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.358992] (uumotor_servo_motor_driver) StderrLine: {'line': b'  264 | \n'}
+[1.359040] (uumotor_servo_motor_driver) StderrLine: {'line': b'  265 |             \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.359089] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.359137] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:267:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[1.359186] (uumotor_servo_motor_driver) StderrLine: {'line': b'  267 |         \x1b[01;31m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.359234] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.359282] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:254:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.359331] (uumotor_servo_motor_driver) StderrLine: {'line': b'  254 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(value, max_speed_, true);\n'}
+[1.359380] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.359512] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::set_speed(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.359559] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:281:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.359610] (uumotor_servo_motor_driver) StderrLine: {'line': b'  281 |             fun.get_hex_msg(command.data())\n'}
+[1.359662] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.359707] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.359751] (uumotor_servo_motor_driver) StderrLine: {'line': b'  282 | \n'}
+[1.359795] (uumotor_servo_motor_driver) StderrLine: {'line': b'  283 |             \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.359845] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.359894] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:285:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[1.359942] (uumotor_servo_motor_driver) StderrLine: {'line': b'  285 |         case \x1b[01;31m\x1b[K2\x1b[m\x1b[K:\n'}
+[1.359991] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.360040] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:279:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.360089] (uumotor_servo_motor_driver) StderrLine: {'line': b'  279 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(speed, max_speed_, true);\n'}
+[1.360137] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.360186] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:286:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.360293] (uumotor_servo_motor_driver) StderrLine: {'line': b'  286 |             std::vector<uint8_t> \x1b[01;31m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(speed, max_speed_, true);\n'}
+[1.360343] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.360392] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:279:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[1.360623] (uumotor_servo_motor_driver) StderrLine: {'line': b'  279 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(speed, max_speed_, true);\n'}
+[1.360670] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.360715] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:288:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.360763] (uumotor_servo_motor_driver) StderrLine: {'line': b'  288 |             fun.get_hex_msg(command.data())\n'}
+[1.360808] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.360852] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.360897] (uumotor_servo_motor_driver) StderrLine: {'line': b'  289 | \n'}
+[1.360941] (uumotor_servo_motor_driver) StderrLine: {'line': b'  290 |             \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.360985] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.361033] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:292:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[1.361082] (uumotor_servo_motor_driver) StderrLine: {'line': b'  292 |         \x1b[01;31m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.361130] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.361179] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:279:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.361229] (uumotor_servo_motor_driver) StderrLine: {'line': b'  279 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(speed, max_speed_, true);\n'}
+[1.361278] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.361326] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::set_current(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.361375] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:306:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.361424] (uumotor_servo_motor_driver) StderrLine: {'line': b'  306 |             fun.get_hex_msg(command.data())\n'}
+[1.361472] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.361521] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.361569] (uumotor_servo_motor_driver) StderrLine: {'line': b'  307 | \n'}
+[1.361617] (uumotor_servo_motor_driver) StderrLine: {'line': b'  308 |             \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.361666] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.361715] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:310:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[1.361764] (uumotor_servo_motor_driver) StderrLine: {'line': b'  310 |         case \x1b[01;31m\x1b[K2\x1b[m\x1b[K:\n'}
+[1.361870] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.361922] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:304:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.362529] (uumotor_servo_motor_driver) StderrLine: {'line': b'  304 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(current, max_amp_, true);\n'}
+[1.362581] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.362631] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:311:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.362681] (uumotor_servo_motor_driver) StderrLine: {'line': b'  311 |             std::vector<uint8_t> \x1b[01;31m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(current, max_amp_, true);\n'}
+[1.362731] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.362781] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:304:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[1.362830] (uumotor_servo_motor_driver) StderrLine: {'line': b'  304 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(current, max_amp_, true);\n'}
+[1.362879] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.362928] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:313:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.363162] (uumotor_servo_motor_driver) StderrLine: {'line': b'  313 |             fun.get_hex_msg(command.data())\n'}
+[1.363213] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.363263] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.363312] (uumotor_servo_motor_driver) StderrLine: {'line': b'  314 | \n'}
+[1.363362] (uumotor_servo_motor_driver) StderrLine: {'line': b'  315 |             \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.363411] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.363461] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:317:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[1.363653] (uumotor_servo_motor_driver) StderrLine: {'line': b'  317 |         \x1b[01;31m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.363706] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.363756] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:304:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.363806] (uumotor_servo_motor_driver) StderrLine: {'line': b'  304 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(current, max_amp_, true);\n'}
+[1.363856] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.363905] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::set_sensor_type(int, std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.364087] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:332:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.364134] (uumotor_servo_motor_driver) StderrLine: {'line': b'  332 |                 fun.get_hex_msg(command.data())\n'}
+[1.364184] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.364234] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.364283] (uumotor_servo_motor_driver) StderrLine: {'line': b'  333 | \n'}
+[1.364331] (uumotor_servo_motor_driver) StderrLine: {'line': b'  334 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.364379] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.364428] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:338:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.364476] (uumotor_servo_motor_driver) StderrLine: {'line': b'  338 |                 fun.get_hex_msg(command.data())\n'}
+[1.364525] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.364574] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.364623] (uumotor_servo_motor_driver) StderrLine: {'line': b'  339 | \n'}
+[1.364671] (uumotor_servo_motor_driver) StderrLine: {'line': b'  340 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.364720] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.364769] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:353:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.364964] (uumotor_servo_motor_driver) StderrLine: {'line': b'  353 |                 fun.get_hex_msg(command.data())\n'}
+[1.365014] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.365059] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.365107] (uumotor_servo_motor_driver) StderrLine: {'line': b'  354 | \n'}
+[1.365152] (uumotor_servo_motor_driver) StderrLine: {'line': b'  355 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.365197] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.365243] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:359:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.365289] (uumotor_servo_motor_driver) StderrLine: {'line': b'  359 |                 fun.get_hex_msg(command.data())\n'}
+[1.365337] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.365383] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.365431] (uumotor_servo_motor_driver) StderrLine: {'line': b'  360 | \n'}
+[1.365479] (uumotor_servo_motor_driver) StderrLine: {'line': b'  361 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.365528] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.365578] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:374:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.365627] (uumotor_servo_motor_driver) StderrLine: {'line': b'  374 |                 fun.get_hex_msg(command.data())\n'}
+[1.365676] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.365726] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.365775] (uumotor_servo_motor_driver) StderrLine: {'line': b'  375 | \n'}
+[1.365823] (uumotor_servo_motor_driver) StderrLine: {'line': b'  376 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.365874] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.365923] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:380:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.365972] (uumotor_servo_motor_driver) StderrLine: {'line': b'  380 |                 fun.get_hex_msg(command.data())\n'}
+[1.366110] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.366157] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.366202] (uumotor_servo_motor_driver) StderrLine: {'line': b'  381 | \n'}
+[1.366247] (uumotor_servo_motor_driver) StderrLine: {'line': b'  382 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.366292] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.366336] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::set_acceleration_max(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.366385] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:231:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.366432] (uumotor_servo_motor_driver) StderrLine: {'line': b'  231 |             fun.get_hex_msg(command.data())\n'}
+[1.366477] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.366522] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.366570] (uumotor_servo_motor_driver) StderrLine: {'line': b'  232 | \n'}
+[1.366614] (uumotor_servo_motor_driver) StderrLine: {'line': b'  233 |             \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.366659] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.366705] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:235:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[1.366750] (uumotor_servo_motor_driver) StderrLine: {'line': b'  235 |         case \x1b[01;31m\x1b[K2\x1b[m\x1b[K:\n'}
+[1.366796] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.366846] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:229:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.366896] (uumotor_servo_motor_driver) StderrLine: {'line': b'  229 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(value, max_speed_, true);\n'}
+[1.366945] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.366994] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:236:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.367044] (uumotor_servo_motor_driver) StderrLine: {'line': b'  236 |             std::vector<uint8_t> \x1b[01;31m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(value, max_speed_, true);\n'}
+[1.367093] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.367142] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:229:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[1.367288] (uumotor_servo_motor_driver) StderrLine: {'line': b'  229 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(value, max_speed_, true);\n'}
+[1.367337] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.367382] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:238:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.367429] (uumotor_servo_motor_driver) StderrLine: {'line': b'  238 |             fun.get_hex_msg(command.data())\n'}
+[1.367478] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.367527] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.367578] (uumotor_servo_motor_driver) StderrLine: {'line': b'  239 | \n'}
+[1.367632] (uumotor_servo_motor_driver) StderrLine: {'line': b'  240 |             \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.367685] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.367735] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:242:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[1.367871] (uumotor_servo_motor_driver) StderrLine: {'line': b'  242 |         \x1b[01;31m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.367918] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.367963] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:229:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.368008] (uumotor_servo_motor_driver) StderrLine: {'line': b'  229 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(value, max_speed_, true);\n'}
+[1.368052] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.368100] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::control_motor(int, std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.368149] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:405:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.368200] (uumotor_servo_motor_driver) StderrLine: {'line': b'  405 |                 fun.get_hex_msg(command.data())\n'}
+[1.368249] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.368297] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.368435] (uumotor_servo_motor_driver) StderrLine: {'line': b'  406 | \n'}
+[1.368481] (uumotor_servo_motor_driver) StderrLine: {'line': b'  407 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.368527] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.368572] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:411:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.368617] (uumotor_servo_motor_driver) StderrLine: {'line': b'  411 |                 fun.get_hex_msg(command.data())\n'}
+[1.368666] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.368711] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.368754] (uumotor_servo_motor_driver) StderrLine: {'line': b'  412 | \n'}
+[1.368798] (uumotor_servo_motor_driver) StderrLine: {'line': b'  413 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.368843] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.368887] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::set_deceleration_max(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.368932] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:256:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.368980] (uumotor_servo_motor_driver) StderrLine: {'line': b'  256 |             fun.get_hex_msg(command.data())\n'}
+[1.369025] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.369069] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.369113] (uumotor_servo_motor_driver) StderrLine: {'line': b'  257 | \n'}
+[1.369157] (uumotor_servo_motor_driver) StderrLine: {'line': b'  258 |             \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.369201] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.369246] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:260:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[1.369291] (uumotor_servo_motor_driver) StderrLine: {'line': b'  260 |         case \x1b[01;31m\x1b[K2\x1b[m\x1b[K:\n'}
+[1.369395] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.369498] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:254:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.369546] (uumotor_servo_motor_driver) StderrLine: {'line': b'  254 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(value, max_speed_, true);\n'}
+[1.369591] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.369634] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:261:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.369679] (uumotor_servo_motor_driver) StderrLine: {'line': b'  261 |             std::vector<uint8_t> \x1b[01;31m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(value, max_speed_, true);\n'}
+[1.369723] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.369767] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:254:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[1.369812] (uumotor_servo_motor_driver) StderrLine: {'line': b'  254 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(value, max_speed_, true);\n'}
+[1.369857] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.369901] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:263:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.369946] (uumotor_servo_motor_driver) StderrLine: {'line': b'  263 |             fun.get_hex_msg(command.data())\n'}
+[1.369991] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.370037] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.370087] (uumotor_servo_motor_driver) StderrLine: {'line': b'  264 | \n'}
+[1.370132] (uumotor_servo_motor_driver) StderrLine: {'line': b'  265 |             \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.370177] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.370223] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:267:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[1.370267] (uumotor_servo_motor_driver) StderrLine: {'line': b'  267 |         \x1b[01;31m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.370311] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.370355] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:254:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.370400] (uumotor_servo_motor_driver) StderrLine: {'line': b'  254 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(value, max_speed_, true);\n'}
+[1.370445] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.370489] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:426:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.370537] (uumotor_servo_motor_driver) StderrLine: {'line': b'  426 |                 fun.get_hex_msg(command.data())\n'}
+[1.370582] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.370627] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.370671] (uumotor_servo_motor_driver) StderrLine: {'line': b'  427 | \n'}
+[1.370716] (uumotor_servo_motor_driver) StderrLine: {'line': b'  428 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.370760] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.370806] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:432:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.370854] (uumotor_servo_motor_driver) StderrLine: {'line': b'  432 |                 fun.get_hex_msg(command.data())\n'}
+[1.370898] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.370943] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.370987] (uumotor_servo_motor_driver) StderrLine: {'line': b'  433 | \n'}
+[1.371031] (uumotor_servo_motor_driver) StderrLine: {'line': b'  434 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.371075] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.371120] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:447:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.371168] (uumotor_servo_motor_driver) StderrLine: {'line': b'  447 |                 fun.get_hex_msg(command.data())\n'}
+[1.371213] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.371258] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.371305] (uumotor_servo_motor_driver) StderrLine: {'line': b'  448 | \n'}
+[1.371350] (uumotor_servo_motor_driver) StderrLine: {'line': b'  449 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.371394] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.371438] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::set_speed(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.371483] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:281:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.371529] (uumotor_servo_motor_driver) StderrLine: {'line': b'  281 |             fun.get_hex_msg(command.data())\n'}
+[1.371573] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.371617] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.371676] (uumotor_servo_motor_driver) StderrLine: {'line': b'  282 | \n'}
+[1.371720] (uumotor_servo_motor_driver) StderrLine: {'line': b'  283 |             \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.371765] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.371809] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:285:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[1.371855] (uumotor_servo_motor_driver) StderrLine: {'line': b'  285 |         case \x1b[01;31m\x1b[K2\x1b[m\x1b[K:\n'}
+[1.371899] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.371943] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:453:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.371989] (uumotor_servo_motor_driver) StderrLine: {'line': b'  453 |                 fun.get_hex_msg(command.data())\n'}
+[1.372033] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.372077] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.372122] (uumotor_servo_motor_driver) StderrLine: {'line': b'  454 | \n'}
+[1.372166] (uumotor_servo_motor_driver) StderrLine: {'line': b'  455 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.372210] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.372256] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:279:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.372306] (uumotor_servo_motor_driver) StderrLine: {'line': b'  279 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(speed, max_speed_, true);\n'}
+[1.372352] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.372397] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:286:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.372442] (uumotor_servo_motor_driver) StderrLine: {'line': b'  286 |             std::vector<uint8_t> \x1b[01;31m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(speed, max_speed_, true);\n'}
+[1.372487] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.372531] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:279:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[1.372577] (uumotor_servo_motor_driver) StderrLine: {'line': b'  279 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(speed, max_speed_, true);\n'}
+[1.372622] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.372666] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:288:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.372715] (uumotor_servo_motor_driver) StderrLine: {'line': b'  288 |             fun.get_hex_msg(command.data())\n'}
+[1.372761] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.372806] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.372851] (uumotor_servo_motor_driver) StderrLine: {'line': b'  289 | \n'}
+[1.372896] (uumotor_servo_motor_driver) StderrLine: {'line': b'  290 |             \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.372941] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.372991] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:292:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[1.373037] (uumotor_servo_motor_driver) StderrLine: {'line': b'  292 |         \x1b[01;31m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.373083] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.373127] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:279:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.373176] (uumotor_servo_motor_driver) StderrLine: {'line': b'  279 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(speed, max_speed_, true);\n'}
+[1.373222] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.373266] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::set_current(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.373315] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:306:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.373360] (uumotor_servo_motor_driver) StderrLine: {'line': b'  306 |             fun.get_hex_msg(command.data())\n'}
+[1.373404] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.373448] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.373493] (uumotor_servo_motor_driver) StderrLine: {'line': b'  307 | \n'}
+[1.373537] (uumotor_servo_motor_driver) StderrLine: {'line': b'  308 |             \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.373581] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.373626] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:310:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[1.373672] (uumotor_servo_motor_driver) StderrLine: {'line': b'  310 |         case \x1b[01;31m\x1b[K2\x1b[m\x1b[K:\n'}
+[1.373718] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.373762] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:304:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.373808] (uumotor_servo_motor_driver) StderrLine: {'line': b'  304 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(current, max_amp_, true);\n'}
+[1.373852] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.373896] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:311:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.373942] (uumotor_servo_motor_driver) StderrLine: {'line': b'  311 |             std::vector<uint8_t> \x1b[01;31m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(current, max_amp_, true);\n'}
+[1.373987] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.374032] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:304:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[1.374078] (uumotor_servo_motor_driver) StderrLine: {'line': b'  304 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(current, max_amp_, true);\n'}
+[1.374123] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.374168] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::calibrate(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.374218] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:476:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.374264] (uumotor_servo_motor_driver) StderrLine: {'line': b'  476 |             fun.get_hex_msg(command.data())\n'}
+[1.374308] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.374353] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.374397] (uumotor_servo_motor_driver) StderrLine: {'line': b'  477 | \n'}
+[1.374444] (uumotor_servo_motor_driver) StderrLine: {'line': b'  478 |             \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.374502] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.374548] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:313:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.374594] (uumotor_servo_motor_driver) StderrLine: {'line': b'  313 |             fun.get_hex_msg(command.data())\n'}
+[1.374642] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.374686] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.374730] (uumotor_servo_motor_driver) StderrLine: {'line': b'  314 | \n'}
+[1.374774] (uumotor_servo_motor_driver) StderrLine: {'line': b'  315 |             \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.374818] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.374862] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:481:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.374911] (uumotor_servo_motor_driver) StderrLine: {'line': b'  481 |             fun.get_hex_msg(command.data())\n'}
+[1.374955] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.375002] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.375047] (uumotor_servo_motor_driver) StderrLine: {'line': b'  482 | \n'}
+[1.375090] (uumotor_servo_motor_driver) StderrLine: {'line': b'  483 |             \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.375134] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.375180] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:317:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[1.375225] (uumotor_servo_motor_driver) StderrLine: {'line': b'  317 |         \x1b[01;31m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.375269] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.375314] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:304:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> v\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.375362] (uumotor_servo_motor_driver) StderrLine: {'line': b'  304 |             std::vector<uint8_t> \x1b[01;36m\x1b[Kv\x1b[m\x1b[K = fun.int2hex(current, max_amp_, true);\n'}
+[1.375406] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.375451] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::set_sensor_type(int, std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.375496] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:332:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.375541] (uumotor_servo_motor_driver) StderrLine: {'line': b'  332 |                 fun.get_hex_msg(command.data())\n'}
+[1.375585] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.375633] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.375681] (uumotor_servo_motor_driver) StderrLine: {'line': b'  333 | \n'}
+[1.375726] (uumotor_servo_motor_driver) StderrLine: {'line': b'  334 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.375770] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.375815] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:338:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.375860] (uumotor_servo_motor_driver) StderrLine: {'line': b'  338 |                 fun.get_hex_msg(command.data())\n'}
+[1.375907] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.375951] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.375995] (uumotor_servo_motor_driver) StderrLine: {'line': b'  339 | \n'}
+[1.376039] (uumotor_servo_motor_driver) StderrLine: {'line': b'  340 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.376084] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.376128] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:353:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.376173] (uumotor_servo_motor_driver) StderrLine: {'line': b'  353 |                 fun.get_hex_msg(command.data())\n'}
+[1.376218] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.376262] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.376306] (uumotor_servo_motor_driver) StderrLine: {'line': b'  354 | \n'}
+[1.376350] (uumotor_servo_motor_driver) StderrLine: {'line': b'  355 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.376394] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.376442] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:359:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.376487] (uumotor_servo_motor_driver) StderrLine: {'line': b'  359 |                 fun.get_hex_msg(command.data())\n'}
+[1.376532] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.376576] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.376623] (uumotor_servo_motor_driver) StderrLine: {'line': b'  360 | \n'}
+[1.376667] (uumotor_servo_motor_driver) StderrLine: {'line': b'  361 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.376711] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.376755] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:374:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.376800] (uumotor_servo_motor_driver) StderrLine: {'line': b'  374 |                 fun.get_hex_msg(command.data())\n'}
+[1.376845] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.376893] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.376937] (uumotor_servo_motor_driver) StderrLine: {'line': b'  375 | \n'}
+[1.376981] (uumotor_servo_motor_driver) StderrLine: {'line': b'  376 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.377028] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.377073] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:380:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.377121] (uumotor_servo_motor_driver) StderrLine: {'line': b'  380 |                 fun.get_hex_msg(command.data())\n'}
+[1.377165] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.377211] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.377255] (uumotor_servo_motor_driver) StderrLine: {'line': b'  381 | \n'}
+[1.377299] (uumotor_servo_motor_driver) StderrLine: {'line': b'  382 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.377345] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.377390] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::control_motor(int, std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.377435] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:405:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.377483] (uumotor_servo_motor_driver) StderrLine: {'line': b'  405 |                 fun.get_hex_msg(command.data())\n'}
+[1.377527] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.377572] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.377616] (uumotor_servo_motor_driver) StderrLine: {'line': b'  406 | \n'}
+[1.377659] (uumotor_servo_motor_driver) StderrLine: {'line': b'  407 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.377703] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.377748] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:411:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.377793] (uumotor_servo_motor_driver) StderrLine: {'line': b'  411 |                 fun.get_hex_msg(command.data())\n'}
+[1.377838] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.377882] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.377926] (uumotor_servo_motor_driver) StderrLine: {'line': b'  412 | \n'}
+[1.377970] (uumotor_servo_motor_driver) StderrLine: {'line': b'  413 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.378015] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.378061] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:426:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.378106] (uumotor_servo_motor_driver) StderrLine: {'line': b'  426 |                 fun.get_hex_msg(command.data())\n'}
+[1.378150] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.378195] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.378239] (uumotor_servo_motor_driver) StderrLine: {'line': b'  427 | \n'}
+[1.378283] (uumotor_servo_motor_driver) StderrLine: {'line': b'  428 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.378327] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.378371] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:432:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.378416] (uumotor_servo_motor_driver) StderrLine: {'line': b'  432 |                 fun.get_hex_msg(command.data())\n'}
+[1.378461] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.378505] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.378549] (uumotor_servo_motor_driver) StderrLine: {'line': b'  433 | \n'}
+[1.378593] (uumotor_servo_motor_driver) StderrLine: {'line': b'  434 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.378641] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.378686] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:447:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.378731] (uumotor_servo_motor_driver) StderrLine: {'line': b'  447 |                 fun.get_hex_msg(command.data())\n'}
+[1.378776] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.378821] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.378865] (uumotor_servo_motor_driver) StderrLine: {'line': b'  448 | \n'}
+[1.378909] (uumotor_servo_motor_driver) StderrLine: {'line': b'  449 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.378953] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.378998] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:453:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.379046] (uumotor_servo_motor_driver) StderrLine: {'line': b'  453 |                 fun.get_hex_msg(command.data())\n'}
+[1.379091] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.379135] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.379180] (uumotor_servo_motor_driver) StderrLine: {'line': b'  454 | \n'}
+[1.379228] (uumotor_servo_motor_driver) StderrLine: {'line': b'  455 |                 \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.379272] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.379317] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::calibrate(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.379362] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:476:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.379411] (uumotor_servo_motor_driver) StderrLine: {'line': b'  476 |             fun.get_hex_msg(command.data())\n'}
+[1.379456] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.379501] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.379545] (uumotor_servo_motor_driver) StderrLine: {'line': b'  477 | \n'}
+[1.379589] (uumotor_servo_motor_driver) StderrLine: {'line': b'  478 |             \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.379636] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.379683] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:481:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.379732] (uumotor_servo_motor_driver) StderrLine: {'line': b'  481 |             fun.get_hex_msg(command.data())\n'}
+[1.379777] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.379821] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.379867] (uumotor_servo_motor_driver) StderrLine: {'line': b'  482 | \n'}
+[1.379911] (uumotor_servo_motor_driver) StderrLine: {'line': b'  483 |             \x1b[32m\x1b[Kreturn\x1b[m\x1b[K command;\n'}
+[1.379955] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K                          \n'}
+[1.402546] (-) TimerEvent: {}
+[1.502710] (-) TimerEvent: {}
+[1.602926] (-) TimerEvent: {}
+[1.703134] (-) TimerEvent: {}
+[1.803358] (-) TimerEvent: {}
+[1.819796] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::set_acceleration_max(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.819913] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:246:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[1.819964] (uumotor_servo_motor_driver) StderrLine: {'line': b'  246 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[1.820014] (uumotor_servo_motor_driver) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.820097] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::set_deceleration_max(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.820147] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:271:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[1.820192] (uumotor_servo_motor_driver) StderrLine: {'line': b'  271 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[1.820240] (uumotor_servo_motor_driver) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.820325] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::set_speed(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.820375] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:296:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[1.820420] (uumotor_servo_motor_driver) StderrLine: {'line': b'  296 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[1.820467] (uumotor_servo_motor_driver) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.820547] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::set_current(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.820596] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:321:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[1.820695] (uumotor_servo_motor_driver) StderrLine: {'line': b'  321 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[1.820743] (uumotor_servo_motor_driver) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.820791] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::set_sensor_type(int, std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.820840] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:332:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.820957] (uumotor_servo_motor_driver) StderrLine: {'line': b'  332 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.821005] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.821050] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:336:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.821096] (uumotor_servo_motor_driver) StderrLine: {'line': b'  336 |             \x1b[01;36m\x1b[Kcase\x1b[m\x1b[K 2:\n'}
+[1.821139] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.821183] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:338:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.821232] (uumotor_servo_motor_driver) StderrLine: {'line': b'  338 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.821323] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.821372] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:342:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.821468] (uumotor_servo_motor_driver) StderrLine: {'line': b'  342 |             \x1b[01;36m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.821518] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.821566] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:353:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.821615] (uumotor_servo_motor_driver) StderrLine: {'line': b'  353 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.821663] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.821711] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:357:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.821759] (uumotor_servo_motor_driver) StderrLine: {'line': b'  357 |             \x1b[01;36m\x1b[Kcase\x1b[m\x1b[K 2:\n'}
+[1.821807] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.821855] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:359:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.821978] (uumotor_servo_motor_driver) StderrLine: {'line': b'  359 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.822024] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.822068] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:363:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.822113] (uumotor_servo_motor_driver) StderrLine: {'line': b'  363 |             \x1b[01;36m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.822157] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.822201] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:374:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.822245] (uumotor_servo_motor_driver) StderrLine: {'line': b'  374 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.822289] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.822332] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:378:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.822377] (uumotor_servo_motor_driver) StderrLine: {'line': b'  378 |             \x1b[01;36m\x1b[Kcase\x1b[m\x1b[K 2:\n'}
+[1.822420] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.822464] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:380:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.822508] (uumotor_servo_motor_driver) StderrLine: {'line': b'  380 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.822553] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.822597] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:384:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.822640] (uumotor_servo_motor_driver) StderrLine: {'line': b'  384 |             \x1b[01;36m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.822684] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.822727] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::control_motor(int, std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.822772] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:405:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.822820] (uumotor_servo_motor_driver) StderrLine: {'line': b'  405 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.822865] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.822912] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:409:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.822956] (uumotor_servo_motor_driver) StderrLine: {'line': b'  409 |             \x1b[01;36m\x1b[Kcase\x1b[m\x1b[K 2:\n'}
+[1.823000] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.823043] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:411:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.823089] (uumotor_servo_motor_driver) StderrLine: {'line': b'  411 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.823133] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.823180] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:415:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.823224] (uumotor_servo_motor_driver) StderrLine: {'line': b'  415 |             \x1b[01;36m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.823267] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.823311] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:426:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.823359] (uumotor_servo_motor_driver) StderrLine: {'line': b'  426 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.823403] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.823447] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:430:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.823491] (uumotor_servo_motor_driver) StderrLine: {'line': b'  430 |             \x1b[01;36m\x1b[Kcase\x1b[m\x1b[K 2:\n'}
+[1.823535] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.823579] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:432:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.823628] (uumotor_servo_motor_driver) StderrLine: {'line': b'  432 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.823676] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.823720] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:436:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.823765] (uumotor_servo_motor_driver) StderrLine: {'line': b'  436 |             \x1b[01;36m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.823808] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.823853] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:447:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.823901] (uumotor_servo_motor_driver) StderrLine: {'line': b'  447 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.823945] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.823988] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:451:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.824033] (uumotor_servo_motor_driver) StderrLine: {'line': b'  451 |             \x1b[01;36m\x1b[Kcase\x1b[m\x1b[K 2:\n'}
+[1.824077] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.824121] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:453:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.824193] (uumotor_servo_motor_driver) StderrLine: {'line': b'  453 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.824239] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.824284] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:457:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.824329] (uumotor_servo_motor_driver) StderrLine: {'line': b'  457 |             \x1b[01;36m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.824374] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.824443] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::calibrate(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.824490] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:476:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.824538] (uumotor_servo_motor_driver) StderrLine: {'line': b'  476 |             \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.824582] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.824627] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:479:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.824675] (uumotor_servo_motor_driver) StderrLine: {'line': b'  479 |         \x1b[01;36m\x1b[Kcase\x1b[m\x1b[K 2:\n'}
+[1.824722] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.824798] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:481:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.824844] (uumotor_servo_motor_driver) StderrLine: {'line': b'  481 |             \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.824888] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.824937] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:484:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.825011] (uumotor_servo_motor_driver) StderrLine: {'line': b'  484 |         \x1b[01;36m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.825055] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.825103] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::set_acceleration_max(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.825227] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:246:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[1.825276] (uumotor_servo_motor_driver) StderrLine: {'line': b'  246 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[1.825325] (uumotor_servo_motor_driver) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.825373] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::set_deceleration_max(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.825468] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:271:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[1.825514] (uumotor_servo_motor_driver) StderrLine: {'line': b'  271 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[1.825559] (uumotor_servo_motor_driver) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.825603] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::set_speed(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.825648] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:296:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[1.825694] (uumotor_servo_motor_driver) StderrLine: {'line': b'  296 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[1.825742] (uumotor_servo_motor_driver) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.825790] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::set_current(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.825839] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:321:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[1.825887] (uumotor_servo_motor_driver) StderrLine: {'line': b'  321 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[1.825936] (uumotor_servo_motor_driver) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.825983] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::set_sensor_type(int, std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.826033] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:332:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.826199] (uumotor_servo_motor_driver) StderrLine: {'line': b'  332 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.826265] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.826315] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:336:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.826365] (uumotor_servo_motor_driver) StderrLine: {'line': b'  336 |             \x1b[01;36m\x1b[Kcase\x1b[m\x1b[K 2:\n'}
+[1.826461] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.826508] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:338:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.826553] (uumotor_servo_motor_driver) StderrLine: {'line': b'  338 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.826597] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.826641] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:342:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.826685] (uumotor_servo_motor_driver) StderrLine: {'line': b'  342 |             \x1b[01;36m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.826730] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.826773] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:353:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.826818] (uumotor_servo_motor_driver) StderrLine: {'line': b'  353 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.826862] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.826906] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:357:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.826950] (uumotor_servo_motor_driver) StderrLine: {'line': b'  357 |             \x1b[01;36m\x1b[Kcase\x1b[m\x1b[K 2:\n'}
+[1.826994] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.827038] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:359:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.827083] (uumotor_servo_motor_driver) StderrLine: {'line': b'  359 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.827127] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.827174] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:363:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.827218] (uumotor_servo_motor_driver) StderrLine: {'line': b'  363 |             \x1b[01;36m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.827265] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.827319] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:374:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.827369] (uumotor_servo_motor_driver) StderrLine: {'line': b'  374 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.827413] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.827457] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:378:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.827501] (uumotor_servo_motor_driver) StderrLine: {'line': b'  378 |             \x1b[01;36m\x1b[Kcase\x1b[m\x1b[K 2:\n'}
+[1.827545] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.827589] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:380:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.827640] (uumotor_servo_motor_driver) StderrLine: {'line': b'  380 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.827687] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.827732] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:384:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.827777] (uumotor_servo_motor_driver) StderrLine: {'line': b'  384 |             \x1b[01;36m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.827821] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.827866] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::control_motor(int, std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.827911] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:405:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.827955] (uumotor_servo_motor_driver) StderrLine: {'line': b'  405 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.828001] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.828044] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:409:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.828089] (uumotor_servo_motor_driver) StderrLine: {'line': b'  409 |             \x1b[01;36m\x1b[Kcase\x1b[m\x1b[K 2:\n'}
+[1.828137] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.828181] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:411:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.828228] (uumotor_servo_motor_driver) StderrLine: {'line': b'  411 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.828273] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.828317] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:415:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.828362] (uumotor_servo_motor_driver) StderrLine: {'line': b'  415 |             \x1b[01;36m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.828406] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.828450] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:426:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.828494] (uumotor_servo_motor_driver) StderrLine: {'line': b'  426 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.828538] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.828582] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:430:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.828626] (uumotor_servo_motor_driver) StderrLine: {'line': b'  430 |             \x1b[01;36m\x1b[Kcase\x1b[m\x1b[K 2:\n'}
+[1.828669] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.828714] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:432:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.828758] (uumotor_servo_motor_driver) StderrLine: {'line': b'  432 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.828802] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.828846] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:436:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.828890] (uumotor_servo_motor_driver) StderrLine: {'line': b'  436 |             \x1b[01;36m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.828935] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.828979] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:447:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.829027] (uumotor_servo_motor_driver) StderrLine: {'line': b'  447 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.829072] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.829116] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:451:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.829164] (uumotor_servo_motor_driver) StderrLine: {'line': b'  451 |             \x1b[01;36m\x1b[Kcase\x1b[m\x1b[K 2:\n'}
+[1.829208] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.829255] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:453:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.829299] (uumotor_servo_motor_driver) StderrLine: {'line': b'  453 |                 \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.829343] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.829387] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:457:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.829432] (uumotor_servo_motor_driver) StderrLine: {'line': b'  457 |             \x1b[01;36m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.829476] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.829520] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Commands::calibrate(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.829566] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:476:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.829611] (uumotor_servo_motor_driver) StderrLine: {'line': b'  476 |             \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.829656] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.829700] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:479:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.829745] (uumotor_servo_motor_driver) StderrLine: {'line': b'  479 |         \x1b[01;36m\x1b[Kcase\x1b[m\x1b[K 2:\n'}
+[1.829789] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.829836] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:481:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[1.829881] (uumotor_servo_motor_driver) StderrLine: {'line': b'  481 |             \x1b[01;35m\x1b[Kfun.get_hex_msg(command.data())\x1b[m\x1b[K\n'}
+[1.829925] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.829970] (uumotor_servo_motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:484:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[1.830014] (uumotor_servo_motor_driver) StderrLine: {'line': b'  484 |         \x1b[01;36m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[1.830057] (uumotor_servo_motor_driver) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.839524] (uumotor_servo_motor_driver) StderrLine: {'line': b'make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:76: CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o] Error 1\n'}
+[1.839679] (uumotor_servo_motor_driver) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2\n'}
+[1.839736] (uumotor_servo_motor_driver) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[1.843723] (uumotor_servo_motor_driver) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cmd.dir/build.make:76: CMakeFiles/cmd.dir/src/commands.cpp.o] Error 1\n'}
+[1.843829] (uumotor_servo_motor_driver) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:222: CMakeFiles/cmd.dir/all] Error 2\n'}
+[1.844003] (uumotor_servo_motor_driver) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[1.847424] (uumotor_servo_motor_driver) CommandEnded: {'returncode': 2}
+[1.909908] (-) TimerEvent: {}
+[2.010386] (-) TimerEvent: {}
+[2.017195] (uumotor_servo_motor_driver) JobEnded: {'identifier': 'uumotor_servo_motor_driver', 'rc': 2}
+[2.027685] (-) EventReactorShutdown: {}

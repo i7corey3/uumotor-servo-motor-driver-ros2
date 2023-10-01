@@ -1,0 +1,17 @@
+[0.132s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.163s] [ 18%] Built target fun
+[0.169s] [ 27%] [32mBuilding CXX object CMakeFiles/cmd.dir/src/commands.cpp.o[0m
+[0.169s] [ 36%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o[0m
+[1.855s] [ 45%] [32m[1mLinking CXX static library libcmd.a[0m
+[1.861s] [ 54%] [32m[1mLinking CXX shared library libuumotor_servo_motor_driver.so[0m
+[1.863s] [ 54%] Built target cmd
+[1.879s] [ 63%] [32mBuilding CXX object CMakeFiles/driver.dir/src/commands.cpp.o[0m
+[1.919s] [ 72%] Built target uumotor_servo_motor_driver
+[3.545s] [ 81%] [32m[1mLinking CXX executable driver[0m
+[3.610s] /usr/bin/ld: CMakeFiles/driver.dir/src/test_node.cpp.o: in function `main':
+[3.610s] test_node.cpp:(.text+0x1c0): undefined reference to `Functions::int2hex(int, int, bool)'
+[3.610s] collect2: error: ld returned 1 exit status
+[3.610s] make[2]: *** [CMakeFiles/driver.dir/build.make:179: driver] Error 1
+[3.610s] make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+[3.611s] make: *** [Makefile:146: all] Error 2
+[3.614s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

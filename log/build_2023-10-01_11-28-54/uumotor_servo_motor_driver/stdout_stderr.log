@@ -1,0 +1,33 @@
+[ 18%] Built target fun
+[ 27%] [32mBuilding CXX object CMakeFiles/cmd.dir/src/commands.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o[0m
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_control_mode(int, std::string)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:31:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+   31 |     std::vector<[01;31m[Kuint8[m[K> command = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
+      |                 [01;31m[K^~~~~[m[K
+      |                 [32m[Kuint[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:31:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   31 |     std::vector<uint8[01;31m[K>[m[K command = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
+      |                      [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:31:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:31:24:[m[K [01;31m[Kerror: [m[Kscalar object ‘[01m[Kcommand[m[K’ requires one element in initializer
+   31 |     std::vector<uint8> [01;31m[Kcommand[m[K = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
+      |                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_control_mode(int, std::string)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:31:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+   31 |     std::vector<[01;31m[Kuint8[m[K> command = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
+      |                 [01;31m[K^~~~~[m[K
+      |                 [32m[Kuint[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:31:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   31 |     std::vector<uint8[01;31m[K>[m[K command = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
+      |                      [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:31:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:31:24:[m[K [01;31m[Kerror: [m[Kscalar object ‘[01m[Kcommand[m[K’ requires one element in initializer
+   31 |     std::vector<uint8> [01;31m[Kcommand[m[K = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
+      |                        [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/cmd.dir/build.make:76: CMakeFiles/cmd.dir/src/commands.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:222: CMakeFiles/cmd.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:76: CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

@@ -1,0 +1,193 @@
+[ 18%] Built target fun
+[ 27%] [32mBuilding CXX object CMakeFiles/cmd.dir/src/commands.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o[0m
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_acceleration_max(int, int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:235:14:[m[K [01;31m[Kerror: [m[Kjump to case label
+  235 |         case [01;31m[K2[m[K:
+      |              [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:229:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  229 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:236:34:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  236 |             std::vector<uint8_t> [01;31m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+      |                                  [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:229:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<unsigned char> v[m[K’ previously declared here
+  229 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:242:9:[m[K [01;31m[Kerror: [m[Kjump to case label
+  242 |         [01;31m[Kdefault[m[K:
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:229:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  229 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_deceleration_max(int, int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:260:14:[m[K [01;31m[Kerror: [m[Kjump to case label
+  260 |         case [01;31m[K2[m[K:
+      |              [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:254:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  254 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:261:34:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  261 |             std::vector<uint8_t> [01;31m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+      |                                  [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:254:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<unsigned char> v[m[K’ previously declared here
+  254 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:267:9:[m[K [01;31m[Kerror: [m[Kjump to case label
+  267 |         [01;31m[Kdefault[m[K:
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:254:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  254 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_speed(int, int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:285:14:[m[K [01;31m[Kerror: [m[Kjump to case label
+  285 |         case [01;31m[K2[m[K:
+      |              [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:279:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  279 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(speed, max_speed_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:286:34:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  286 |             std::vector<uint8_t> [01;31m[Kv[m[K = fun.int2hex(speed, max_speed_, true);
+      |                                  [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:279:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<unsigned char> v[m[K’ previously declared here
+  279 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(speed, max_speed_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:292:9:[m[K [01;31m[Kerror: [m[Kjump to case label
+  292 |         [01;31m[Kdefault[m[K:
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:279:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  279 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(speed, max_speed_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_current(int, int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:310:14:[m[K [01;31m[Kerror: [m[Kjump to case label
+  310 |         case [01;31m[K2[m[K:
+      |              [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:304:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  304 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(current, max_amp_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:311:34:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  311 |             std::vector<uint8_t> [01;31m[Kv[m[K = fun.int2hex(current, max_amp_, true);
+      |                                  [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:304:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<unsigned char> v[m[K’ previously declared here
+  304 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(current, max_amp_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:317:9:[m[K [01;31m[Kerror: [m[Kjump to case label
+  317 |         [01;31m[Kdefault[m[K:
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:304:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  304 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(current, max_amp_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_acceleration_max(int, int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:235:14:[m[K [01;31m[Kerror: [m[Kjump to case label
+  235 |         case [01;31m[K2[m[K:
+      |              [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:229:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  229 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:236:34:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  236 |             std::vector<uint8_t> [01;31m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+      |                                  [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:229:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<unsigned char> v[m[K’ previously declared here
+  229 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:242:9:[m[K [01;31m[Kerror: [m[Kjump to case label
+  242 |         [01;31m[Kdefault[m[K:
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:229:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  229 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_deceleration_max(int, int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:260:14:[m[K [01;31m[Kerror: [m[Kjump to case label
+  260 |         case [01;31m[K2[m[K:
+      |              [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:254:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  254 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:261:34:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  261 |             std::vector<uint8_t> [01;31m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+      |                                  [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:254:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<unsigned char> v[m[K’ previously declared here
+  254 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:267:9:[m[K [01;31m[Kerror: [m[Kjump to case label
+  267 |         [01;31m[Kdefault[m[K:
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:254:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  254 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(value, max_speed_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_speed(int, int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:285:14:[m[K [01;31m[Kerror: [m[Kjump to case label
+  285 |         case [01;31m[K2[m[K:
+      |              [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:279:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  279 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(speed, max_speed_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:286:34:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  286 |             std::vector<uint8_t> [01;31m[Kv[m[K = fun.int2hex(speed, max_speed_, true);
+      |                                  [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:279:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<unsigned char> v[m[K’ previously declared here
+  279 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(speed, max_speed_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:292:9:[m[K [01;31m[Kerror: [m[Kjump to case label
+  292 |         [01;31m[Kdefault[m[K:
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:279:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  279 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(speed, max_speed_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_current(int, int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:310:14:[m[K [01;31m[Kerror: [m[Kjump to case label
+  310 |         case [01;31m[K2[m[K:
+      |              [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:304:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  304 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(current, max_amp_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:311:34:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  311 |             std::vector<uint8_t> [01;31m[Kv[m[K = fun.int2hex(current, max_amp_, true);
+      |                                  [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:304:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<unsigned char> v[m[K’ previously declared here
+  304 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(current, max_amp_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:317:9:[m[K [01;31m[Kerror: [m[Kjump to case label
+  317 |         [01;31m[Kdefault[m[K:
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:304:34:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kstd::vector<unsigned char> v[m[K’
+  304 |             std::vector<uint8_t> [01;36m[Kv[m[K = fun.int2hex(current, max_amp_, true);
+      |                                  [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_acceleration_max(int, int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:246:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  246 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_deceleration_max(int, int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:271:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  271 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_speed(int, int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:296:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  296 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_current(int, int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:321:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  321 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:76: CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_acceleration_max(int, int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:246:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  246 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_deceleration_max(int, int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:271:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  271 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_speed(int, int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:296:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  296 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_current(int, int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:321:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  321 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/cmd.dir/build.make:76: CMakeFiles/cmd.dir/src/commands.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:222: CMakeFiles/cmd.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

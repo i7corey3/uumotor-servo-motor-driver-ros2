@@ -1,0 +1,30 @@
+[0.012s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.044s] [ 12%] [32mBuilding CXX object CMakeFiles/fun.dir/src/functions.cpp.o[0m
+[0.044s] [ 25%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o[0m
+[0.143s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:31:9:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kuint8_t Functions::get_hex_msg(uint8_t&, uint16_t)[m[K’
+[0.143s]    31 | uint8_t [01;31m[KFunctions[m[K::get_hex_msg(uint8_t &data, uint16_t crc)
+[0.143s]       |         [01;31m[K^~~~~~~~~[m[K
+[0.143s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:1[m[K:
+[0.143s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:18:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid Functions::get_hex_msg(uint8_t&, uint16_t)[m[K’
+[0.144s]    18 |     void [01;36m[Kget_hex_msg[m[K(uint8_t &data, uint16_t crc);
+[0.144s]       |          [01;36m[K^~~~~~~~~~~[m[K
+[0.144s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Functions[m[K’ defined here
+[0.144s]     9 | class [01;36m[KFunctions[m[K
+[0.144s]       |       [01;36m[K^~~~~~~~~[m[K
+[0.144s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:31:9:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kuint8_t Functions::get_hex_msg(uint8_t&, uint16_t)[m[K’
+[0.144s]    31 | uint8_t [01;31m[KFunctions[m[K::get_hex_msg(uint8_t &data, uint16_t crc)
+[0.144s]       |         [01;31m[K^~~~~~~~~[m[K
+[0.144s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:1[m[K:
+[0.144s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:18:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid Functions::get_hex_msg(uint8_t&, uint16_t)[m[K’
+[0.144s]    18 |     void [01;36m[Kget_hex_msg[m[K(uint8_t &data, uint16_t crc);
+[0.144s]       |          [01;36m[K^~~~~~~~~~~[m[K
+[0.144s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Functions[m[K’ defined here
+[0.144s]     9 | class [01;36m[KFunctions[m[K
+[0.144s]       |       [01;36m[K^~~~~~~~~[m[K
+[0.161s] make[2]: *** [CMakeFiles/fun.dir/build.make:76: CMakeFiles/fun.dir/src/functions.cpp.o] Error 1
+[0.161s] make[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/fun.dir/all] Error 2
+[0.161s] make[1]: *** Waiting for unfinished jobs....
+[0.163s] make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:90: CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o] Error 1
+[0.163s] make[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+[0.163s] make: *** [Makefile:146: all] Error 2
+[0.167s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

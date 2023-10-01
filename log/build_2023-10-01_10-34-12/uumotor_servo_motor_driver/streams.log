@@ -1,0 +1,34 @@
+[0.012s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.048s] [ 25%] Built target fun
+[0.049s] [ 37%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o[0m
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[0.072s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.072s]     2 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.072s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.072s] compilation terminated.
+[0.073s] make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:76: CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o] Error 1
+[0.073s] make[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+[0.073s] make[1]: *** Waiting for unfinished jobs....
+[1.194s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.194s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:36:13:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kuint8_t cmd [8][m[K’
+[1.194s]    36 |     uint8_t [01;31m[Kcmd[m[K[8];
+[1.194s]       |             [01;31m[K^~~[m[K
+[1.194s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:34:14:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[KCommands cmd[m[K’
+[1.194s]    34 |     Commands [01;36m[Kcmd[m[K;
+[1.194s]       |              [01;36m[K^~~[m[K
+[1.194s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:37:26:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KCommands[m[K’ to ‘[01m[Kuint8_t*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’}
+[1.194s]    37 |     cmd.set_control_mode([01;31m[Kcmd[m[K, 1, "speed");
+[1.194s]       |                          [01;31m[K^~~[m[K
+[1.194s]       |                          [01;31m[K|[m[K
+[1.194s]       |                          [01;31m[KCommands[m[K
+[1.195s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.195s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h:28:36:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid Commands::set_control_mode(uint8_t*, int, std::string)[m[K’
+[1.195s]    28 |     void set_control_mode([01;36m[Kuint8_t *command[m[K, int motor, std::string mode);
+[1.195s]       |                           [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[1.195s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:41:68:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[KCommands[m[K’ and ‘[01m[Kint[m[K’)
+[1.195s]    41 |         std::cout << "message " << std::hex << static_cast<int>(cmd[01;31m[K[[m[Ki]) << std::endl;
+[1.195s]       |                                                                    [01;31m[K^[m[K
+[1.640s] make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+[1.640s] make[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/driver.dir/all] Error 2
+[1.640s] make: *** [Makefile:146: all] Error 2
+[1.643s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

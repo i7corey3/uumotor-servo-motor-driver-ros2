@@ -31,22 +31,25 @@ target_include_directories(
   include
 )
 
-
-
-add_executable(driver src/test_node.cpp src/functions.cpp)
-ament_target_dependencies(driver rclcpp)
-
-target_include_directories(driver PUBLIC
-  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
-  $<INSTALL_INTERFACE:include>
+ament_target_dependencies(
+  ${PROJECT_NAME}
+  PUBLIC
+  rclcpp
+  
 )
 
+
+add_executable(driver src/test_node.cpp src/functions.cpp src/commands.cpp)
+ament_target_dependencies(driver rclcpp)
+
+add_library(fun src/functions.cpp)
+add_library(cmd src/commands.cpp)
+target_link_libraries(driver fun cmd)
+ament_target_dependencies(cmd rclcpp)
 target_link_libraries(uumotor_servo_motor_driver PUBLIC serial)
 
 
-ament_target_dependencies(
-  ${PROJECT_NAME}
-)
+
 
 install(
   TARGETS 

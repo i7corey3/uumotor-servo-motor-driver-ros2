@@ -1,0 +1,45 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/fun.dir/src/functions.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o[0m
+[ 37%] [32m[1mLinking CXX static library libfun.a[0m
+[ 50%] [32m[1mLinking CXX shared library libuumotor_servo_motor_driver.so[0m
+[ 50%] Built target fun
+[ 62%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/driver.dir/src/functions.cpp.o[0m
+[ 87%] Built target uumotor_servo_motor_driver
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:9[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:40:48:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kuint16_t[m[K’ {aka ‘[01m[Kshort unsigned int[m[K’} to ‘[01m[Kconst char*[m[K’ [[01;31m[K-fpermissive[m[K]
+   40 |     RCLCPP_INFO(rclcpp::get_logger("message"), [01;31m[Kval[m[K);
+      |                                                [01;31m[K^~~[m[K
+      |                                                [01;31m[K|[m[K
+      |                                                [01;31m[Kuint16_t {aka short unsigned int}[m[K
+In file included from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:9[m[K:
+[01m[K/opt/ros/galactic/include/rcutils/logging.h:479:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+  479 |   [01;36m[Kconst char * format[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:36:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcrc[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   36 |     uint16_t [01;35m[Kcrc[m[K = fun.Calc_Crc(cmd, 6); // Calculates the CRC16 of all 8 bytes
+      |              [01;35m[K^~~[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

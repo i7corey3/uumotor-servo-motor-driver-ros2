@@ -1,0 +1,167 @@
+[0.012s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.039s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.040s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.040s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.040s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.040s]   the cmake_policy command to set the policy and suppress this warning.
+[0.040s] 
+[0.040s] Call Stack (most recent call first):
+[0.041s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.041s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.041s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.041s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.041s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.041s]   CMakeLists.txt:11 (find_package)
+[0.041s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.041s] [0m
+[0.053s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.089s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.095s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.125s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.128s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.226s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.268s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.269s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.283s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.438s] -- Configuring done (0.4s)
+[0.447s] -- Generating done (0.0s)
+[0.448s] -- Build files have been written to: /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver
+[0.461s] [ 25%] Built target fun
+[0.462s] [ 37%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o[0m
+[0.462s] [ 50%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o[0m
+[0.473s] [ 62%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[1.616s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.616s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:36:13:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kuint8_t cmd [8][m[K’
+[1.616s]    36 |     uint8_t [01;31m[Kcmd[m[K[8];
+[1.616s]       |             [01;31m[K^~~[m[K
+[1.616s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:34:14:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[KCommands cmd[m[K’
+[1.616s]    34 |     Commands [01;36m[Kcmd[m[K;
+[1.616s]       |              [01;36m[K^~~[m[K
+[1.616s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:37:26:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KCommands[m[K’ to ‘[01m[Kuint8_t*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’}
+[1.616s]    37 |     cmd.set_control_mode([01;31m[Kcmd[m[K, 1, "speed");
+[1.617s]       |                          [01;31m[K^~~[m[K
+[1.617s]       |                          [01;31m[K|[m[K
+[1.617s]       |                          [01;31m[KCommands[m[K
+[1.617s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.617s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h:28:36:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid Commands::set_control_mode(uint8_t*, int, std::string)[m[K’
+[1.617s]    28 |     void set_control_mode([01;36m[Kuint8_t *command[m[K, int motor, std::string mode);
+[1.617s]       |                           [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[1.617s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:41:68:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[KCommands[m[K’ and ‘[01m[Kint[m[K’)
+[1.617s]    41 |         std::cout << "message " << std::hex << static_cast<int>(cmd[01;31m[K[[m[Ki]) << std::endl;
+[1.617s]       |                                                                    [01;31m[K^[m[K
+[1.617s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kvoid Commands::set_control_mode(uint8_t*, int, std::string)[m[K’:
+[1.617s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:41:18:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.617s]    41 |             case [01;31m[K2[m[K:
+[1.617s]       |                  [01;31m[K^[m[K
+[1.617s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:36:25:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kuint8_t cmd [8][m[K’
+[1.617s]    36 |                 uint8_t [01;36m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x00, 0xFF, 0xFF};
+[1.617s]       |                         [01;36m[K^~~[m[K
+[1.617s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:42:25:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kuint8_t cmd [8][m[K’
+[1.617s]    42 |                 uint8_t [01;31m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x01, 0x00, 0x00, 0xFF, 0xFF};
+[1.617s]       |                         [01;31m[K^~~[m[K
+[1.618s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:36:25:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t cmd [8][m[K’ previously declared here
+[1.618s]    36 |                 uint8_t [01;36m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x00, 0xFF, 0xFF};
+[1.618s]       |                         [01;36m[K^~~[m[K
+[1.618s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:47:13:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.618s]    47 |             [01;31m[Kdefault[m[K:
+[1.618s]       |             [01;31m[K^~~~~~~[m[K
+[1.618s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:36:25:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kuint8_t cmd [8][m[K’
+[1.618s]    36 |                 uint8_t [01;36m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x00, 0xFF, 0xFF};
+[1.618s]       |                         [01;36m[K^~~[m[K
+[1.618s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:61:18:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.618s]    61 |             case [01;31m[K2[m[K:
+[1.618s]       |                  [01;31m[K^[m[K
+[1.618s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:56:25:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kuint8_t cmd [8][m[K’
+[1.618s]    56 |                 uint8_t [01;36m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x01, 0xFF, 0xFF};
+[1.618s]       |                         [01;36m[K^~~[m[K
+[1.618s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:62:25:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kuint8_t cmd [8][m[K’
+[1.618s]    62 |                 uint8_t [01;31m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x01, 0x00, 0x01, 0xFF, 0xFF};
+[1.618s]       |                         [01;31m[K^~~[m[K
+[1.618s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:56:25:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t cmd [8][m[K’ previously declared here
+[1.618s]    56 |                 uint8_t [01;36m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x01, 0xFF, 0xFF};
+[1.619s]       |                         [01;36m[K^~~[m[K
+[1.619s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:67:13:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.619s]    67 |             [01;31m[Kdefault[m[K:
+[1.619s]       |             [01;31m[K^~~~~~~[m[K
+[1.619s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:56:25:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kuint8_t cmd [8][m[K’
+[1.619s]    56 |                 uint8_t [01;36m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x01, 0xFF, 0xFF};
+[1.619s]       |                         [01;36m[K^~~[m[K
+[1.619s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:81:18:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.619s]    81 |             case [01;31m[K2[m[K:
+[1.619s]       |                  [01;31m[K^[m[K
+[1.619s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:76:25:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kuint8_t cmd [8][m[K’
+[1.619s]    76 |                 uint8_t [01;36m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x02, 0xFF, 0xFF};
+[1.619s]       |                         [01;36m[K^~~[m[K
+[1.619s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:82:25:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kuint8_t cmd [8][m[K’
+[1.619s]    82 |                 uint8_t [01;31m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x01, 0x00, 0x02, 0xFF, 0xFF};
+[1.619s]       |                         [01;31m[K^~~[m[K
+[1.619s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:76:25:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t cmd [8][m[K’ previously declared here
+[1.619s]    76 |                 uint8_t [01;36m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x02, 0xFF, 0xFF};
+[1.619s]       |                         [01;36m[K^~~[m[K
+[1.619s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:87:13:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.619s]    87 |             [01;31m[Kdefault[m[K:
+[1.620s]       |             [01;31m[K^~~~~~~[m[K
+[1.620s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:76:25:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kuint8_t cmd [8][m[K’
+[1.620s]    76 |                 uint8_t [01;36m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x02, 0xFF, 0xFF};
+[1.620s]       |                         [01;36m[K^~~[m[K
+[1.620s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:102:18:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.620s]   102 |             case [01;31m[K2[m[K:
+[1.620s]       |                  [01;31m[K^[m[K
+[1.620s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:97:25:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kuint8_t cmd [8][m[K’
+[1.620s]    97 |                 uint8_t [01;36m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x03, 0xFF, 0xFF};
+[1.620s]       |                         [01;36m[K^~~[m[K
+[1.620s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:103:25:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kuint8_t cmd [8][m[K’
+[1.620s]   103 |                 uint8_t [01;31m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x01, 0x00, 0x03, 0xFF, 0xFF};
+[1.620s]       |                         [01;31m[K^~~[m[K
+[1.620s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:97:25:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t cmd [8][m[K’ previously declared here
+[1.620s]    97 |                 uint8_t [01;36m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x03, 0xFF, 0xFF};
+[1.620s]       |                         [01;36m[K^~~[m[K
+[1.620s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:108:13:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.620s]   108 |             [01;31m[Kdefault[m[K:
+[1.620s]       |             [01;31m[K^~~~~~~[m[K
+[1.620s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:97:25:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kuint8_t cmd [8][m[K’
+[1.620s]    97 |                 uint8_t [01;36m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x03, 0xFF, 0xFF};
+[1.621s]       |                         [01;36m[K^~~[m[K
+[1.621s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:123:18:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.621s]   123 |             case [01;31m[K2[m[K:
+[1.621s]       |                  [01;31m[K^[m[K
+[1.621s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:118:25:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kuint8_t cmd [8][m[K’
+[1.621s]   118 |                 uint8_t [01;36m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x04, 0xFF, 0xFF};
+[1.621s]       |                         [01;36m[K^~~[m[K
+[1.621s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:124:25:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kuint8_t cmd [8][m[K’
+[1.621s]   124 |                 uint8_t [01;31m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x01, 0x00, 0x04, 0xFF, 0xFF};
+[1.621s]       |                         [01;31m[K^~~[m[K
+[1.621s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:118:25:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t cmd [8][m[K’ previously declared here
+[1.621s]   118 |                 uint8_t [01;36m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x04, 0xFF, 0xFF};
+[1.621s]       |                         [01;36m[K^~~[m[K
+[1.621s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:129:13:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.621s]   129 |             [01;31m[Kdefault[m[K:
+[1.621s]       |             [01;31m[K^~~~~~~[m[K
+[1.621s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:118:25:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kuint8_t cmd [8][m[K’
+[1.621s]   118 |                 uint8_t [01;36m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x04, 0xFF, 0xFF};
+[1.621s]       |                         [01;36m[K^~~[m[K
+[1.621s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:143:18:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.621s]   143 |             case [01;31m[K2[m[K:
+[1.621s]       |                  [01;31m[K^[m[K
+[1.621s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:138:25:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kuint8_t cmd [8][m[K’
+[1.622s]   138 |                 uint8_t [01;36m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x05, 0xFF, 0xFF};
+[1.622s]       |                         [01;36m[K^~~[m[K
+[1.622s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:144:25:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kuint8_t cmd [8][m[K’
+[1.622s]   144 |                 uint8_t [01;31m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x01, 0x00, 0x05, 0xFF, 0xFF};
+[1.622s]       |                         [01;31m[K^~~[m[K
+[1.622s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:138:25:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t cmd [8][m[K’ previously declared here
+[1.622s]   138 |                 uint8_t [01;36m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x05, 0xFF, 0xFF};
+[1.622s]       |                         [01;36m[K^~~[m[K
+[1.622s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:149:13:[m[K [01;31m[Kerror: [m[Kjump to case label
+[1.622s]   149 |             [01;31m[Kdefault[m[K:
+[1.622s]       |             [01;31m[K^~~~~~~[m[K
+[1.622s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:138:25:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kuint8_t cmd [8][m[K’
+[1.622s]   138 |                 uint8_t [01;36m[Kcmd[m[K[8] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x05, 0xFF, 0xFF};
+[1.622s]       |                         [01;36m[K^~~[m[K
+[2.064s] make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:76: CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o] Error 1
+[2.064s] make[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+[2.064s] make[1]: *** Waiting for unfinished jobs....
+[2.069s] make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+[2.069s] make[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/driver.dir/all] Error 2
+[2.069s] make: *** [Makefile:146: all] Error 2
+[2.073s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

@@ -3,19 +3,16 @@
 
 #include <string>
 #include <vector>
+#include "uumotor_servo_motor_driver/functions.h"
 
 using namespace std;
 
 class Commands
 {
 
-    public:
+public:
 
-    std::string model = "";
-    int max_speed = 0;
-    int max_amp = 0;
-    int max_torque = 0;
-    std::vector<unsigned char> command[8];
+   
 
     Commands() = default;
 
@@ -25,44 +22,50 @@ class Commands
 
     // Set Motor Parameters
 
-    void set_control_mode(std::vector<unsigned char> &command, int motor, std::string mode);
+    std::vector<uint8_t> set_control_mode(int motor, std::string mode);
     
-    void set_location_mode(std::vector<unsigned char> &command, int motor, std::string mode);
+    std::vector<uint8_t> set_location_mode(int motor, std::string mode);
 
-    void set_acceleration_max(std::vector<unsigned char> &command, int motor, long value);
+    std::vector<uint8_t> set_acceleration_max(int motor, int value);
 
-    void set_deceleration_max(std::vector<unsigned char> &command, int motor, long value);
+    std::vector<uint8_t> set_deceleration_max(int motor, int value);
 
-    void set_speed(std::vector<unsigned char> &command, int motor, long speed);
+    std::vector<uint8_t> set_speed(int motor, int speed);
 
-    void set_current(std::vector<unsigned char> &command, int motor, long current);
+    std::vector<uint8_t> set_current(int motor, int current);
 
-    void set_sensor_type(std::vector<unsigned char> &command, int motor, std::string type);
+    std::vector<uint8_t> set_sensor_type(int motor, std::string type);
 
-    void control_motor(std::vector<unsigned char> &command, int motor, std::string cmd);
+    std::vector<uint8_t> control_motor(int motor, std::string cmd);
 
-    void calibrate(std::vector<unsigned char> &command, int motor);
+    std::vector<uint8_t> calibrate(int motor);
 
     // Read Motor Status
 
-    void calibration_status(std::vector<unsigned char> &command, int motor);
+    std::vector<uint8_t> calibration_status(int motor);
 
-    void motor_running(std::vector<unsigned char> &command, int motor);
+    std::vector<uint8_t> motor_running(int motor);
 
-    void motor_temp(std::vector<unsigned char> &command, int motor);
+    std::vector<uint8_t> motor_temp(int motor);
 
-    void bus_voltage(std::vector<unsigned char> &command, int motor);
+    std::vector<uint8_t> bus_voltage(int motor);
 
-    void mos_tube_temp(std::vector<unsigned char> &command, int motor);
+    std::vector<uint8_t> mos_tube_temp(int motor);
 
-    void motor_speed(std::vector<unsigned char> &command, int motor);
+    std::vector<uint8_t> motor_speed(int motor);
 
-    void motor_current(std::vector<unsigned char> &command, int motor);
+    std::vector<uint8_t> motor_current(int motor);
 
-    void absolute_position(std::vector<unsigned char> &command, int motor);
+    std::vector<uint8_t> absolute_position(int motor);
 
-    void error_status(std::vector<unsigned char> &command, int motor);
+    std::vector<uint8_t> error_status(int motor);
 
+private:
+    Functions fun;
+    std::string model_ = "";
+    int max_speed_ = 0;
+    int max_amp_ = 0;
+    int max_torque_ = 0;
 
 };
 

@@ -592,4 +592,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uumotor_servo_motor_driver_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/uumotor_servo_motor_driver.dir/DependInfo.cmake"
   "CMakeFiles/driver.dir/DependInfo.cmake"
+  "CMakeFiles/fun.dir/DependInfo.cmake"
+  "CMakeFiles/cmd.dir/DependInfo.cmake"
   )

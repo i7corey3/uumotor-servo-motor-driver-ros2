@@ -1,0 +1,43 @@
+/usr/bin/ld: CMakeFiles/driver.dir/src/test_node.cpp.o: in function `main':
+test_node.cpp:(.text+0x18e): undefined reference to `Commands::set_control_mode(unsigned char*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/driver.dir/build.make:162: driver] Error 1
+make[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/driver.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kvoid Commands::set_control_mode(uint8_t*, int, std::string)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:41:86:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} in initialization
+   41 |                 command = new uint8_t {0xEE, 0x06, 0x51, 0x01, 0x00, 0x00, 0xFF, 0xFF[01;31m[K}[m[K;
+      |                                                                                      [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:55:86:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} in initialization
+   55 |                 command = new uint8_t {0xEE, 0x06, 0x51, 0x00, 0x00, 0x01, 0xFF, 0xFF[01;31m[K}[m[K;
+      |                                                                                      [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:61:86:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} in initialization
+   61 |                 command = new uint8_t {0xEE, 0x06, 0x51, 0x01, 0x00, 0x01, 0xFF, 0xFF[01;31m[K}[m[K;
+      |                                                                                      [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:75:86:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} in initialization
+   75 |                 command = new uint8_t {0xEE, 0x06, 0x51, 0x00, 0x00, 0x02, 0xFF, 0xFF[01;31m[K}[m[K;
+      |                                                                                      [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:81:86:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} in initialization
+   81 |                 command = new uint8_t {0xEE, 0x06, 0x51, 0x01, 0x00, 0x02, 0xFF, 0xFF[01;31m[K}[m[K;
+      |                                                                                      [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:96:86:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} in initialization
+   96 |                 command = new uint8_t {0xEE, 0x06, 0x51, 0x00, 0x00, 0x03, 0xFF, 0xFF[01;31m[K}[m[K;
+      |                                                                                      [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:102:86:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} in initialization
+  102 |                 command = new uint8_t {0xEE, 0x06, 0x51, 0x01, 0x00, 0x03, 0xFF, 0xFF[01;31m[K}[m[K;
+      |                                                                                      [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:117:86:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} in initialization
+  117 |                 command = new uint8_t {0xEE, 0x06, 0x51, 0x00, 0x00, 0x04, 0xFF, 0xFF[01;31m[K}[m[K;
+      |                                                                                      [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:123:86:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} in initialization
+  123 |                 command = new uint8_t {0xEE, 0x06, 0x51, 0x01, 0x00, 0x04, 0xFF, 0xFF[01;31m[K}[m[K;
+      |                                                                                      [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:137:86:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} in initialization
+  137 |                 command = new uint8_t {0xEE, 0x06, 0x51, 0x00, 0x00, 0x05, 0xFF, 0xFF[01;31m[K}[m[K;
+      |                                                                                      [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:143:86:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} in initialization
+  143 |                 command = new uint8_t {0xEE, 0x06, 0x51, 0x01, 0x00, 0x05, 0xFF, 0xFF[01;31m[K}[m[K;
+      |                                                                                      [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:76: CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

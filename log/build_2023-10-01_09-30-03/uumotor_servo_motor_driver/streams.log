@@ -1,0 +1,47 @@
+[0.013s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.044s] [ 12%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o[0m
+[0.044s] [ 25%] [32mBuilding CXX object CMakeFiles/fun.dir/src/functions.cpp.o[0m
+[0.143s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In member function ‘[01m[Kuint8_t Functions::get_hex_msg(uint8_t&, uint16_t)[m[K’:
+[0.143s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:35:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klow[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.143s]    35 |     uint8_t [01;35m[Klow[m[K = 0xFF;
+[0.143s]       |             [01;35m[K^~~[m[K
+[0.143s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:31:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.143s]    31 | uint8_t Functions::get_hex_msg([01;35m[Kuint8_t &data[m[K, uint16_t crc)
+[0.143s]       |                                [01;35m[K~~~~~~~~~^~~~[m[K
+[0.145s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In member function ‘[01m[Kuint8_t Functions::get_hex_msg(uint8_t&, uint16_t)[m[K’:
+[0.145s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:35:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klow[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.145s]    35 |     uint8_t [01;35m[Klow[m[K = 0xFF;
+[0.145s]       |             [01;35m[K^~~[m[K
+[0.145s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:31:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.145s]    31 | uint8_t Functions::get_hex_msg([01;35m[Kuint8_t &data[m[K, uint16_t crc)
+[0.145s]       |                                [01;35m[K~~~~~~~~~^~~~[m[K
+[0.169s] [ 37%] [32m[1mLinking CXX static library libfun.a[0m
+[0.171s] [ 50%] [32m[1mLinking CXX shared library libuumotor_servo_motor_driver.so[0m
+[0.176s] [ 50%] Built target fun
+[0.186s] [ 75%] [32mBuilding CXX object CMakeFiles/driver.dir/src/functions.cpp.o[0m
+[0.186s] [ 75%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[0.206s] [ 87%] Built target uumotor_servo_motor_driver
+[0.312s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In member function ‘[01m[Kuint8_t Functions::get_hex_msg(uint8_t&, uint16_t)[m[K’:
+[0.312s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:35:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klow[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.312s]    35 |     uint8_t [01;35m[Klow[m[K = 0xFF;
+[0.313s]       |             [01;35m[K^~~[m[K
+[0.313s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:31:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.313s]    31 | uint8_t Functions::get_hex_msg([01;35m[Kuint8_t &data[m[K, uint16_t crc)
+[0.313s]       |                                [01;35m[K~~~~~~~~~^~~~[m[K
+[1.320s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.320s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:38:36:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kuint8_t*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’} to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;31m[K-fpermissive[m[K]
+[1.320s]    38 |     uint8_t high = fun.get_hex_msg([01;31m[Kcmd[m[K, crc);
+[1.320s]       |                                    [01;31m[K^~~[m[K
+[1.320s]       |                                    [01;31m[K|[m[K
+[1.320s]       |                                    [01;31m[Kuint8_t* {aka unsigned char*}[m[K
+[1.320s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[1.321s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:18:34:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kuint8_t Functions::get_hex_msg(uint8_t&, uint16_t)[m[K’
+[1.321s]    18 |     uint8_t get_hex_msg([01;36m[Kuint8_t &data[m[K, uint16_t crc);
+[1.321s]       |                         [01;36m[K~~~~~~~~~^~~~[m[K
+[1.321s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:38:36:[m[K [01;31m[Kerror: [m[Kcannot bind rvalue ‘[01m[K(uint8_t)((uint8_t*)(& cmd))[m[K’ to ‘[01m[Kuint8_t&[m[K’ {aka ‘[01m[Kunsigned char&[m[K’}
+[1.321s]    38 |     uint8_t high = fun.get_hex_msg([01;31m[Kcmd[m[K, crc);
+[1.321s]       |                                    [01;31m[K^~~[m[K
+[1.766s] make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+[1.766s] make[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/driver.dir/all] Error 2
+[1.767s] make: *** [Makefile:146: all] Error 2
+[1.770s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

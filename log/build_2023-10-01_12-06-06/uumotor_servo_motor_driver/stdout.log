@@ -1,0 +1,9 @@
+[ 18%] Built target fun
+[ 27%] [32mBuilding CXX object CMakeFiles/cmd.dir/src/commands.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o[0m
+[ 45%] [32m[1mLinking CXX static library libcmd.a[0m
+[ 54%] [32m[1mLinking CXX shared library libuumotor_servo_motor_driver.so[0m
+[ 54%] Built target cmd
+[ 63%] [32mBuilding CXX object CMakeFiles/driver.dir/src/commands.cpp.o[0m
+[ 72%] Built target uumotor_servo_motor_driver
+[ 81%] [32m[1mLinking CXX executable driver[0m

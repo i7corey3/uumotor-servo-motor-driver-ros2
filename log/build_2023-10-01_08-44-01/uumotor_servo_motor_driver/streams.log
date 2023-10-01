@@ -1,0 +1,73 @@
+[0.012s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver
+[0.118s] -- The C compiler identification is GNU 9.4.0
+[0.184s] -- The CXX compiler identification is GNU 9.4.0
+[0.202s] -- Detecting C compiler ABI info
+[0.248s] -- Detecting C compiler ABI info - done
+[0.257s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.258s] -- Detecting C compile features
+[0.258s] -- Detecting C compile features - done
+[0.266s] -- Detecting CXX compiler ABI info
+[0.312s] -- Detecting CXX compiler ABI info - done
+[0.322s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.322s] -- Detecting CXX compile features
+[0.323s] -- Detecting CXX compile features - done
+[0.330s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.335s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.335s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.335s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.335s]   the cmake_policy command to set the policy and suppress this warning.
+[0.335s] 
+[0.335s] Call Stack (most recent call first):
+[0.335s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.335s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.335s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.335s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.335s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.335s]   CMakeLists.txt:11 (find_package)
+[0.336s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.336s] [0m
+[0.349s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.349s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.390s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.419s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.480s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.488s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.555s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.580s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.655s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.716s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.720s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.740s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.741s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.787s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.787s] -- Looking for pthread_create in pthreads
+[0.818s] -- Looking for pthread_create in pthreads - not found
+[0.818s] -- Looking for pthread_create in pthread
+[0.855s] -- Looking for pthread_create in pthread - found
+[0.856s] -- Found Threads: TRUE  
+[1.036s] -- Configuring done (1.0s)
+[1.044s] -- Generating done (0.0s)
+[1.045s] -- Build files have been written to: /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver
+[1.054s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver
+[1.056s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[1.086s] [ 16%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o[0m
+[1.086s] [ 33%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[1.087s] [ 66%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o[0m
+[1.087s] [ 66%] [32mBuilding CXX object CMakeFiles/driver.dir/src/functions.cpp.o[0m
+[1.211s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kvoid Commands::set_control_mode(std::vector<unsigned char>&, int, std::string)[m[K’:
+[1.211s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:35:37:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.211s]    35 |                 const unsigned char [01;35m[Kcmd[m[K[6] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x00};
+[1.211s]       |                                     [01;35m[K^~~[m[K
+[1.211s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:28:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcommand[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.211s]    28 | void Commands::set_control_mode([01;35m[Kstd::vector<unsigned char> &command[m[K, int motor, std::string mode)
+[1.212s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[1.249s] [ 83%] [32m[1mLinking CXX shared library libuumotor_servo_motor_driver.so[0m
+[1.284s] [ 83%] Built target uumotor_servo_motor_driver
+[2.855s] [100%] [32m[1mLinking CXX executable driver[0m
+[2.944s] /usr/bin/ld: CMakeFiles/driver.dir/src/test_node.cpp.o: in function `main':
+[2.944s] test_node.cpp:(.text+0x189): undefined reference to `Functions::test(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[2.944s] collect2: error: ld returned 1 exit status
+[2.944s] make[2]: *** [CMakeFiles/driver.dir/build.make:161: driver] Error 1
+[2.945s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/driver.dir/all] Error 2
+[2.945s] make: *** [Makefile:146: all] Error 2
+[2.948s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

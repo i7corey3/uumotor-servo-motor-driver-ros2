@@ -1,0 +1,160 @@
+[  9%] [32mBuilding CXX object CMakeFiles/fun.dir/src/functions.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/cmd.dir/src/commands.cpp.o[0m
+[ 45%] [32m[1mLinking CXX static library libfun.a[0m
+[ 45%] Built target fun
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In function ‘[01m[Kstd::vector<unsigned char> set_location_mode(int, std::string)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:176:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kfun[m[K’ was not declared in this scope
+  176 |                 [01;31m[Kfun[m[K.get_hex_msg(command.data());
+      |                 [01;31m[K^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:196:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kfun[m[K’ was not declared in this scope
+  196 |                 [01;31m[Kfun[m[K.get_hex_msg(command.data());
+      |                 [01;31m[K^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In function ‘[01m[Kstd::vector<unsigned char> set_acceleration_max(int, long int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:225:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  225 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:217:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  217 | std::vector<uint8_t> set_acceleration_max([01;35m[Kint motor[m[K, long value)
+      |                                           [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:217:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  217 | std::vector<uint8_t> set_acceleration_max(int motor, [01;35m[Klong value[m[K)
+      |                                                      [01;35m[K~~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In function ‘[01m[Kstd::vector<unsigned char> set_deceleration_max(int, long int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:230:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  230 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:227:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  227 | std::vector<uint8_t> set_deceleration_max([01;35m[Kint motor[m[K, long value)
+      |                                           [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:227:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  227 | std::vector<uint8_t> set_deceleration_max(int motor, [01;35m[Klong value[m[K)
+      |                                                      [01;35m[K~~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In function ‘[01m[Kstd::vector<unsigned char> set_speed(int, long int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:235:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  235 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:232:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  232 | std::vector<uint8_t> set_speed([01;35m[Kint motor[m[K, long speed)
+      |                                [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:232:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kspeed[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  232 | std::vector<uint8_t> set_speed(int motor, [01;35m[Klong speed[m[K)
+      |                                           [01;35m[K~~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In function ‘[01m[Kstd::vector<unsigned char> set_current(int, long int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:240:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  240 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:237:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  237 | std::vector<uint8_t> set_current([01;35m[Kint motor[m[K, long current)
+      |                                  [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:237:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  237 | std::vector<uint8_t> set_current(int motor, [01;35m[Klong current[m[K)
+      |                                             [01;35m[K~~~~~^~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In function ‘[01m[Kstd::vector<unsigned char> set_sensor_type(int, std::string)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:245:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  245 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:242:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  242 | std::vector<uint8_t> set_sensor_type([01;35m[Kint motor[m[K, std::string type)
+      |                                      [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:242:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktype[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  242 | std::vector<uint8_t> set_sensor_type(int motor, [01;35m[Kstd::string type[m[K)
+      |                                                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In function ‘[01m[Kstd::vector<unsigned char> control_motor(int, std::string)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:250:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  250 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:247:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  247 | std::vector<uint8_t> control_motor([01;35m[Kint motor[m[K, std::string cmd)
+      |                                    [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:247:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcmd[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  247 | std::vector<uint8_t> control_motor(int motor, [01;35m[Kstd::string cmd[m[K)
+      |                                               [01;35m[K~~~~~~~~~~~~^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In function ‘[01m[Kstd::vector<unsigned char> calibrate(int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:255:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  255 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:252:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  252 | std::vector<uint8_t> calibrate([01;35m[Kint motor[m[K)
+      |                                [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In function ‘[01m[Kstd::vector<unsigned char> set_location_mode(int, std::string)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:176:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kfun[m[K’ was not declared in this scope
+  176 |                 [01;31m[Kfun[m[K.get_hex_msg(command.data());
+      |                 [01;31m[K^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:196:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kfun[m[K’ was not declared in this scope
+  196 |                 [01;31m[Kfun[m[K.get_hex_msg(command.data());
+      |                 [01;31m[K^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In function ‘[01m[Kstd::vector<unsigned char> set_acceleration_max(int, long int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:225:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  225 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:217:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  217 | std::vector<uint8_t> set_acceleration_max([01;35m[Kint motor[m[K, long value)
+      |                                           [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:217:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  217 | std::vector<uint8_t> set_acceleration_max(int motor, [01;35m[Klong value[m[K)
+      |                                                      [01;35m[K~~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In function ‘[01m[Kstd::vector<unsigned char> set_deceleration_max(int, long int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:230:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  230 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:227:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  227 | std::vector<uint8_t> set_deceleration_max([01;35m[Kint motor[m[K, long value)
+      |                                           [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:227:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  227 | std::vector<uint8_t> set_deceleration_max(int motor, [01;35m[Klong value[m[K)
+      |                                                      [01;35m[K~~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In function ‘[01m[Kstd::vector<unsigned char> set_speed(int, long int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:235:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  235 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:232:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  232 | std::vector<uint8_t> set_speed([01;35m[Kint motor[m[K, long speed)
+      |                                [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:232:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kspeed[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  232 | std::vector<uint8_t> set_speed(int motor, [01;35m[Klong speed[m[K)
+      |                                           [01;35m[K~~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In function ‘[01m[Kstd::vector<unsigned char> set_current(int, long int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:240:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  240 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:237:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  237 | std::vector<uint8_t> set_current([01;35m[Kint motor[m[K, long current)
+      |                                  [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:237:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  237 | std::vector<uint8_t> set_current(int motor, [01;35m[Klong current[m[K)
+      |                                             [01;35m[K~~~~~^~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In function ‘[01m[Kstd::vector<unsigned char> set_sensor_type(int, std::string)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:245:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  245 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:242:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  242 | std::vector<uint8_t> set_sensor_type([01;35m[Kint motor[m[K, std::string type)
+      |                                      [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:242:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktype[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  242 | std::vector<uint8_t> set_sensor_type(int motor, [01;35m[Kstd::string type[m[K)
+      |                                                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In function ‘[01m[Kstd::vector<unsigned char> control_motor(int, std::string)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:250:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  250 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:247:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  247 | std::vector<uint8_t> control_motor([01;35m[Kint motor[m[K, std::string cmd)
+      |                                    [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:247:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcmd[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  247 | std::vector<uint8_t> control_motor(int motor, [01;35m[Kstd::string cmd[m[K)
+      |                                               [01;35m[K~~~~~~~~~~~~^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In function ‘[01m[Kstd::vector<unsigned char> calibrate(int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:255:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  255 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:252:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  252 | std::vector<uint8_t> calibrate([01;35m[Kint motor[m[K)
+      |                                [01;35m[K~~~~^~~~~[m[K
+make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:76: CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/cmd.dir/build.make:76: CMakeFiles/cmd.dir/src/commands.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:222: CMakeFiles/cmd.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

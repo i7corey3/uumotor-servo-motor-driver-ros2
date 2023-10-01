@@ -1,0 +1,36 @@
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_acceleration_max(int, long int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:225:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  225 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:217:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  217 | std::vector<uint8_t> Commands::set_acceleration_max([01;35m[Kint motor[m[K, long value)
+      |                                                     [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:217:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  217 | std::vector<uint8_t> Commands::set_acceleration_max(int motor, [01;35m[Klong value[m[K)
+      |                                                                [01;35m[K~~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_acceleration_max(int, long int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:225:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  225 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:217:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  217 | std::vector<uint8_t> Commands::set_acceleration_max([01;35m[Kint motor[m[K, long value)
+      |                                                     [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:217:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  217 | std::vector<uint8_t> Commands::set_acceleration_max(int motor, [01;35m[Klong value[m[K)
+      |                                                                [01;35m[K~~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_acceleration_max(int, long int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:225:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  225 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:217:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotor[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  217 | std::vector<uint8_t> Commands::set_acceleration_max([01;35m[Kint motor[m[K, long value)
+      |                                                     [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:217:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  217 | std::vector<uint8_t> Commands::set_acceleration_max(int motor, [01;35m[Klong value[m[K)
+      |                                                                [01;35m[K~~~~~^~~~~[m[K
+/usr/bin/ld: CMakeFiles/driver.dir/src/test_node.cpp.o: in function `main':
+test_node.cpp:(.text+0x1c0): undefined reference to `Functions::int2hex(int, int, bool)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/driver.dir/build.make:179: driver] Error 1
+make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

@@ -11,13 +11,15 @@ class Functions
 
     public:
 
-    Functions() {
-
-    }
+    Functions() = default;
 
     uint16_t Calc_Crc(uint8_t *pack_buff, int pack_len);
 
-    std::string test(std::string str);
+    void get_hex_msg(uint8_t *data);
+
+    std::vector<uint8_t> int2hex(int value, int range, bool unsign);
+
+    int map_range(int x, int in_min, int in_max, int out_min, int out_max);
 
  
 

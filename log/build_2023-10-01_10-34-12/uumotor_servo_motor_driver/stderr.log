@@ -1,0 +1,29 @@
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+    2 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:76: CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:36:13:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kuint8_t cmd [8][m[K’
+   36 |     uint8_t [01;31m[Kcmd[m[K[8];
+      |             [01;31m[K^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:34:14:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[KCommands cmd[m[K’
+   34 |     Commands [01;36m[Kcmd[m[K;
+      |              [01;36m[K^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:37:26:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KCommands[m[K’ to ‘[01m[Kuint8_t*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’}
+   37 |     cmd.set_control_mode([01;31m[Kcmd[m[K, 1, "speed");
+      |                          [01;31m[K^~~[m[K
+      |                          [01;31m[K|[m[K
+      |                          [01;31m[KCommands[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h:28:36:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid Commands::set_control_mode(uint8_t*, int, std::string)[m[K’
+   28 |     void set_control_mode([01;36m[Kuint8_t *command[m[K, int motor, std::string mode);
+      |                           [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:41:68:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[KCommands[m[K’ and ‘[01m[Kint[m[K’)
+   41 |         std::cout << "message " << std::hex << static_cast<int>(cmd[01;31m[K[[m[Ki]) << std::endl;
+      |                                                                    [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

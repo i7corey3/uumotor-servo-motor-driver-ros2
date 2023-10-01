@@ -1,0 +1,32 @@
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:29:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K*[m[K’ token
+   29 | void Commands::set_control_mode(uint8_t[8] [01;31m[K*[m[Kcommand, int motor, std::string mode)
+      |                                            [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:29:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Commands::set_control_mode(uint8_t*)[m[K’
+   29 | void [01;31m[KCommands[m[K::set_control_mode(uint8_t[8] *command, int motor, std::string mode)
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:1[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h:28:14:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kuint8_t* Commands::set_control_mode(uint8_t*, int, std::string)[m[K’
+   28 |     uint8_t* [01;36m[Kset_control_mode[m[K(uint8_t *command, int motor, std::string mode);
+      |              [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h:10:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Commands[m[K’ defined here
+   10 | class [01;36m[KCommands[m[K
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:29:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K*[m[K’ token
+   29 | void Commands::set_control_mode(uint8_t[8] [01;31m[K*[m[Kcommand, int motor, std::string mode)
+      |                                            [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:29:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Commands::set_control_mode(uint8_t*)[m[K’
+   29 | void [01;31m[KCommands[m[K::set_control_mode(uint8_t[8] *command, int motor, std::string mode)
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:1[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h:28:14:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kuint8_t* Commands::set_control_mode(uint8_t*, int, std::string)[m[K’
+   28 |     uint8_t* [01;36m[Kset_control_mode[m[K(uint8_t *command, int motor, std::string mode);
+      |              [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h:10:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Commands[m[K’ defined here
+   10 | class [01;36m[KCommands[m[K
+      |       [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:76: CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/cmd.dir/build.make:76: CMakeFiles/cmd.dir/src/commands.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:222: CMakeFiles/cmd.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

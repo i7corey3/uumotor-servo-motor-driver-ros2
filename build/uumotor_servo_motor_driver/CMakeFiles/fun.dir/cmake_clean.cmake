@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/fun.dir/src/functions.cpp.o"
   "CMakeFiles/fun.dir/src/functions.cpp.o.d"
+  "libfun.a"
   "libfun.pdb"
-  "libfun.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -8,6 +8,7 @@
 
 #include "rclcpp/rclcpp.hpp"
 #include "uumotor_servo_motor_driver/functions.h"
+#include "uumotor_servo_motor_driver/commands.h"
 
 using namespace std::chrono_literals;
 
@@ -31,13 +32,21 @@ int main(int argc, char * argv[])
     rclcpp::init(argc, argv);
     
     Functions fun;
+    Commands command;
+    command.setup("svd6h2");
 
-    // uint8_t cmd[6] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x00};
-    // uint16_t crc = fun.Calc_Crc(cmd, 6); // Calculates the CRC16 of all 8 bytes
+    // std::vector<uint8_t> cmd = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x00, 0xFF, 0xFF};
+    // fun.get_hex_msg(cmd.data());
 
-    std::string str = fun.test("TEST");
-   
-    std::cout << str;
+    // uint8_t cmd[8];
+    // std::vector<uint8_t> cmd = command.set_control_mode(2, "speed");
+    
+    std::vector<uint8_t> cmd = fun.int2hex(20, 500, true);
+
+    for (int i = 0; i < 2; i++)
+    {
+        std::cout << "message " << std::hex << static_cast<int>(cmd[i]) << std::endl;
+    }
     
     
     rclcpp::spin(std::make_shared<TestNode>());

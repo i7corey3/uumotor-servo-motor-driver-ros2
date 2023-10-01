@@ -1,0 +1,22 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/fun.dir/src/functions.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o[0m
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In member function ‘[01m[Kvoid Functions::get_hex_msg(uint8_t&, uint16_t)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:37:11:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kuint8_t {aka unsigned char}[int][m[K’ for array subscript
+   37 |     data[6[01;31m[K][m[K = partA;
+      |           [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:38:11:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kuint8_t {aka unsigned char}[int][m[K’ for array subscript
+   38 |     data[7[01;31m[K][m[K = partB;
+      |           [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In member function ‘[01m[Kvoid Functions::get_hex_msg(uint8_t&, uint16_t)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:37:11:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kuint8_t {aka unsigned char}[int][m[K’ for array subscript
+   37 |     data[6[01;31m[K][m[K = partA;
+      |           [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:38:11:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kuint8_t {aka unsigned char}[int][m[K’ for array subscript
+   38 |     data[7[01;31m[K][m[K = partB;
+      |           [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/fun.dir/build.make:76: CMakeFiles/fun.dir/src/functions.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/fun.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:90: CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

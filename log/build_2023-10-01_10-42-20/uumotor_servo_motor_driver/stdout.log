@@ -1,0 +1,3 @@
+[ 25%] Built target fun
+[ 37%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable driver[0m

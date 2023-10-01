@@ -1,0 +1,13 @@
+[0.012s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.042s] [ 25%] Built target fun
+[0.048s] [ 62%] Built target uumotor_servo_motor_driver
+[0.050s] [ 75%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[1.701s] [ 87%] [32m[1mLinking CXX executable driver[0m
+[1.764s] /usr/bin/ld: CMakeFiles/driver.dir/src/test_node.cpp.o: in function `main':
+[1.764s] test_node.cpp:(.text+0x185): undefined reference to `Commands::setup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[1.764s] /usr/bin/ld: test_node.cpp:(.text+0x1ee): undefined reference to `Commands::set_control_mode(unsigned char*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[1.764s] collect2: error: ld returned 1 exit status
+[1.764s] make[2]: *** [CMakeFiles/driver.dir/build.make:162: driver] Error 1
+[1.765s] make[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/driver.dir/all] Error 2
+[1.765s] make: *** [Makefile:146: all] Error 2
+[1.768s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

@@ -1,0 +1,11 @@
+[ 25%] Built target fun
+[ 62%] Built target uumotor_servo_motor_driver
+[ 75%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable driver[0m
+/usr/bin/ld: CMakeFiles/driver.dir/src/test_node.cpp.o: in function `main':
+test_node.cpp:(.text+0x185): undefined reference to `Commands::setup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: test_node.cpp:(.text+0x1ee): undefined reference to `Commands::set_control_mode(unsigned char*, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/driver.dir/build.make:162: driver] Error 1
+make[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

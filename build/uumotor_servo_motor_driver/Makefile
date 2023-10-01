@@ -223,12 +223,40 @@ driver/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver.dir/build.make CMakeFiles/driver.dir/build
 .PHONY : driver/fast
 
+#=============================================================================
+# Target rules for targets named fun
+
+# Build rule for target.
+fun: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fun
+.PHONY : fun
+
+# fast build rule for target.
+fun/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fun.dir/build.make CMakeFiles/fun.dir/build
+.PHONY : fun/fast
+
+#=============================================================================
+# Target rules for targets named cmd
+
+# Build rule for target.
+cmd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmd
+.PHONY : cmd
+
+# fast build rule for target.
+cmd/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmd.dir/build.make CMakeFiles/cmd.dir/build
+.PHONY : cmd/fast
+
 src/commands.o: src/commands.cpp.o
 .PHONY : src/commands.o
 
 # target to build an object file
 src/commands.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uumotor_servo_motor_driver.dir/build.make CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver.dir/build.make CMakeFiles/driver.dir/src/commands.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmd.dir/build.make CMakeFiles/cmd.dir/src/commands.cpp.o
 .PHONY : src/commands.cpp.o
 
 src/commands.i: src/commands.cpp.i
@@ -237,6 +265,8 @@ src/commands.i: src/commands.cpp.i
 # target to preprocess a source file
 src/commands.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uumotor_servo_motor_driver.dir/build.make CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver.dir/build.make CMakeFiles/driver.dir/src/commands.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmd.dir/build.make CMakeFiles/cmd.dir/src/commands.cpp.i
 .PHONY : src/commands.cpp.i
 
 src/commands.s: src/commands.cpp.s
@@ -245,6 +275,8 @@ src/commands.s: src/commands.cpp.s
 # target to generate assembly for a file
 src/commands.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uumotor_servo_motor_driver.dir/build.make CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver.dir/build.make CMakeFiles/driver.dir/src/commands.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmd.dir/build.make CMakeFiles/cmd.dir/src/commands.cpp.s
 .PHONY : src/commands.cpp.s
 
 src/functions.o: src/functions.cpp.o
@@ -254,6 +286,7 @@ src/functions.o: src/functions.cpp.o
 src/functions.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uumotor_servo_motor_driver.dir/build.make CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver.dir/build.make CMakeFiles/driver.dir/src/functions.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fun.dir/build.make CMakeFiles/fun.dir/src/functions.cpp.o
 .PHONY : src/functions.cpp.o
 
 src/functions.i: src/functions.cpp.i
@@ -263,6 +296,7 @@ src/functions.i: src/functions.cpp.i
 src/functions.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uumotor_servo_motor_driver.dir/build.make CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver.dir/build.make CMakeFiles/driver.dir/src/functions.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fun.dir/build.make CMakeFiles/fun.dir/src/functions.cpp.i
 .PHONY : src/functions.cpp.i
 
 src/functions.s: src/functions.cpp.s
@@ -272,6 +306,7 @@ src/functions.s: src/functions.cpp.s
 src/functions.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uumotor_servo_motor_driver.dir/build.make CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver.dir/build.make CMakeFiles/driver.dir/src/functions.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fun.dir/build.make CMakeFiles/fun.dir/src/functions.cpp.s
 .PHONY : src/functions.cpp.s
 
 src/test_node.o: src/test_node.cpp.o
@@ -313,7 +348,9 @@ help:
 	@echo "... test"
 	@echo "... uninstall"
 	@echo "... uumotor_servo_motor_driver_uninstall"
+	@echo "... cmd"
 	@echo "... driver"
+	@echo "... fun"
 	@echo "... uumotor_servo_motor_driver"
 	@echo "... src/commands.o"
 	@echo "... src/commands.i"

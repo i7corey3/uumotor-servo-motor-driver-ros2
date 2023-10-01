@@ -1,0 +1,123 @@
+[0.012s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.043s] [ 18%] Built target fun
+[0.049s] [ 27%] [32mBuilding CXX object CMakeFiles/cmd.dir/src/commands.cpp.o[0m
+[0.049s] [ 36%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o[0m
+[1.214s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_control_mode(int, std::string)[m[K’:
+[1.214s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:31:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+[1.214s]    31 |     std::vector<[01;31m[Kuint8[m[K> command = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
+[1.214s]       |                 [01;31m[K^~~~~[m[K
+[1.214s]       |                 [32m[Kuint[m[K
+[1.214s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:31:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.214s]    31 |     std::vector<uint8[01;31m[K>[m[K command = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
+[1.215s]       |                      [01;31m[K^[m[K
+[1.215s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:31:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[1.215s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:31:24:[m[K [01;31m[Kerror: [m[Kscalar object ‘[01m[Kcommand[m[K’ requires one element in initializer
+[1.215s]    31 |     std::vector<uint8> [01;31m[Kcommand[m[K = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
+[1.215s]       |                        [01;31m[K^~~~~~~[m[K
+[1.215s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:42:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.215s]    42 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x01, 0x00, 0x00, 0xFF, 0xFF};
+[1.215s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.215s]       |                        [32m[K;[m[K
+[1.215s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:56:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.215s]    56 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x00, 0x00, 0x01, 0xFF, 0xFF};
+[1.215s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.215s]       |                        [32m[K;[m[K
+[1.215s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:62:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.215s]    62 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x01, 0x00, 0x01, 0xFF, 0xFF};
+[1.215s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.215s]       |                        [32m[K;[m[K
+[1.215s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:76:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.215s]    76 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x00, 0x00, 0x02, 0xFF, 0xFF};
+[1.215s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.215s]       |                        [32m[K;[m[K
+[1.216s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:82:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.216s]    82 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x01, 0x00, 0x02, 0xFF, 0xFF};
+[1.216s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.216s]       |                        [32m[K;[m[K
+[1.216s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:97:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.216s]    97 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x00, 0x00, 0x03, 0xFF, 0xFF};
+[1.216s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.216s]       |                        [32m[K;[m[K
+[1.216s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:103:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.216s]   103 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x01, 0x00, 0x03, 0xFF, 0xFF};
+[1.216s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.216s]       |                        [32m[K;[m[K
+[1.216s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:118:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.216s]   118 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x00, 0x00, 0x04, 0xFF, 0xFF};
+[1.216s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.216s]       |                        [32m[K;[m[K
+[1.216s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:124:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.216s]   124 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x01, 0x00, 0x04, 0xFF, 0xFF};
+[1.216s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.216s]       |                        [32m[K;[m[K
+[1.217s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:138:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.217s]   138 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x00, 0x00, 0x05, 0xFF, 0xFF};
+[1.217s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.217s]       |                        [32m[K;[m[K
+[1.217s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:144:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.217s]   144 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x01, 0x00, 0x05, 0xFF, 0xFF};
+[1.217s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.217s]       |                        [32m[K;[m[K
+[1.217s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_control_mode(int, std::string)[m[K’:
+[1.217s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:31:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+[1.217s]    31 |     std::vector<[01;31m[Kuint8[m[K> command = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
+[1.217s]       |                 [01;31m[K^~~~~[m[K
+[1.217s]       |                 [32m[Kuint[m[K
+[1.217s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:31:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.217s]    31 |     std::vector<uint8[01;31m[K>[m[K command = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
+[1.217s]       |                      [01;31m[K^[m[K
+[1.217s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:31:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[1.217s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:31:24:[m[K [01;31m[Kerror: [m[Kscalar object ‘[01m[Kcommand[m[K’ requires one element in initializer
+[1.217s]    31 |     std::vector<uint8> [01;31m[Kcommand[m[K = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
+[1.217s]       |                        [01;31m[K^~~~~~~[m[K
+[1.218s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:42:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.218s]    42 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x01, 0x00, 0x00, 0xFF, 0xFF};
+[1.218s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.218s]       |                        [32m[K;[m[K
+[1.218s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:56:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.218s]    56 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x00, 0x00, 0x01, 0xFF, 0xFF};
+[1.218s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.218s]       |                        [32m[K;[m[K
+[1.218s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:62:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.218s]    62 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x01, 0x00, 0x01, 0xFF, 0xFF};
+[1.218s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.218s]       |                        [32m[K;[m[K
+[1.218s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:76:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.218s]    76 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x00, 0x00, 0x02, 0xFF, 0xFF};
+[1.218s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.218s]       |                        [32m[K;[m[K
+[1.218s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:82:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.218s]    82 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x01, 0x00, 0x02, 0xFF, 0xFF};
+[1.218s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.218s]       |                        [32m[K;[m[K
+[1.218s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:97:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.219s]    97 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x00, 0x00, 0x03, 0xFF, 0xFF};
+[1.219s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.219s]       |                        [32m[K;[m[K
+[1.219s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:103:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.219s]   103 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x01, 0x00, 0x03, 0xFF, 0xFF};
+[1.219s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.219s]       |                        [32m[K;[m[K
+[1.219s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:118:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.219s]   118 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x00, 0x00, 0x04, 0xFF, 0xFF};
+[1.219s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.219s]       |                        [32m[K;[m[K
+[1.219s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:124:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.219s]   124 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x01, 0x00, 0x04, 0xFF, 0xFF};
+[1.219s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.219s]       |                        [32m[K;[m[K
+[1.219s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:138:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.219s]   138 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x00, 0x00, 0x05, 0xFF, 0xFF};
+[1.219s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.219s]       |                        [32m[K;[m[K
+[1.219s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:144:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.219s]   144 |                 command[01;31m[K [m[K[32m[K{[m[K0xEE, 0x06, 0x51, 0x01, 0x00, 0x05, 0xFF, 0xFF};
+[1.220s]       |                        [01;31m[K^[m[K[32m[K~[m[K
+[1.220s]       |                        [32m[K;[m[K
+[1.658s] make[2]: *** [CMakeFiles/cmd.dir/build.make:76: CMakeFiles/cmd.dir/src/commands.cpp.o] Error 1
+[1.658s] make[1]: *** [CMakeFiles/Makefile2:222: CMakeFiles/cmd.dir/all] Error 2
+[1.658s] make[1]: *** Waiting for unfinished jobs....
+[1.669s] make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:76: CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o] Error 1
+[1.669s] make[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+[1.669s] make: *** [Makefile:146: all] Error 2
+[1.673s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
