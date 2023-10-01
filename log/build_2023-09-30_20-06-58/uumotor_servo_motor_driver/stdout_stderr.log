@@ -1,0 +1,26 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:1[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+   18 |     [01;31m[Kuint16[m[K Calc_Crc(uint8_t*pack_buff,uint8_t pack_len);
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Kuint[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:5:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+    5 | [01;31m[Kuint16[m[K Calc_Crc(uint8_t*pack_buff,uint8_t pack_len)
+      | [01;31m[K^~~~~~[m[K
+      | [32m[Kuint[m[K
+make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:90: CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+   18 |     [01;31m[Kuint16[m[K Calc_Crc(uint8_t*pack_buff,uint8_t pack_len);
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Kuint[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:36:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Functions[m[K’ has no member named ‘[01m[KCalc_Crc[m[K’
+   36 |     uint16_t crc = fun.[01;31m[KCalc_Crc[m[K(cmd, 6); // Calculates the CRC16 of all 8 bytes
+      |                        [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

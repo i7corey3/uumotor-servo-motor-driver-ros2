@@ -15,7 +15,9 @@ class Functions
 
     }
 
-    uint16_t Calc_Crc(uint8_t*pack_buff, uint8_t pack_len);
+    uint16_t Calc_Crc(uint8_t *pack_buff, int pack_len);
+
+    std::string test(std::string str);
 
  
 

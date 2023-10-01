@@ -1,0 +1,20 @@
+[0.012s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/uumotor-servo-motor-driver-ros2/install/serial:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.044s] [ 60%] Built target uumotor_servo_motor_driver
+[0.050s] [ 80%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[1.175s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.175s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:36:33:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’} [[01;31m[K-fpermissive[m[K]
+[1.175s]    36 |     uint16_t crc = fun.Calc_Crc([01;31m[K0xff[m[K, 1); // Calculates the CRC16 of all 8 bytes
+[1.175s]       |                                 [01;31m[K^~~~[m[K
+[1.175s]       |                                 [01;31m[K|[m[K
+[1.175s]       |                                 [01;31m[Kint[m[K
+[1.175s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[1.175s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:18:31:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kuint16_t Functions::Calc_Crc(uint8_t*, uint8_t)[m[K’
+[1.175s]    18 |     uint16_t Calc_Crc([01;36m[Kuint8_t*pack_buff[m[K,uint8_t pack_len);
+[1.175s]       |                       [01;36m[K~~~~~~~~^~~~~~~~~[m[K
+[1.177s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:35:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.177s]    35 |     uint8_t [01;35m[Kcmd[m[K[6] = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x00};
+[1.177s]       |             [01;35m[K^~~[m[K
+[1.622s] make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+[1.622s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/driver.dir/all] Error 2
+[1.622s] make: *** [Makefile:146: all] Error 2
+[1.625s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/uumotor-servo-motor-driver-ros2/install/serial:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

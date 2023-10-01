@@ -69,28 +69,44 @@ include CMakeFiles/driver.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/driver.dir/flags.make
 
-CMakeFiles/driver.dir/src/test.cpp.o: CMakeFiles/driver.dir/flags.make
-CMakeFiles/driver.dir/src/test.cpp.o: /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp
-CMakeFiles/driver.dir/src/test.cpp.o: CMakeFiles/driver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/driver.dir/src/test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/driver.dir/src/test.cpp.o -MF CMakeFiles/driver.dir/src/test.cpp.o.d -o CMakeFiles/driver.dir/src/test.cpp.o -c /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp
+CMakeFiles/driver.dir/src/test_node.cpp.o: CMakeFiles/driver.dir/flags.make
+CMakeFiles/driver.dir/src/test_node.cpp.o: /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp
+CMakeFiles/driver.dir/src/test_node.cpp.o: CMakeFiles/driver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/driver.dir/src/test_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/driver.dir/src/test_node.cpp.o -MF CMakeFiles/driver.dir/src/test_node.cpp.o.d -o CMakeFiles/driver.dir/src/test_node.cpp.o -c /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp
 
-CMakeFiles/driver.dir/src/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/driver.dir/src/test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp > CMakeFiles/driver.dir/src/test.cpp.i
+CMakeFiles/driver.dir/src/test_node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/driver.dir/src/test_node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp > CMakeFiles/driver.dir/src/test_node.cpp.i
 
-CMakeFiles/driver.dir/src/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/driver.dir/src/test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test.cpp -o CMakeFiles/driver.dir/src/test.cpp.s
+CMakeFiles/driver.dir/src/test_node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/driver.dir/src/test_node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp -o CMakeFiles/driver.dir/src/test_node.cpp.s
+
+CMakeFiles/driver.dir/src/functions.cpp.o: CMakeFiles/driver.dir/flags.make
+CMakeFiles/driver.dir/src/functions.cpp.o: /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp
+CMakeFiles/driver.dir/src/functions.cpp.o: CMakeFiles/driver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/driver.dir/src/functions.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/driver.dir/src/functions.cpp.o -MF CMakeFiles/driver.dir/src/functions.cpp.o.d -o CMakeFiles/driver.dir/src/functions.cpp.o -c /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp
+
+CMakeFiles/driver.dir/src/functions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/driver.dir/src/functions.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp > CMakeFiles/driver.dir/src/functions.cpp.i
+
+CMakeFiles/driver.dir/src/functions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/driver.dir/src/functions.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp -o CMakeFiles/driver.dir/src/functions.cpp.s
 
 # Object files for target driver
 driver_OBJECTS = \
-"CMakeFiles/driver.dir/src/test.cpp.o"
+"CMakeFiles/driver.dir/src/test_node.cpp.o" \
+"CMakeFiles/driver.dir/src/functions.cpp.o"
 
 # External object files for target driver
 driver_EXTERNAL_OBJECTS =
 
-driver: CMakeFiles/driver.dir/src/test.cpp.o
+driver: CMakeFiles/driver.dir/src/test_node.cpp.o
+driver: CMakeFiles/driver.dir/src/functions.cpp.o
 driver: CMakeFiles/driver.dir/build.make
 driver: /opt/ros/galactic/lib/librclcpp.so
 driver: /opt/ros/galactic/lib/libament_index_cpp.so
@@ -141,7 +157,7 @@ driver: /opt/ros/galactic/lib/librosidl_runtime_c.so
 driver: /opt/ros/galactic/lib/librcutils.so
 driver: /opt/ros/galactic/lib/libtracetools.so
 driver: CMakeFiles/driver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable driver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable driver"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/driver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

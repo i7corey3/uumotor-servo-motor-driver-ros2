@@ -1,0 +1,23 @@
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:1[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:18:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   18 |     unsigned char CRC16(unsigned char* puchMsg, int usDataLen[01;31m[K)[m[K
+      |                                                              [01;31m[K^[m[K
+      |                                                               [32m[K;[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In function ‘[01m[Kunsigned char CRC16(unsigned char*, int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:7:25:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ changes value from ‘[01m[K65535[m[K’ to ‘[01m[K255[m[K’ [[01;35m[K-Woverflow[m[K]
+    7 |     unsigned char crc = [01;35m[K0xFFFF[m[K;
+      |                         [01;35m[K^~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:8:32:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ changes value from ‘[01m[K40961[m[K’ to ‘[01m[K1[m[K’ [[01;35m[K-Woverflow[m[K]
+    8 |     unsigned char polynomial = [01;35m[K0xA001[m[K;
+      |                                [01;35m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:90: CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:18:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   18 |     unsigned char CRC16(unsigned char* puchMsg, int usDataLen[01;31m[K)[m[K
+      |                                                              [01;31m[K^[m[K
+      |                                                               [32m[K;[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

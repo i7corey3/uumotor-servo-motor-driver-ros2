@@ -1,0 +1,38 @@
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:17:16:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   17 |         : Node([01;35m[K'Driver'[m[K), count_(0)
+      |                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In constructor ‘[01m[KTestNode::TestNode()[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:17:27:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KTestNode[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+   17 |         : Node('Driver'), [01;31m[Kcount_[m[K(0)
+      |                           [01;31m[K^~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:17:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node(int)[m[K’
+   17 |         : Node('Driver'), count_(0[01;31m[K)[m[K
+      |                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:7[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:1302:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+ 1302 |   [01;36m[KNode[m[K(
+      |   [01;36m[K^~~~[m[K
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:1302:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+  101 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+   89 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:90:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   90 |     [01;36m[Kconst std::string & node_name[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:41:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kspin_once[m[K’ was not declared in this scope
+   41 |         rclcpp:[01;31m[Kspin_once[m[K(std::make_shared<TestNode>());
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:41:9:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Krclcpp[m[K’ defined but not used [[01;35m[K-Wunused-label[m[K]
+   41 |         [01;35m[Krclcpp[m[K:spin_once(std::make_shared<TestNode>());
+      |         [01;35m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

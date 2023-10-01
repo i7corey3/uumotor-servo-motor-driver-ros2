@@ -1,0 +1,9 @@
+[ 60%] Built target uumotor_servo_motor_driver
+[ 80%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:39:38:[m[K [01;31m[Kerror: [m[Kincompatible types in assignment of ‘[01m[Kuint16_t[m[K’ {aka ‘[01m[Kshort unsigned int[m[K’} to ‘[01m[Kuint8_t [6][m[K’ {aka ‘[01m[Kunsigned char [6][m[K’}
+   39 |     val = fun.Calc_Crc(cmd, arraySize[01;31m[K)[m[K;
+      |                                      [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

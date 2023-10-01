@@ -1,0 +1,37 @@
+[0.014s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver
+[0.036s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.037s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.038s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.038s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.038s]   the cmake_policy command to set the policy and suppress this warning.
+[0.038s] 
+[0.038s] Call Stack (most recent call first):
+[0.038s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.038s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.038s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.038s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.038s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.038s]   CMakeLists.txt:9 (find_package)
+[0.038s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.038s] [0m
+[0.051s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.087s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.101s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.101s]   By not providing "Findserial.cmake" in CMAKE_MODULE_PATH this project has
+[0.101s]   asked CMake to find a package configuration file provided by "serial", but
+[0.101s]   CMake did not find one.
+[0.101s] 
+[0.101s]   Could not find a package configuration file provided by "serial" with any
+[0.102s]   of the following names:
+[0.102s] 
+[0.102s]     serialConfig.cmake
+[0.102s]     serial-config.cmake
+[0.102s] 
+[0.102s]   Add the installation prefix of "serial" to CMAKE_PREFIX_PATH or set
+[0.102s]   "serial_DIR" to a directory containing one of the above files.  If "serial"
+[0.102s]   provides a separate development package or SDK, be sure it has been
+[0.102s]   installed.
+[0.102s] 
+[0.102s] [0m
+[0.102s] -- Configuring incomplete, errors occurred!
+[0.110s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '1': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver

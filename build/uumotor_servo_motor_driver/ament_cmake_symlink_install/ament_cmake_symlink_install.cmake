@@ -310,11 +310,14 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "driver" "DESTINATION" "share/uumotor_servo_motor_driver")
+# install("TARGETS" "uumotor_servo_motor_driver" "DESTINATION" "lib/uumotor_servo_motor_driver")
 include("/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "include/uumotor_servo_motor_driver/" "DESTINATION" "include/uumotor_servo_motor_driver/")
 ament_cmake_symlink_install_directory("/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver" DIRECTORY "include/uumotor_servo_motor_driver/" "DESTINATION" "include/uumotor_servo_motor_driver/")
+
+# install("TARGETS" "driver" "DESTINATION" "lib/uumotor_servo_motor_driver")
+include("/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/opt/ros/galactic/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/uumotor_servo_motor_driver/environment")
 ament_cmake_symlink_install_files("/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver" FILES "/opt/ros/galactic/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/uumotor_servo_motor_driver/environment")

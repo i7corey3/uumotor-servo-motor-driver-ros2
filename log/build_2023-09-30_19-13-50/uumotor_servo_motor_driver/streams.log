@@ -1,0 +1,13 @@
+[0.012s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/uumotor-servo-motor-driver-ros2/install/serial:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.043s] [ 20%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o[0m
+[0.048s] [ 40%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[0.167s] [ 60%] [32m[1mLinking CXX shared library libuumotor_servo_motor_driver.so[0m
+[0.203s] [ 80%] Built target uumotor_servo_motor_driver
+[1.188s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.189s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:39:38:[m[K [01;31m[Kerror: [m[Kincompatible types in assignment of ‘[01m[Kuint16_t[m[K’ {aka ‘[01m[Kshort unsigned int[m[K’} to ‘[01m[Kuint16_t [30][m[K’ {aka ‘[01m[Kshort unsigned int [30][m[K’}
+[1.189s]    39 |     val = fun.Calc_Crc(cmd, arraySize[01;31m[K)[m[K;
+[1.189s]       |                                      [01;31m[K^[m[K
+[1.639s] make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+[1.639s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/driver.dir/all] Error 2
+[1.639s] make: *** [Makefile:146: all] Error 2
+[1.642s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/uumotor-servo-motor-driver-ros2/install/serial:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

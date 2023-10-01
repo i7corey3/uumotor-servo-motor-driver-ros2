@@ -1,0 +1,50 @@
+[0.012s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver
+[0.058s] -- The C compiler identification is GNU 9.4.0
+[0.098s] -- The CXX compiler identification is GNU 9.4.0
+[0.109s] -- Detecting C compiler ABI info
+[0.149s] -- Detecting C compiler ABI info - done
+[0.158s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.159s] -- Detecting C compile features
+[0.159s] -- Detecting C compile features - done
+[0.167s] -- Detecting CXX compiler ABI info
+[0.214s] -- Detecting CXX compiler ABI info - done
+[0.224s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.224s] -- Detecting CXX compile features
+[0.225s] -- Detecting CXX compile features - done
+[0.227s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.230s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.230s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.230s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.230s]   the cmake_policy command to set the policy and suppress this warning.
+[0.230s] 
+[0.230s] Call Stack (most recent call first):
+[0.230s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.230s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.230s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.230s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.230s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.230s]   CMakeLists.txt:9 (find_package)
+[0.230s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.231s] [0m
+[0.244s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.244s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.280s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.305s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.305s]   By not providing "Findserial.cmake" in CMAKE_MODULE_PATH this project has
+[0.305s]   asked CMake to find a package configuration file provided by "serial", but
+[0.305s]   CMake did not find one.
+[0.306s] 
+[0.306s]   Could not find a package configuration file provided by "serial" with any
+[0.306s]   of the following names:
+[0.306s] 
+[0.306s]     serialConfig.cmake
+[0.306s]     serial-config.cmake
+[0.306s] 
+[0.306s]   Add the installation prefix of "serial" to CMAKE_PREFIX_PATH or set
+[0.306s]   "serial_DIR" to a directory containing one of the above files.  If "serial"
+[0.306s]   provides a separate development package or SDK, be sure it has been
+[0.306s]   installed.
+[0.306s] 
+[0.306s] [0m
+[0.306s] -- Configuring incomplete, errors occurred!
+[0.310s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '1': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver

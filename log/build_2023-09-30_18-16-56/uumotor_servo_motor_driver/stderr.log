@@ -1,0 +1,36 @@
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In constructor ‘[01m[KTestNode::TestNode()[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:19:39:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’} from expression of type ‘[01m[Kstd::wstring[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<wchar_t>[m[K’}
+   19 |             rclcpp::get_logger([01;31m[KExePath()[m[K)
+      |                                [01;31m[K~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:7[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/logger.hpp:65:32:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+   65 | get_logger([01;36m[Kconst std::string & name[m[K);
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In member function ‘[01m[Kstd::wstring TestNode::ExePath()[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:24:9:[m[K [01;31m[Kerror: [m[K‘[01m[KTCHAR[m[K’ was not declared in this scope
+   24 |         [01;31m[KTCHAR[m[K buffer[MAX_PATH] = { 0 };
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:25:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetbuffer[m[K’?
+   25 |         GetModuleFileName( NULL, [01;31m[Kbuffer[m[K, MAX_PATH );
+      |                                  [01;31m[K^~~~~~[m[K
+      |                                  [32m[Ksetbuffer[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:25:42:[m[K [01;31m[Kerror: [m[K‘[01m[KMAX_PATH[m[K’ was not declared in this scope
+   25 |         GetModuleFileName( NULL, buffer, [01;31m[KMAX_PATH[m[K );
+      |                                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[KGetModuleFileName[m[K’ was not declared in this scope
+   25 |         [01;31m[KGetModuleFileName[m[K( NULL, buffer, MAX_PATH );
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

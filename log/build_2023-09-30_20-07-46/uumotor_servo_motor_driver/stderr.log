@@ -1,0 +1,13 @@
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:36:33:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kuint16_t [6][m[K’ {aka ‘[01m[Kshort unsigned int [6][m[K’} to ‘[01m[Kuint8_t*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’}
+   36 |     uint16_t crc = fun.Calc_Crc([01;31m[Kcmd[m[K, 6); // Calculates the CRC16 of all 8 bytes
+      |                                 [01;31m[K^~~[m[K
+      |                                 [01;31m[K|[m[K
+      |                                 [01;31m[Kuint16_t [6] {aka short unsigned int [6]}[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:18:31:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kuint16_t Functions::Calc_Crc(uint8_t*, uint8_t)[m[K’
+   18 |     uint16_t Calc_Crc([01;36m[Kuint8_t*pack_buff[m[K,uint8_t pack_len);
+      |                       [01;36m[K~~~~~~~~^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

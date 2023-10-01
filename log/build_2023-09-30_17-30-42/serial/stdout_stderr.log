@@ -1,0 +1,38 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:5 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_gtest: 1.1.6 (/opt/ros/galactic/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/corey/uumotor-servo-motor-driver-ros2/build/serial
+[ 35%] Built target gtest_main
+[ 28%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[ 42%] Built target gtest
+[ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[ 57%] [32m[1mLinking CXX static library libserial.a[0m
+[ 57%] Built target serial
+[ 64%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[ 71%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[ 85%] [32m[1mLinking CXX executable serial_example[0m
+[ 85%] Built target serial_example
+[ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[100%] [32m[1mLinking CXX executable serial-test[0m
+[100%] Built target serial-test-timer
+[100%] Built target serial-test

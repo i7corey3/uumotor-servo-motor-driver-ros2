@@ -1,0 +1,8 @@
+[0.013s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/uumotor-servo-motor-driver-ros2/install/serial:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.040s] [31mCMake Error at CMakeLists.txt:10 (ament_target_dependencies):
+[0.040s]   Unknown CMake command "ament_target_dependencies".
+[0.040s] 
+[0.040s] [0m
+[0.040s] -- Configuring incomplete, errors occurred!
+[0.040s] make: *** [Makefile:335: cmake_check_build_system] Error 1
+[0.043s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/uumotor-servo-motor-driver-ros2/install/serial:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

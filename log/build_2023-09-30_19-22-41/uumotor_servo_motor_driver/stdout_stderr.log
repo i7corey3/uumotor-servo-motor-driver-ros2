@@ -1,0 +1,21 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In function ‘[01m[Kshort unsigned int CRC16(unsigned char*, short unsigned int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:14:31:[m[K [01;31m[Kerror: [m[K‘[01m[KauchCRCHi[m[K’ was not declared in this scope; did you mean ‘[01m[KuchCRCHi[m[K’?
+   14 |         uchCRCHi = uchCRCLo ^ [01;31m[KauchCRCHi[m[K[uIndex] ;
+      |                               [01;31m[K^~~~~~~~~[m[K
+      |                               [32m[KuchCRCHi[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:15:20:[m[K [01;31m[Kerror: [m[K‘[01m[KauchCRCLo[m[K’ was not declared in this scope; did you mean ‘[01m[KuchCRCLo[m[K’?
+   15 |         uchCRCLo = [01;31m[KauchCRCLo[m[K[uIndex] ;
+      |                    [01;31m[K^~~~~~~~~[m[K
+      |                    [32m[KuchCRCLo[m[K
+make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:90: CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:36:26:[m[K [01;31m[Kerror: [m[K‘[01m[KCRC16[m[K’ was not declared in this scope
+   36 |     unsigned short crc = [01;31m[KCRC16[m[K(cmd, 8); // Calculates the CRC16 of all 8 bytes
+      |                          [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

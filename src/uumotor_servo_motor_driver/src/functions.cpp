@@ -1,26 +1,35 @@
 #include "uumotor_servo_motor_driver/functions.h"
 
-uint16_t Calc_Crc(uint8_t*pack_buff,uint8_t pack_len)
+
+
+uint16_t Calc_Crc(uint8_t *pack_buff, int pack_len)
 {
-    uint8_t len = pack_len;
-    uint16_t crc_result = 0xffff;
-    int crc_num = 0;
-    int xor_flag = 0;
-    for (int i = 0; i < len; i++)
+    
+    uint16_t crc = 0xFFFF;
+    uint16_t poly = 0xA001;
+
+    for (int i = 0; i < pack_len; i++)
     {
-        crc_result ^= pack_buff[i];
-        crc_num = (crc_result & 0x0001);
-        for (int m = 0; m < 8; m++)
+        crc ^= pack_buff[i];
+        for (int j = 0; j < 8; j++)
         {
-            if (crc_num == 1)
-                xor_flag = 1;
-            else
-                xor_flag = 0;
-            crc_result >>= 1;
-            if (xor_flag)
-                crc_result ^= 0xa001;
-            crc_num = (crc_result & 0x0001);
-            
+            if (crc & 0x0001)
+            {
+                crc = (crc >> 1) ^ poly;
+            }
+            else 
+            {
+                crc >>= 1;
+            }
         }
+
     }
+    return crc;
+
 }
+
+std::string test(std::string str)
+{
+    return str;
+}
+

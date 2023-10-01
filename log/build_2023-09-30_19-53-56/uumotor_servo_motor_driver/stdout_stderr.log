@@ -1,0 +1,18 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o[0m
+[ 40%] [32m[1mLinking CXX executable driver[0m
+/usr/bin/ld: CMakeFiles/driver.dir/src/test_node.cpp.o: in function `main':
+test_node.cpp:(.text+0x16b): undefined reference to `Functions::CRC16(unsigned char*, unsigned short)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/driver.dir/build.make:145: driver] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/driver.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In function ‘[01m[Kshort unsigned int CRC16(unsigned char*, short unsigned int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:14:46:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kunsigned char[unsigned int][m[K’ for array subscript
+   14 |         uchCRCHi = uchCRCLo ^ uchCRCHi[uIndex[01;31m[K][m[K ;
+      |                                              [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:15:35:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kunsigned char[unsigned int][m[K’ for array subscript
+   15 |         uchCRCLo = uchCRCLo[uIndex[01;31m[K][m[K ;
+      |                                   [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:90: CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

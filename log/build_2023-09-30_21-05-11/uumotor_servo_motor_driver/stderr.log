@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/driver.dir/src/test_node.cpp.o: in function `main':
+test_node.cpp:(.text+0x189): undefined reference to `Functions::test(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/driver.dir/build.make:146: driver] Error 1
+make[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

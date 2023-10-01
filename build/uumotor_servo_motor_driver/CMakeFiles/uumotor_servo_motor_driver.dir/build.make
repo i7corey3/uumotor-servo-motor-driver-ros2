@@ -108,7 +108,6 @@ uumotor_servo_motor_driver_EXTERNAL_OBJECTS =
 libuumotor_servo_motor_driver.so: CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o
 libuumotor_servo_motor_driver.so: CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o
 libuumotor_servo_motor_driver.so: CMakeFiles/uumotor_servo_motor_driver.dir/build.make
-libuumotor_servo_motor_driver.so: /usr/local/lib/libserial.a
 libuumotor_servo_motor_driver.so: CMakeFiles/uumotor_servo_motor_driver.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libuumotor_servo_motor_driver.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/uumotor_servo_motor_driver.dir/link.txt --verbose=$(VERBOSE)

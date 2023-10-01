@@ -1,8 +1,1 @@
-source;share/serial/hook/cmake_prefix_path.ps1
-source;share/serial/hook/cmake_prefix_path.dsv
-source;share/serial/hook/cmake_prefix_path.sh
-source;share/serial/local_setup.bash
-source;share/serial/local_setup.dsv
-source;share/serial/local_setup.ps1
-source;share/serial/local_setup.sh
-source;share/serial/local_setup.zsh
+/home/corey/uumotor-servo-motor-driver-ros2/build/serial/ament_cmake_environment_hooks/package.dsv

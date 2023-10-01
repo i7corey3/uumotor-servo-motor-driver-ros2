@@ -275,7 +275,7 @@ PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python3
 PYTHON_VERSION:STRING=
 
 //Name of the computer/site where compile is being run
-SITE:STRING=corey-Inspiron-3880
+SITE:STRING=corey-System-Product-Name
 
 //The directory containing a CMake configuration file for TinyXML2.
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
@@ -394,6 +394,9 @@ fastrtps_cmake_module_DIR:PATH=/opt/ros/galactic/share/fastrtps_cmake_module/cma
 //The directory containing a CMake configuration file for foonathan_memory.
 foonathan_memory_DIR:PATH=/opt/ros/galactic/lib/foonathan_memory/cmake
 
+//The directory containing a CMake configuration file for functions.
+functions_DIR:PATH=functions_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for libstatistics_collector.
 libstatistics_collector_DIR:PATH=/opt/ros/galactic/share/libstatistics_collector/cmake
 
@@ -491,7 +494,7 @@ rosidl_typesupport_introspection_c_DIR:PATH=/opt/ros/galactic/share/rosidl_types
 rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/galactic/share/rosidl_typesupport_introspection_cpp/cmake
 
 //The directory containing a CMake configuration file for serial.
-serial_DIR:PATH=/usr/local/share/serial/cmake
+serial_DIR:PATH=serial_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for spdlog.
 spdlog_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/spdlog
@@ -515,7 +518,7 @@ uumotor_servo_motor_driver_BINARY_DIR:STATIC=/home/corey/uumotor-servo-motor-dri
 uumotor_servo_motor_driver_IS_TOP_LEVEL:STATIC=ON
 
 //Dependencies for the target
-uumotor_servo_motor_driver_LIB_DEPENDS:STATIC=general;/usr/local/lib/libserial.a;
+uumotor_servo_motor_driver_LIB_DEPENDS:STATIC=general;serial;
 
 //Value Computed by CMake
 uumotor_servo_motor_driver_SOURCE_DIR:STATIC=/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver
@@ -740,7 +743,7 @@ _OPENSSL_openssl_LIBDIR:INTERNAL=
 _OPENSSL_openssl_PREFIX:INTERNAL=
 _OPENSSL_openssl_VERSION:INTERNAL=
 //Index for unique symlink install targets
-__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=1
+__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=2
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked__OPENSSL:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto

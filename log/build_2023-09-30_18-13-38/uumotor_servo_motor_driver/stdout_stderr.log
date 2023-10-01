@@ -1,0 +1,10 @@
+[ 60%] Built target uumotor_servo_motor_driver
+[ 80%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:41:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kspin_once[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kspin_some[m[K’?
+   41 |         rclcpp::[01;31m[Kspin_once[m[K(std::make_shared<TestNode>());
+      |                 [01;31m[K^~~~~~~~~[m[K
+      |                 [32m[Kspin_some[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

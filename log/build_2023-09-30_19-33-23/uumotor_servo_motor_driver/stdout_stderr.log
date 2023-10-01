@@ -1,0 +1,18 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In function ‘[01m[Kunsigned char CRC16(unsigned char*, int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:7:25:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ changes value from ‘[01m[K65535[m[K’ to ‘[01m[K255[m[K’ [[01;35m[K-Woverflow[m[K]
+    7 |     unsigned char crc = [01;35m[K0xFFFF[m[K;
+      |                         [01;35m[K^~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:8:32:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ changes value from ‘[01m[K40961[m[K’ to ‘[01m[K1[m[K’ [[01;35m[K-Woverflow[m[K]
+    8 |     unsigned char polynomial = [01;35m[K0xA001[m[K;
+      |                                [01;35m[K^~~~~~[m[K
+[ 60%] [32m[1mLinking CXX shared library libuumotor_servo_motor_driver.so[0m
+[ 80%] Built target uumotor_servo_motor_driver
+[100%] [32m[1mLinking CXX executable driver[0m
+/usr/bin/ld: CMakeFiles/driver.dir/src/test_node.cpp.o: in function `main':
+test_node.cpp:(.text+0x16b): undefined reference to `Functions::CRC16(unsigned char*, int)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/driver.dir/build.make:145: driver] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

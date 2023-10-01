@@ -1,3 +1,9 @@
+source;share/uumotor_servo_motor_driver/hook/cmake_prefix_path.ps1
+source;share/uumotor_servo_motor_driver/hook/cmake_prefix_path.dsv
+source;share/uumotor_servo_motor_driver/hook/cmake_prefix_path.sh
+source;share/uumotor_servo_motor_driver/hook/ld_library_path_lib.ps1
+source;share/uumotor_servo_motor_driver/hook/ld_library_path_lib.dsv
+source;share/uumotor_servo_motor_driver/hook/ld_library_path_lib.sh
 source;share/uumotor_servo_motor_driver/local_setup.bash
 source;share/uumotor_servo_motor_driver/local_setup.dsv
 source;share/uumotor_servo_motor_driver/local_setup.ps1

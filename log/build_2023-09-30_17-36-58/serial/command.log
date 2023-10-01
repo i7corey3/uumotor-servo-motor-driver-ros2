@@ -1,0 +1,4 @@
+Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/serial': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/serial -- -j16 -l16
+Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/serial -- -j16 -l16
+Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/serial': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --install /home/corey/uumotor-servo-motor-driver-ros2/build/serial
+Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --install /home/corey/uumotor-servo-motor-driver-ros2/build/serial

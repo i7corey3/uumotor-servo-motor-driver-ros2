@@ -1,0 +1,4 @@
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:41:9:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Krclcpp[m[K’ defined but not used [[01;35m[K-Wunused-label[m[K]
+   41 |         [01;35m[Krclcpp[m[K:spin(std::make_shared<TestNode>());
+      |         [01;35m[K^~~~~~[m[K

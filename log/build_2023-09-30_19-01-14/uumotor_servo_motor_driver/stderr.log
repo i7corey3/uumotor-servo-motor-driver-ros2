@@ -1,0 +1,25 @@
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:43:24:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’} from expression of type ‘[01m[Kint[m[K’
+   43 |     rclcpp::get_logger([01;31m[Kstr_len[m[K);
+      |                        [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:9[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/logger.hpp:65:32:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+   65 | get_logger([01;36m[Kconst std::string & name[m[K);
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:36:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kval[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   36 |     uint8_t [01;35m[Kval[m[K[6];
+      |             [01;35m[K^~~[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

@@ -253,6 +253,7 @@ src/functions.o: src/functions.cpp.o
 # target to build an object file
 src/functions.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uumotor_servo_motor_driver.dir/build.make CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver.dir/build.make CMakeFiles/driver.dir/src/functions.cpp.o
 .PHONY : src/functions.cpp.o
 
 src/functions.i: src/functions.cpp.i
@@ -261,6 +262,7 @@ src/functions.i: src/functions.cpp.i
 # target to preprocess a source file
 src/functions.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uumotor_servo_motor_driver.dir/build.make CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver.dir/build.make CMakeFiles/driver.dir/src/functions.cpp.i
 .PHONY : src/functions.cpp.i
 
 src/functions.s: src/functions.cpp.s
@@ -269,31 +271,32 @@ src/functions.s: src/functions.cpp.s
 # target to generate assembly for a file
 src/functions.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uumotor_servo_motor_driver.dir/build.make CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver.dir/build.make CMakeFiles/driver.dir/src/functions.cpp.s
 .PHONY : src/functions.cpp.s
 
-src/test.o: src/test.cpp.o
-.PHONY : src/test.o
+src/test_node.o: src/test_node.cpp.o
+.PHONY : src/test_node.o
 
 # target to build an object file
-src/test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver.dir/build.make CMakeFiles/driver.dir/src/test.cpp.o
-.PHONY : src/test.cpp.o
+src/test_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver.dir/build.make CMakeFiles/driver.dir/src/test_node.cpp.o
+.PHONY : src/test_node.cpp.o
 
-src/test.i: src/test.cpp.i
-.PHONY : src/test.i
+src/test_node.i: src/test_node.cpp.i
+.PHONY : src/test_node.i
 
 # target to preprocess a source file
-src/test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver.dir/build.make CMakeFiles/driver.dir/src/test.cpp.i
-.PHONY : src/test.cpp.i
+src/test_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver.dir/build.make CMakeFiles/driver.dir/src/test_node.cpp.i
+.PHONY : src/test_node.cpp.i
 
-src/test.s: src/test.cpp.s
-.PHONY : src/test.s
+src/test_node.s: src/test_node.cpp.s
+.PHONY : src/test_node.s
 
 # target to generate assembly for a file
-src/test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver.dir/build.make CMakeFiles/driver.dir/src/test.cpp.s
-.PHONY : src/test.cpp.s
+src/test_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver.dir/build.make CMakeFiles/driver.dir/src/test_node.cpp.s
+.PHONY : src/test_node.cpp.s
 
 # Help Target
 help:
@@ -318,9 +321,9 @@ help:
 	@echo "... src/functions.o"
 	@echo "... src/functions.i"
 	@echo "... src/functions.s"
-	@echo "... src/test.o"
-	@echo "... src/test.i"
-	@echo "... src/test.s"
+	@echo "... src/test_node.o"
+	@echo "... src/test_node.i"
+	@echo "... src/test_node.s"
 .PHONY : help
 
 
