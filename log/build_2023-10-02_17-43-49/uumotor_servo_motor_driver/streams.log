@@ -1,0 +1,66 @@
+[0.013s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.049s] [  9%] [32mBuilding CXX object CMakeFiles/fun.dir/src/functions.cpp.o[0m
+[0.050s] [ 18%] [32mBuilding CXX object CMakeFiles/cmd.dir/src/commands.cpp.o[0m
+[0.056s] [ 36%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o[0m
+[0.056s] [ 36%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o[0m
+[0.175s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:1[m[K:
+[0.175s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kint Functions::check_message(uint8_t*)[m[K’ cannot be overloaded with ‘[01m[Kbool Functions::check_message(uint8_t*)[m[K’
+[0.176s]    28 |     int [01;31m[Kcheck_message[m[K(uint8_t *msg);
+[0.176s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[0.176s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:20:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbool Functions::check_message(uint8_t*)[m[K’
+[0.176s]    20 |     bool [01;36m[Kcheck_message[m[K(uint8_t *msg);
+[0.176s]       |          [01;36m[K^~~~~~~~~~~~~[m[K
+[0.207s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:1[m[K:
+[0.207s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kint Functions::check_message(uint8_t*)[m[K’ cannot be overloaded with ‘[01m[Kbool Functions::check_message(uint8_t*)[m[K’
+[0.207s]    28 |     int [01;31m[Kcheck_message[m[K(uint8_t *msg);
+[0.207s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[0.207s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:20:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbool Functions::check_message(uint8_t*)[m[K’
+[0.207s]    20 |     bool [01;36m[Kcheck_message[m[K(uint8_t *msg);
+[0.207s]       |          [01;36m[K^~~~~~~~~~~~~[m[K
+[0.236s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:111:5:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint Functions::check_message(uint8_t*)[m[K’
+[0.236s]   111 | int [01;31m[KFunctions[m[K::check_message(uint8_t *msg)
+[0.236s]       |     [01;31m[K^~~~~~~~~[m[K
+[0.236s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:33:6:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kbool Functions::check_message(uint8_t*)[m[K’
+[0.236s]    33 | bool [01;36m[KFunctions[m[K::check_message(uint8_t *msg)
+[0.236s]       |      [01;36m[K^~~~~~~~~[m[K
+[0.236s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:1[m[K:
+[0.236s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Functions[m[K’ defined here
+[0.237s]     9 | class [01;36m[KFunctions[m[K
+[0.237s]       |       [01;36m[K^~~~~~~~~[m[K
+[0.273s] make[2]: *** [CMakeFiles/fun.dir/build.make:76: CMakeFiles/fun.dir/src/functions.cpp.o] Error 1
+[0.273s] make[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/fun.dir/all] Error 2
+[0.273s] make[1]: *** Waiting for unfinished jobs....
+[0.279s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:111:5:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint Functions::check_message(uint8_t*)[m[K’
+[0.279s]   111 | int [01;31m[KFunctions[m[K::check_message(uint8_t *msg)
+[0.279s]       |     [01;31m[K^~~~~~~~~[m[K
+[0.279s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:33:6:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kbool Functions::check_message(uint8_t*)[m[K’
+[0.279s]    33 | bool [01;36m[KFunctions[m[K::check_message(uint8_t *msg)
+[0.279s]       |      [01;36m[K^~~~~~~~~[m[K
+[0.279s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:1[m[K:
+[0.280s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Functions[m[K’ defined here
+[0.280s]     9 | class [01;36m[KFunctions[m[K
+[0.280s]       |       [01;36m[K^~~~~~~~~[m[K
+[0.280s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h:6[m[K,
+[0.280s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:1[m[K:
+[0.280s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kint Functions::check_message(uint8_t*)[m[K’ cannot be overloaded with ‘[01m[Kbool Functions::check_message(uint8_t*)[m[K’
+[0.280s]    28 |     int [01;31m[Kcheck_message[m[K(uint8_t *msg);
+[0.280s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[0.280s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:20:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbool Functions::check_message(uint8_t*)[m[K’
+[0.280s]    20 |     bool [01;36m[Kcheck_message[m[K(uint8_t *msg);
+[0.280s]       |          [01;36m[K^~~~~~~~~~~~~[m[K
+[0.288s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h:6[m[K,
+[0.288s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:1[m[K:
+[0.288s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kint Functions::check_message(uint8_t*)[m[K’ cannot be overloaded with ‘[01m[Kbool Functions::check_message(uint8_t*)[m[K’
+[0.288s]    28 |     int [01;31m[Kcheck_message[m[K(uint8_t *msg);
+[0.288s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[0.288s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:20:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbool Functions::check_message(uint8_t*)[m[K’
+[0.288s]    20 |     bool [01;36m[Kcheck_message[m[K(uint8_t *msg);
+[0.288s]       |          [01;36m[K^~~~~~~~~~~~~[m[K
+[0.311s] make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:90: CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o] Error 1
+[0.311s] make[2]: *** Waiting for unfinished jobs....
+[1.896s] make[2]: *** [CMakeFiles/cmd.dir/build.make:76: CMakeFiles/cmd.dir/src/commands.cpp.o] Error 1
+[1.896s] make[1]: *** [CMakeFiles/Makefile2:222: CMakeFiles/cmd.dir/all] Error 2
+[1.917s] make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:76: CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o] Error 1
+[1.917s] make[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+[1.917s] make: *** [Makefile:146: all] Error 2
+[1.925s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

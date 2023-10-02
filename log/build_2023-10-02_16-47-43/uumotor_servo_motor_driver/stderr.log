@@ -1,0 +1,39 @@
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In member function ‘[01m[Kint Functions::message_decoder(uint8_t*, int, bool)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:113:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  113 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:110:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  110 | int Functions::message_decoder([01;35m[Kuint8_t *msg[m[K, int bit, bool unsign)
+      |                                [01;35m[K~~~~~~~~~^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:110:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbit[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  110 | int Functions::message_decoder(uint8_t *msg, [01;35m[Kint bit[m[K, bool unsign)
+      |                                              [01;35m[K~~~~^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:110:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kunsign[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  110 | int Functions::message_decoder(uint8_t *msg, int bit, [01;35m[Kbool unsign[m[K)
+      |                                                       [01;35m[K~~~~~^~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In member function ‘[01m[Kint Functions::message_decoder(uint8_t*, int, bool)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:113:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  113 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:110:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  110 | int Functions::message_decoder([01;35m[Kuint8_t *msg[m[K, int bit, bool unsign)
+      |                                [01;35m[K~~~~~~~~~^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:110:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbit[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  110 | int Functions::message_decoder(uint8_t *msg, [01;35m[Kint bit[m[K, bool unsign)
+      |                                              [01;35m[K~~~~^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:110:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kunsign[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  110 | int Functions::message_decoder(uint8_t *msg, int bit, [01;35m[Kbool unsign[m[K)
+      |                                                       [01;35m[K~~~~~^~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In member function ‘[01m[Kint Functions::message_decoder(uint8_t*, int, bool)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:113:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  113 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:110:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  110 | int Functions::message_decoder([01;35m[Kuint8_t *msg[m[K, int bit, bool unsign)
+      |                                [01;35m[K~~~~~~~~~^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:110:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbit[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  110 | int Functions::message_decoder(uint8_t *msg, [01;35m[Kint bit[m[K, bool unsign)
+      |                                              [01;35m[K~~~~^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:110:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kunsign[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  110 | int Functions::message_decoder(uint8_t *msg, int bit, [01;35m[Kbool unsign[m[K)
+      |                                                       [01;35m[K~~~~~^~~~~~[m[K

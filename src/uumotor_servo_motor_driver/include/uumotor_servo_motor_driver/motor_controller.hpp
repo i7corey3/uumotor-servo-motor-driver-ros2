@@ -15,6 +15,7 @@ class MotorController
     public:
         Comms serial_;
         Commands commands_;
+
         MotorController() = default;
 
         void select_model(std::string model)
@@ -68,9 +69,15 @@ class MotorController
         bool motor_running(int motor)
         {
             cmd = commands_.motor_running(motor);
-            serial_.send_command(cmd);
-
-            return true;
+            std::vector<uint8_t> msg = serial_.send_command(cmd);
+            int check = fun_.check_message(msg);
+            if (check) RCLCPP_INFO(rclcpp::get_logger("Serial"), "Error: Invalid Message");
+            else
+            {
+                int running = fun_.message_decoder(msg, 16, true);
+                if (running) return true;
+                else return false;
+            }
         }
 
         float read_temp(int motor)
@@ -120,7 +127,7 @@ class MotorController
     
 
     private:
-        
+        Functions fun_;
         std::vector<uint8_t> cmd;
         
 

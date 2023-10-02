@@ -1,4 +1,6 @@
 #include "uumotor_servo_motor_driver/functions.h"
+#include <sstream>
+#include <iostream>
 
 
 
@@ -26,6 +28,31 @@ uint16_t Functions::Calc_Crc(uint8_t *pack_buff, int pack_len)
     }
     return crc;
 
+}
+
+bool Functions::check_message(uint8_t *msg)
+{
+
+    uint16_t crc = Calc_Crc(msg, 6);
+    
+    uint8_t partA = static_cast<uint8_t>((crc & 0xFF00) >> 8);
+    uint8_t partB = static_cast<uint8_t>((crc & 0x00FF));
+
+    // std::cout << std::hex << static_cast<int>(partA) << " ";
+    // std::cout << std::hex << static_cast<int>(partB) << " ";
+    // std::cout << std::hex << static_cast<int>(msg[6]) << " ";
+    // std::cout << std::hex << static_cast<int>(msg[7]) << std::endl;
+
+    if (msg[6] != partA or msg[7] != partB)
+    {
+        return false;
+    }
+    else
+    {
+        
+        return true;
+        
+    }
 }
 
 void Functions::get_hex_msg(uint8_t *data)
@@ -79,5 +106,40 @@ std::vector<uint8_t> Functions::int2hex(int value, int range, bool unsign)
     std::vector<uint8_t> val = {partA, partB};
 
     return val;
+}
+
+
+int Functions::message_decoder(uint8_t *msg, int bit, bool unsign)
+{
+    
+    if (bit == 16)
+    {
+        // msg[4] msg[5]
+        int value;
+        value = (msg[4] << 8) | msg[5];
+        
+        if (!unsign)
+        {
+            value = (value & 0xFFFF);
+            // printf("%u\n", value);
+            // std::cout << value << "    " << std::endl;
+            return value;
+        }
+        else 
+        {
+            // printf("%u\n", value);
+            // std::cout << value << "    " << std::endl;
+            return value;
+        }
+
+    
+        // std::cout << std::hex << static_cast<int>(msg[4]) << " ";
+        // std::cout << std::hex << static_cast<int>(msg[5]) << std::endl;
+
+    }
+    else
+    {
+        return 0;
+    }
 }
 

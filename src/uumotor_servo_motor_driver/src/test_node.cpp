@@ -41,6 +41,7 @@ int main(int argc, char * argv[])
     // MC.serial_.send_command(cmd);
     MC.set_motor_parameters(1, "speed", 200, -200, 2, "hall");
     MC.set_motor_speed(1, 2);
+    
     MC.drive_motor(1);
 
     

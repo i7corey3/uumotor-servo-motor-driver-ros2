@@ -1,0 +1,58 @@
+[  9%] [32mBuilding CXX object CMakeFiles/fun.dir/src/functions.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/cmd.dir/src/commands.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o[0m
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In member function ‘[01m[Kbool Functions::check_message(uint8_t*)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:34:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcrc[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   34 |     uint16_t [01;35m[Kcrc[m[K = Calc_Crc(msg, 6);
+      |              [01;35m[K^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:35:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   35 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In member function ‘[01m[Kbool Functions::check_message(uint8_t*)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:34:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcrc[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   34 |     uint16_t [01;35m[Kcrc[m[K = Calc_Crc(msg, 6);
+      |              [01;35m[K^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:35:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   35 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[ 45%] [32m[1mLinking CXX static library libfun.a[0m
+[ 45%] Built target fun
+[ 54%] [32m[1mLinking CXX static library libcmd.a[0m
+[ 54%] Built target cmd
+[ 63%] [32m[1mLinking CXX shared library libuumotor_servo_motor_driver.so[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/driver.dir/src/functions.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/driver.dir/src/commands.cpp.o[0m
+[ 90%] Built target uumotor_servo_motor_driver
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In member function ‘[01m[Kbool Functions::check_message(uint8_t*)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:34:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcrc[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   34 |     uint16_t [01;35m[Kcrc[m[K = Calc_Crc(msg, 6);
+      |              [01;35m[K^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:35:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   35 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:[m[K In member function ‘[01m[Kstd::vector<int> Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, bool)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:74:64:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint*[m[K’ to ‘[01m[Kuint8_t*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’}
+   74 |                 bool check_msg = fun_.check_message([01;31m[Koutput.data()[m[K);
+      |                                                     [01;31m[K~~~~~~~~~~~^~[m[K
+      |                                                                [01;31m[K|[m[K
+      |                                                                [01;31m[Kint*[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h:6[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:7[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:20:33:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool Functions::check_message(uint8_t*)[m[K’
+   20 |     bool check_message([01;36m[Kuint8_t *msg[m[K);
+      |                        [01;36m[K~~~~~~~~~^~~[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:74:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcheck_msg[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   74 |                 bool [01;35m[Kcheck_msg[m[K = fun_.check_message(output.data());
+      |                      [01;35m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

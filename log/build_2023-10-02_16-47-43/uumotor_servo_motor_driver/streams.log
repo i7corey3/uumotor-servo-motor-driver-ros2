@@ -1,0 +1,86 @@
+[0.013s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.048s] [  9%] [32mBuilding CXX object CMakeFiles/fun.dir/src/functions.cpp.o[0m
+[0.049s] [ 18%] [32mBuilding CXX object CMakeFiles/cmd.dir/src/commands.cpp.o[0m
+[0.053s] [ 27%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o[0m
+[0.053s] [ 36%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o[0m
+[0.222s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In member function ‘[01m[Kint Functions::message_decoder(uint8_t*, int, bool)[m[K’:
+[0.223s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:113:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.223s]   113 | [01;35m[K}[m[K
+[0.223s]       | [01;35m[K^[m[K
+[0.223s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:110:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.223s]   110 | int Functions::message_decoder([01;35m[Kuint8_t *msg[m[K, int bit, bool unsign)
+[0.223s]       |                                [01;35m[K~~~~~~~~~^~~[m[K
+[0.223s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:110:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbit[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.223s]   110 | int Functions::message_decoder(uint8_t *msg, [01;35m[Kint bit[m[K, bool unsign)
+[0.224s]       |                                              [01;35m[K~~~~^~~[m[K
+[0.224s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:110:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kunsign[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.224s]   110 | int Functions::message_decoder(uint8_t *msg, int bit, [01;35m[Kbool unsign[m[K)
+[0.224s]       |                                                       [01;35m[K~~~~~^~~~~~[m[K
+[0.273s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In member function ‘[01m[Kint Functions::message_decoder(uint8_t*, int, bool)[m[K’:
+[0.273s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:113:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.273s]   113 | [01;35m[K}[m[K
+[0.273s]       | [01;35m[K^[m[K
+[0.273s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:110:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.274s]   110 | int Functions::message_decoder([01;35m[Kuint8_t *msg[m[K, int bit, bool unsign)
+[0.274s]       |                                [01;35m[K~~~~~~~~~^~~[m[K
+[0.274s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:110:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbit[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.274s]   110 | int Functions::message_decoder(uint8_t *msg, [01;35m[Kint bit[m[K, bool unsign)
+[0.274s]       |                                              [01;35m[K~~~~^~~[m[K
+[0.274s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:110:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kunsign[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.274s]   110 | int Functions::message_decoder(uint8_t *msg, int bit, [01;35m[Kbool unsign[m[K)
+[0.274s]       |                                                       [01;35m[K~~~~~^~~~~~[m[K
+[0.289s] [ 45%] [32m[1mLinking CXX static library libfun.a[0m
+[0.297s] [ 45%] Built target fun
+[1.989s] [ 54%] [32m[1mLinking CXX shared library libuumotor_servo_motor_driver.so[0m
+[2.026s] [ 63%] [32m[1mLinking CXX static library libcmd.a[0m
+[2.044s] [ 63%] Built target cmd
+[2.064s] [ 90%] [32mBuilding CXX object CMakeFiles/driver.dir/src/commands.cpp.o[0m
+[2.065s] [ 90%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[2.065s] [ 90%] [32mBuilding CXX object CMakeFiles/driver.dir/src/functions.cpp.o[0m
+[2.098s] [ 90%] Built target uumotor_servo_motor_driver
+[2.286s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In member function ‘[01m[Kint Functions::message_decoder(uint8_t*, int, bool)[m[K’:
+[2.286s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:113:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.286s]   113 | [01;35m[K}[m[K
+[2.286s]       | [01;35m[K^[m[K
+[2.286s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:110:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.286s]   110 | int Functions::message_decoder([01;35m[Kuint8_t *msg[m[K, int bit, bool unsign)
+[2.286s]       |                                [01;35m[K~~~~~~~~~^~~[m[K
+[2.286s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:110:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbit[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.286s]   110 | int Functions::message_decoder(uint8_t *msg, [01;35m[Kint bit[m[K, bool unsign)
+[2.286s]       |                                              [01;35m[K~~~~^~~[m[K
+[2.286s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:110:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kunsign[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.286s]   110 | int Functions::message_decoder(uint8_t *msg, int bit, [01;35m[Kbool unsign[m[K)
+[2.286s]       |                                                       [01;35m[K~~~~~^~~~~~[m[K
+[4.091s] [100%] [32m[1mLinking CXX executable driver[0m
+[4.177s] [100%] Built target driver
+[4.182s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[4.241s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --install /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver
+[4.261s] -- Install configuration: ""
+[4.261s] -- Execute custom install script
+[4.261s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/lib/uumotor_servo_motor_driver/libuumotor_servo_motor_driver.so
+[4.262s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver//commands.h
+[4.262s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver//comms.hpp
+[4.262s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver//functions.h
+[4.262s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver//motor_controller.hpp
+[4.262s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/lib/uumotor_servo_motor_driver/driver
+[4.262s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/environment/library_path.sh
+[4.262s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/environment/library_path.dsv
+[4.262s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/ament_index/resource_index/package_run_dependencies/uumotor_servo_motor_driver
+[4.263s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/ament_index/resource_index/parent_prefix_path/uumotor_servo_motor_driver
+[4.263s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/environment/ament_prefix_path.sh
+[4.263s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/environment/ament_prefix_path.dsv
+[4.263s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/environment/path.sh
+[4.263s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/environment/path.dsv
+[4.263s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/local_setup.bash
+[4.264s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/local_setup.sh
+[4.264s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/local_setup.zsh
+[4.264s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/local_setup.dsv
+[4.264s] -- Symlinking: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/package.dsv
+[4.266s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/ament_index/resource_index/packages/uumotor_servo_motor_driver
+[4.266s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.266s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[4.267s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.267s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/cmake/uumotor_servo_motor_driverConfig.cmake
+[4.267s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/cmake/uumotor_servo_motor_driverConfig-version.cmake
+[4.267s] -- Up-to-date symlink: /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/package.xml
+[4.271s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --install /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver

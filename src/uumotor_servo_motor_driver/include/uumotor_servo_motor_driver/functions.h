@@ -17,10 +17,13 @@ class Functions
 
     void get_hex_msg(uint8_t *data);
 
+    bool check_message(uint8_t *msg);
+
     std::vector<uint8_t> int2hex(int value, int range, bool unsign);
 
     int map_range(int x, int in_min, int in_max, int out_min, int out_max);
 
+    int message_decoder(uint8_t *msg, int bit, bool unsign);
  
 
 };
