@@ -795,7 +795,9 @@ CMakeFiles/driver.dir/src/functions.cpp.o: /home/corey/uumotor-servo-motor-drive
 
 CMakeFiles/driver.dir/src/test_node.cpp.o: /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp \
   /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h \
+  /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp \
   /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h \
+  /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp \
   /opt/ros/galactic/include/ament_index_cpp/get_package_share_directory.hpp \
   /opt/ros/galactic/include/ament_index_cpp/visibility_control.h \
   /opt/ros/galactic/include/builtin_interfaces/msg/detail/duration__builder.hpp \
@@ -1299,6 +1301,8 @@ CMakeFiles/driver.dir/src/test_node.cpp.o: /home/corey/uumotor-servo-motor-drive
   /usr/include/errno.h \
   /usr/include/features.h \
   /usr/include/libintl.h \
+  /usr/include/libserial/SerialPort.h \
+  /usr/include/libserial/SerialPortConstants.h \
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
   /usr/include/math.h \
@@ -1311,6 +1315,7 @@ CMakeFiles/driver.dir/src/test_node.cpp.o: /home/corey/uumotor-servo-motor-drive
   /usr/include/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/termios.h \
   /usr/include/time.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -1358,6 +1363,16 @@ CMakeFiles/driver.dir/src/test_node.cpp.o: /home/corey/uumotor-servo-motor-drive
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+  /usr/include/x86_64-linux-gnu/bits/termios-baud.h \
+  /usr/include/x86_64-linux-gnu/bits/termios-c_cc.h \
+  /usr/include/x86_64-linux-gnu/bits/termios-c_cflag.h \
+  /usr/include/x86_64-linux-gnu/bits/termios-c_iflag.h \
+  /usr/include/x86_64-linux-gnu/bits/termios-c_lflag.h \
+  /usr/include/x86_64-linux-gnu/bits/termios-c_oflag.h \
+  /usr/include/x86_64-linux-gnu/bits/termios-misc.h \
+  /usr/include/x86_64-linux-gnu/bits/termios-struct.h \
+  /usr/include/x86_64-linux-gnu/bits/termios-tcflow.h \
+  /usr/include/x86_64-linux-gnu/bits/termios.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/time.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
@@ -1418,6 +1433,7 @@ CMakeFiles/driver.dir/src/test_node.cpp.o: /home/corey/uumotor-servo-motor-drive
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/x86_64-linux-gnu/sys/ucontext.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdalign.h \
@@ -1427,7 +1443,27 @@ CMakeFiles/driver.dir/src/test_node.cpp.o: /home/corey/uumotor-servo-motor-drive
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h
 
 
+/usr/include/x86_64-linux-gnu/sys/ttydefaults.h:
+
+/usr/include/x86_64-linux-gnu/bits/termios-tcflow.h:
+
+/usr/include/x86_64-linux-gnu/bits/termios-struct.h:
+
+/usr/include/x86_64-linux-gnu/bits/termios-misc.h:
+
+/usr/include/x86_64-linux-gnu/bits/termios-c_iflag.h:
+
+/usr/include/x86_64-linux-gnu/bits/termios-c_cflag.h:
+
+/usr/include/x86_64-linux-gnu/bits/termios-baud.h:
+
+/usr/include/termios.h:
+
+/usr/include/libserial/SerialPort.h:
+
 /opt/ros/galactic/include/ament_index_cpp/visibility_control.h:
+
+/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h:
 
@@ -1605,6 +1641,8 @@ CMakeFiles/driver.dir/src/test_node.cpp.o: /home/corey/uumotor-servo-motor-drive
 
 /opt/ros/galactic/include/rclcpp/wait_set_policies/static_storage.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/termios-c_cc.h:
+
 /opt/ros/galactic/include/rclcpp/create_subscription.hpp:
 
 /usr/include/c++/9/debug/debug.h:
@@ -1632,6 +1670,8 @@ CMakeFiles/driver.dir/src/test_node.cpp.o: /home/corey/uumotor-servo-motor-drive
 /opt/ros/galactic/include/rcl/guard_condition.h:
 
 /opt/ros/galactic/include/rcl_interfaces/srv/set_parameters_atomically.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/termios-c_lflag.h:
 
 /usr/include/signal.h:
 
@@ -1684,6 +1724,8 @@ CMakeFiles/driver.dir/src/test_node.cpp.o: /home/corey/uumotor-servo-motor-drive
 /opt/ros/galactic/include/rcutils/error_handling.h:
 
 /usr/include/c++/9/bits/std_function.h:
+
+/usr/include/x86_64-linux-gnu/bits/termios-c_oflag.h:
 
 /opt/ros/galactic/include/rcpputils/join.hpp:
 
@@ -2383,6 +2425,8 @@ CMakeFiles/driver.dir/src/test_node.cpp.o: /home/corey/uumotor-servo-motor-drive
 
 /usr/include/c++/9/bits/functional_hash.h:
 
+/usr/include/libserial/SerialPortConstants.h:
+
 /usr/include/c++/9/bits/hash_bytes.h:
 
 /usr/include/c++/9/bits/hashtable.h:
@@ -2400,6 +2444,8 @@ CMakeFiles/driver.dir/src/test_node.cpp.o: /home/corey/uumotor-servo-motor-drive
 /usr/include/c++/9/bits/localefwd.h:
 
 /usr/include/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/termios.h:
 
 /usr/include/c++/9/bits/memoryfwd.h:
 
@@ -2678,6 +2724,8 @@ CMakeFiles/driver.dir/src/test_node.cpp.o: /home/corey/uumotor-servo-motor-drive
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
 

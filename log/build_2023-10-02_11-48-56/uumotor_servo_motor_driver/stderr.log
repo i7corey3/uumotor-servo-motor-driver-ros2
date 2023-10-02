@@ -1,0 +1,70 @@
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:56:25:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   56 |     serial.send_command([01;31m[Kcmd[m[K);
+      |                         [01;31m[K^~~[m[K
+      |                         [01;31m[K|[m[K
+      |                         [01;31m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:12[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:54:53:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::string Comms::send_command(const string&, bool)[m[K’
+   54 |         std::string send_command([01;36m[Kconst std::string &cmd[m[K, bool print_output=false)
+      |                                  [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:58:25:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   58 |     serial.send_command([01;31m[Kcmd[m[K);
+      |                         [01;31m[K^~~[m[K
+      |                         [01;31m[K|[m[K
+      |                         [01;31m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:12[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:54:53:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::string Comms::send_command(const string&, bool)[m[K’
+   54 |         std::string send_command([01;36m[Kconst std::string &cmd[m[K, bool print_output=false)
+      |                                  [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:60:25:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   60 |     serial.send_command([01;31m[Kcmd[m[K);
+      |                         [01;31m[K^~~[m[K
+      |                         [01;31m[K|[m[K
+      |                         [01;31m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:12[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:54:53:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::string Comms::send_command(const string&, bool)[m[K’
+   54 |         std::string send_command([01;36m[Kconst std::string &cmd[m[K, bool print_output=false)
+      |                                  [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:62:25:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   62 |     serial.send_command([01;31m[Kcmd[m[K);
+      |                         [01;31m[K^~~[m[K
+      |                         [01;31m[K|[m[K
+      |                         [01;31m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:12[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:54:53:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::string Comms::send_command(const string&, bool)[m[K’
+   54 |         std::string send_command([01;36m[Kconst std::string &cmd[m[K, bool print_output=false)
+      |                                  [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:64:25:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   64 |     serial.send_command([01;31m[Kcmd[m[K);
+      |                         [01;31m[K^~~[m[K
+      |                         [01;31m[K|[m[K
+      |                         [01;31m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:12[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:54:53:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::string Comms::send_command(const string&, bool)[m[K’
+   54 |         std::string send_command([01;36m[Kconst std::string &cmd[m[K, bool print_output=false)
+      |                                  [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:66:25:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   66 |     serial.send_command([01;31m[Kcmd[m[K);
+      |                         [01;31m[K^~~[m[K
+      |                         [01;31m[K|[m[K
+      |                         [01;31m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:12[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:54:53:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::string Comms::send_command(const string&, bool)[m[K’
+   54 |         std::string send_command([01;36m[Kconst std::string &cmd[m[K, bool print_output=false)
+      |                                  [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:68:25:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   68 |     serial.send_command([01;31m[Kcmd[m[K);
+      |                         [01;31m[K^~~[m[K
+      |                         [01;31m[K|[m[K
+      |                         [01;31m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:12[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:54:53:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::string Comms::send_command(const string&, bool)[m[K’
+   54 |         std::string send_command([01;36m[Kconst std::string &cmd[m[K, bool print_output=false)
+      |                                  [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:35:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfun[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   35 |     Functions [01;35m[Kfun[m[K;
+      |               [01;35m[K^~~[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

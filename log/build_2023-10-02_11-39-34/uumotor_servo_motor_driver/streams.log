@@ -1,0 +1,15 @@
+[0.011s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.046s] [ 18%] Built target fun
+[0.049s] [ 36%] Built target cmd
+[0.049s] [ 63%] Built target uumotor_servo_motor_driver
+[0.066s] [ 72%] [32m[1mLinking CXX executable driver[0m
+[0.139s] /usr/bin/ld: CMakeFiles/driver.dir/src/test_node.cpp.o: in function `Comms::Comms()':
+[0.139s] test_node.cpp:(.text._ZN5CommsC2Ev[_ZN5CommsC5Ev]+0x19): undefined reference to `LibSerial::SerialPort::SerialPort()'
+[0.139s] /usr/bin/ld: test_node.cpp:(.text._ZN5CommsC2Ev[_ZN5CommsC5Ev]+0x3e): undefined reference to `LibSerial::SerialPort::~SerialPort()'
+[0.139s] /usr/bin/ld: CMakeFiles/driver.dir/src/test_node.cpp.o: in function `Comms::~Comms()':
+[0.139s] test_node.cpp:(.text._ZN5CommsD2Ev[_ZN5CommsD5Ev]+0x28): undefined reference to `LibSerial::SerialPort::~SerialPort()'
+[0.139s] collect2: error: ld returned 1 exit status
+[0.140s] make[2]: *** [CMakeFiles/driver.dir/build.make:179: driver] Error 1
+[0.140s] make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+[0.140s] make: *** [Makefile:146: all] Error 2
+[0.144s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

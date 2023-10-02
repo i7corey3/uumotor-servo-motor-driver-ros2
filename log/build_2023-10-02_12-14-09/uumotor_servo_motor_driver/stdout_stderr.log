@@ -1,0 +1,22 @@
+[ 18%] Built target fun
+[ 63%] Built target cmd
+[ 63%] Built target uumotor_servo_motor_driver
+[ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:56:12:[m[K [01;31m[Kerror: [m[K‘[01m[KLibSerial::SerialStream Comms::serial_[m[K’ is private within this context
+   56 |     serial.[01;31m[Kserial_[m[K.Open( "/dev/ttyUSB0 ");
+      |            [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:12[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:80:33:[m[K [01;36m[Knote: [m[Kdeclared private here
+   80 |         LibSerial::SerialStream [01;36m[Kserial_[m[K;
+      |                                 [01;36m[K^~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:57:12:[m[K [01;31m[Kerror: [m[K‘[01m[KLibSerial::SerialStream Comms::serial_[m[K’ is private within this context
+   57 |     serial.[01;31m[Kserial_[m[K.SetBaudRate(LibSerial::BaudRate::BAUD_115200);
+      |            [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:12[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:80:33:[m[K [01;36m[Knote: [m[Kdeclared private here
+   80 |         LibSerial::SerialStream [01;36m[Kserial_[m[K;
+      |                                 [01;36m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

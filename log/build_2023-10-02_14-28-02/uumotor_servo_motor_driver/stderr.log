@@ -1,0 +1,9 @@
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, bool)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:70:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksprintf[m[K’ writing a terminating nul past the end of the destination [[01;35m[K-Wformat-overflow=[m[K]
+   70 |                 sprintf(val, "%x[01;35m[K"[m[K, hex_value);
+      |                                 [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:70:24:[m[K [01;36m[Knote: [m[K‘[01m[Ksprintf[m[K’ output between 2 and 3 bytes into a destination of size 1
+   70 |                 [01;36m[Ksprintf(val, "%x", hex_value)[m[K;
+      |                 [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,20 @@
+[0.030s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.114s] [ 18%] Built target fun
+[0.116s] [ 63%] Built target uumotor_servo_motor_driver
+[0.116s] [ 63%] Built target cmd
+[0.142s] [ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[0.271s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[0.271s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[0.271s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:66:37:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+[0.271s]    66 |                 while (val[size] != [01;35m[K'ee'[m[K)
+[0.271s]       |                                     [01;35m[K^~~~[m[K
+[1.597s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, bool)[m[K’:
+[1.597s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:66:34:[m[K [01;35m[Kwarning: [m[Kcomparison is always true due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+[1.597s]    66 |                 while (val[size] != 'ee')
+[1.598s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:70:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kid[m[K’ was not declared in this scope
+[1.598s]    70 |                     sprintf([01;31m[Kid[m[K, "%x", hex_value);
+[1.598s]       |                             [01;31m[K^~[m[K
+[2.137s] make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+[2.138s] make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+[2.138s] make: *** [Makefile:146: all] Error 2
+[2.149s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

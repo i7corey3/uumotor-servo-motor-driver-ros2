@@ -1,0 +1,30 @@
+[0.013s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.050s] [ 18%] Built target fun
+[0.052s] [ 63%] Built target cmd
+[0.052s] [ 63%] Built target uumotor_servo_motor_driver
+[0.070s] [ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[1.306s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[1.306s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[1.306s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, bool)[m[K’:
+[1.306s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:65:55:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLibSerial::SerialPort::Read(uint8_t&, int, int&)[m[K’
+[1.306s]    65 |                 serial_.Read(hex_value, 8, timeout_ms_[01;31m[K)[m[K;
+[1.306s]       |                                                       [01;31m[K^[m[K
+[1.306s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:4[m[K,
+[1.307s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[1.307s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[1.307s] [01m[K/usr/include/libserial/SerialPort.h:322:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid LibSerial::SerialPort::Read(LibSerial::DataBuffer&, size_t, size_t)[m[K’
+[1.307s]   322 |         void [01;36m[KRead[m[K(DataBuffer& dataBuffer,
+[1.307s]       |              [01;36m[K^~~~[m[K
+[1.307s] [01m[K/usr/include/libserial/SerialPort.h:322:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} to ‘[01m[KLibSerial::DataBuffer&[m[K’ {aka ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >&[m[K’}
+[1.307s]   322 |         void Read([01;36m[KDataBuffer& dataBuffer[m[K,
+[1.307s]       |                   [01;36m[K~~~~~~~~~~~~^~~~~~~~~~[m[K
+[1.307s] [01m[K/usr/include/libserial/SerialPort.h:341:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid LibSerial::SerialPort::Read(std::string&, size_t, size_t)[m[K’
+[1.307s]   341 |         void [01;36m[KRead[m[K(std::string& dataString,
+[1.307s]       |              [01;36m[K^~~~[m[K
+[1.308s] [01m[K/usr/include/libserial/SerialPort.h:341:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} to ‘[01m[Kstd::string&[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>&[m[K’}
+[1.308s]   341 |         void Read([01;36m[Kstd::string& dataString[m[K,
+[1.308s]       |                   [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[1.787s] make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+[1.787s] make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+[1.788s] make: *** [Makefile:146: all] Error 2
+[1.791s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

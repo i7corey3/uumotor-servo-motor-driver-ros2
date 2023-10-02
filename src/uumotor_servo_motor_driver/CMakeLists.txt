@@ -44,7 +44,7 @@ ament_target_dependencies(driver rclcpp)
 
 add_library(fun src/functions.cpp)
 add_library(cmd src/commands.cpp)
-target_link_libraries(driver fun cmd)
+target_link_libraries(driver fun cmd serial)
 ament_target_dependencies(cmd rclcpp)
 target_link_libraries(uumotor_servo_motor_driver PUBLIC serial)
 

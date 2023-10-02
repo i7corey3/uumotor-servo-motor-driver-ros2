@@ -1,0 +1,23 @@
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:12[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:[m[K In member function ‘[01m[Kbool Comms::connected() const[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:51:35:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst LibSerial::SerialStream[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+   51 |             return serial_.IsOpen([01;31m[K)[m[K;
+      |                                   [01;31m[K^[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:4[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:12[m[K:
+[01m[K/usr/include/libserial/SerialStream.h:183:14:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kbool LibSerial::SerialStream::IsOpen()[m[K’
+  183 |         bool [01;36m[KIsOpen[m[K() ;
+      |              [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:12[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:[m[K In member function ‘[01m[Kstd::string Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, bool)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:57:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LibSerial::SerialStream[m[K’ has no member named ‘[01m[KWrite[m[K’; did you mean ‘[01m[Kwrite[m[K’?
+   57 |             serial_.[01;31m[KWrite[m[K(cmd);
+      |                     [01;31m[K^~~~~[m[K
+      |                     [32m[Kwrite[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:62:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LibSerial::SerialStream[m[K’ has no member named ‘[01m[KWrite[m[K’; did you mean ‘[01m[Kwrite[m[K’?
+   62 |                 serial_.[01;31m[KWrite[m[K(cmd);
+      |                         [01;31m[K^~~~~[m[K
+      |                         [32m[Kwrite[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

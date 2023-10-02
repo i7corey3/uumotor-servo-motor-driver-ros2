@@ -1,0 +1,24 @@
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, bool)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:65:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLibSerial::SerialPort::Read(char&, int&)[m[K’
+   65 |                 serial_.Read(hex_value, timeout_ms_[01;31m[K)[m[K;
+      |                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:4[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/usr/include/libserial/SerialPort.h:322:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid LibSerial::SerialPort::Read(LibSerial::DataBuffer&, size_t, size_t)[m[K’
+  322 |         void [01;36m[KRead[m[K(DataBuffer& dataBuffer,
+      |              [01;36m[K^~~~[m[K
+[01m[K/usr/include/libserial/SerialPort.h:322:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kchar[m[K’ to ‘[01m[KLibSerial::DataBuffer&[m[K’ {aka ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >&[m[K’}
+  322 |         void Read([01;36m[KDataBuffer& dataBuffer[m[K,
+      |                   [01;36m[K~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/usr/include/libserial/SerialPort.h:341:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid LibSerial::SerialPort::Read(std::string&, size_t, size_t)[m[K’
+  341 |         void [01;36m[KRead[m[K(std::string& dataString,
+      |              [01;36m[K^~~~[m[K
+[01m[K/usr/include/libserial/SerialPort.h:341:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kchar[m[K’ to ‘[01m[Kstd::string&[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>&[m[K’}
+  341 |         void Read([01;36m[Kstd::string& dataString[m[K,
+      |                   [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

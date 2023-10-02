@@ -1,5 +1,5 @@
-#ifndef UUMOTOR_SERVO_MOTOR_DRIVER_COMMS_H
-#define UUMOTOR_SERVO_MOTOR_DRIVER_COMMS_H
+#ifndef UUMOTOR_SERVO_MOTOR_DRIVER_COMMS_HPP
+#define UUMOTOR_SERVO_MOTOR_DRIVER_COMMS_HPP
 
 #include <libserial/SerialPort.h>
 #include <sstream>
@@ -23,7 +23,7 @@ LibSerial::BaudRate convert_baud_rate(int baud_rate)
     case 115200: return LibSerial::BaudRate::BAUD_115200;
     case 230400: return LibSerial::BaudRate::BAUD_230400;
     default:
-     RCLCPP_INFO(rclcpp::get_logger("convert_baud_rate"), "Error: Invaild BaudRate... Setting to default - 115200");
+      RCLCPP_INFO(rclcpp::get_logger("convert_baud_rate"), "Error: Invaild BaudRate... Setting to default - 115200");
       return LibSerial::BaudRate::BAUD_115200;
   }
 }
@@ -51,24 +51,42 @@ class Comms
             return serial_.IsOpen();
         }
 
-        std::string send_command(const std::string &cmd, bool print_output=false)
+        std::vector<int> send_command(const std::vector<uint8_t> &cmd, bool print_output=true)
         {
             serial_.FlushIOBuffers();
-            serial_.Write(cmd, 0, cmd->Length);
-
-            std::string output;
-            try
-            {
-                serial_.Write(cmd)
-            }
-            catch(const std::exception& e)
-            {
-                std::cerr << e.what() << '\n';
-            }
+            serial_.Write(cmd);
+            // serial_ << cmd[0] << cmd[1] << cmd[2] << cmd[3] << cmd[4] << cmd[5] << cmd[6] << cmd[7] << std::endl;  
+            
+            std::vector<int> output;
+            uint8_t hex_value;
             
 
+            try
+            {   
+                for (int i = 0; i < 8; i++)
+                {
+                    serial_.ReadByte(hex_value, timeout_ms_);
+                    output.push_back(static_cast<int>(hex_value));
+                    // std::cout << " Hex: " << std::hex << std::setw(2) << static_cast<int>(hex_value) << std::endl;                     
+                }
+            }
+            catch(const LibSerial::ReadTimeout&)
+            {
+                RCLCPP_INFO(rclcpp::get_logger("Serial"), "Error: Serial Timeout");
+            }
 
+            if (print_output)
+            {
+                
+                for (int &i: output) {
+                    std::cout << std::hex << std::setw(2) << std::setfill('0') << i << ' ';
+                }
+                std::cout << std::endl;
 
+            }
+
+            return output;
+            
         }
 
     private:
@@ -77,7 +95,7 @@ class Comms
         int timeout_ms_;
 
 
-}
+};
 
 
 

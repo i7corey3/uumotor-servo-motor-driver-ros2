@@ -1,0 +1,14 @@
+[ 18%] Built target fun
+[ 36%] Built target cmd
+[ 63%] Built target uumotor_servo_motor_driver
+[ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable driver[0m
+/usr/bin/ld: CMakeFiles/driver.dir/src/test_node.cpp.o: in function `Comms::Comms()':
+test_node.cpp:(.text._ZN5CommsC2Ev[_ZN5CommsC5Ev]+0x19): undefined reference to `LibSerial::SerialPort::SerialPort()'
+/usr/bin/ld: test_node.cpp:(.text._ZN5CommsC2Ev[_ZN5CommsC5Ev]+0x3e): undefined reference to `LibSerial::SerialPort::~SerialPort()'
+/usr/bin/ld: CMakeFiles/driver.dir/src/test_node.cpp.o: in function `Comms::~Comms()':
+test_node.cpp:(.text._ZN5CommsD2Ev[_ZN5CommsD5Ev]+0x28): undefined reference to `LibSerial::SerialPort::~SerialPort()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/driver.dir/build.make:179: driver] Error 1
+make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

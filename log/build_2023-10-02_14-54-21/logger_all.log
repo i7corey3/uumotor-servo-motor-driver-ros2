@@ -1,0 +1,261 @@
+[0.235s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.235s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1c44af7220>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1c44af7220>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1c44af7760>)
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.254s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/corey/uumotor-servo-motor-driver-ros2'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['cmake', 'python']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'cmake'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'python'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['python_setup_py']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'python_setup_py'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build) by extension 'ros'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build) by extensions ['cmake', 'python']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build) by extension 'cmake'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build) by extension 'python'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build) by extensions ['python_setup_py']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build) by extension 'python_setup_py'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC/tmp) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC/tmp) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC/tmp) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC/tmp) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC/tmp) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC/tmp) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC/tmp) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC/tmp) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC/tmp) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC/tmp) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC/tmp) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC/tmp) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC/tmp) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdC/tmp) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX) by extensions ['python_setup_py']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX/tmp) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX/tmp) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX/tmp) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX/tmp) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX/tmp) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX/tmp) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX/tmp) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX/tmp) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX/tmp) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX/tmp) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX/tmp) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX/tmp) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX/tmp) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/3.27.4/CompilerIdCXX/tmp) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/CMakeScratch) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/CMakeScratch) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/CMakeScratch) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/CMakeScratch) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/CMakeScratch) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/CMakeScratch) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/CMakeScratch) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/CMakeScratch) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/CMakeScratch) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/CMakeScratch) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/CMakeScratch) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/CMakeScratch) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/CMakeScratch) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/CMakeScratch) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/pkgRedirects) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/pkgRedirects) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/pkgRedirects) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/pkgRedirects) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/pkgRedirects) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/pkgRedirects) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/pkgRedirects) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/pkgRedirects) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/pkgRedirects) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/pkgRedirects) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/pkgRedirects) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/pkgRedirects) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/pkgRedirects) by extensions ['python_setup_py']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial/build/CMakeFiles/pkgRedirects) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/uumotor_servo_motor_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/uumotor_servo_motor_driver) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/uumotor_servo_motor_driver) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/uumotor_servo_motor_driver) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/uumotor_servo_motor_driver) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/uumotor_servo_motor_driver) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/uumotor_servo_motor_driver) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/uumotor_servo_motor_driver) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/uumotor_servo_motor_driver) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uumotor_servo_motor_driver' with type 'ros.ament_cmake' and name 'uumotor_servo_motor_driver'
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.294s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/corey/uumotor-servo-motor-driver-ros2/install
+[0.295s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 350 installed packages in /opt/ros/galactic
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'uumotor_servo_motor_driver' build argument 'cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'uumotor_servo_motor_driver' build argument 'cmake_target' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'uumotor_servo_motor_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'uumotor_servo_motor_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'uumotor_servo_motor_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'uumotor_servo_motor_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'uumotor_servo_motor_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'uumotor_servo_motor_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'uumotor_servo_motor_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.359s] DEBUG:colcon.colcon_core.verb:Building package 'uumotor_servo_motor_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver', 'merge_install': False, 'path': '/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver', 'symlink_install': True, 'test_result_base': None}
+[0.360s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.362s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.362s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver' with build type 'ament_cmake'
+[0.362s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver'
+[0.365s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.365s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[2.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[2.175s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uumotor_servo_motor_driver)
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver' for CMake module files
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver' for CMake config files
+[2.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('uumotor_servo_motor_driver', 'cmake_prefix_path')
+[2.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/hook/cmake_prefix_path.ps1'
+[2.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/hook/cmake_prefix_path.dsv'
+[2.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/hook/cmake_prefix_path.sh'
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/lib'
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/bin'
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/lib/pkgconfig/uumotor_servo_motor_driver.pc'
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/lib/python3.8/site-packages'
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/bin'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/package.ps1'
+[2.184s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/package.dsv'
+[2.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/package.sh'
+[2.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/package.bash'
+[2.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/uumotor_servo_motor_driver/package.zsh'
+[2.186s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/share/colcon-core/packages/uumotor_servo_motor_driver)
+[2.196s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.196s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.196s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[2.196s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.200s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.200s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.200s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.211s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.212s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/corey/uumotor-servo-motor-driver-ros2/install/local_setup.ps1'
+[2.213s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/corey/uumotor-servo-motor-driver-ros2/install/_local_setup_util_ps1.py'
+[2.214s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/corey/uumotor-servo-motor-driver-ros2/install/setup.ps1'
+[2.215s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/corey/uumotor-servo-motor-driver-ros2/install/local_setup.sh'
+[2.215s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/corey/uumotor-servo-motor-driver-ros2/install/_local_setup_util_sh.py'
+[2.216s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/corey/uumotor-servo-motor-driver-ros2/install/setup.sh'
+[2.217s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/corey/uumotor-servo-motor-driver-ros2/install/local_setup.bash'
+[2.217s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/corey/uumotor-servo-motor-driver-ros2/install/setup.bash'
+[2.218s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/corey/uumotor-servo-motor-driver-ros2/install/local_setup.zsh'
+[2.218s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/corey/uumotor-servo-motor-driver-ros2/install/setup.zsh'

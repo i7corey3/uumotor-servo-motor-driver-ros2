@@ -1,0 +1,40 @@
+[0.012s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.045s] [ 18%] Built target fun
+[0.047s] [ 36%] Built target cmd
+[0.047s] [ 63%] Built target uumotor_servo_motor_driver
+[0.065s] [ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[1.316s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[1.316s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[1.316s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[1.316s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[1.316s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.316s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[1.316s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[1.316s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.317s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[1.317s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.317s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:9[m[K:
+[1.317s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:[m[K In member function ‘[01m[Kstd::string Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, bool)[m[K’:
+[1.317s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:75:75:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_stringstream<char>::__string_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+[1.317s]    75 |                 RCLCPP_INFO(rclcpp::get_logger("Serial Message: "), [01;31m[Kss.str()[m[K);
+[1.317s]       |                                                                     [01;31m[K~~~~~~^~[m[K
+[1.317s]       |                                                                           [01;31m[K|[m[K
+[1.317s]       |                                                                           [01;31m[Kstd::__cxx11::basic_stringstream<char>::__string_type {aka std::__cxx11::basic_string<char>}[m[K
+[1.317s] In file included from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+[1.317s]                  from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+[1.317s]                  from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+[1.318s]                  from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+[1.318s]                  from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+[1.318s]                  from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+[1.318s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+[1.318s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.318s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[1.318s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.318s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:9[m[K:
+[1.318s] [01m[K/opt/ros/galactic/include/rcutils/logging.h:479:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+[1.318s]   479 |   [01;36m[Kconst char * format[m[K,
+[1.318s]       |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[1.795s] make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+[1.795s] make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+[1.795s] make: *** [Makefile:146: all] Error 2
+[1.799s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

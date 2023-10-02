@@ -7,8 +7,7 @@
 
 
 #include "rclcpp/rclcpp.hpp"
-#include "uumotor_servo_motor_driver/functions.h"
-#include "uumotor_servo_motor_driver/commands.h"
+#include "uumotor_servo_motor_driver/motor_controller.hpp"
 
 using namespace std::chrono_literals;
 
@@ -31,23 +30,24 @@ int main(int argc, char * argv[])
 {
     rclcpp::init(argc, argv);
     
-    Functions fun;
-    Commands command;
-    command.setup("svd6h2");
+    // Functions fun;
+    MotorController MC;
 
-    // std::vector<uint8_t> cmd = {0xEE, 0x06, 0x51, 0x00, 0x00, 0x00, 0xFF, 0xFF};
-    // fun.get_hex_msg(cmd.data());
+    std::vector<uint8_t> cmd;
 
-    // uint8_t cmd[8];
-    // std::vector<uint8_t> cmd = command.set_control_mode(2, "speed");
+    MC.select_model("svd6h2");
+    MC.connect_to_driver("/dev/ttyUSB0", 115200, 1000);
+    // cmd = MC.commands_.set_control_mode(1, "speed");
+    // MC.serial_.send_command(cmd);
+    MC.set_motor_parameters(1, "speed", 200, -200, 2, "hall");
+    MC.set_motor_speed(1, 2);
+    MC.drive_motor(1);
+
     
-    std::vector<uint8_t> cmd = fun.int2hex(20, 500, true);
-
-    for (int i = 0; i < 2; i++)
-    {
-        std::cout << "message " << std::hex << static_cast<int>(cmd[i]) << std::endl;
-    }
     
+
+
+
     
     rclcpp::spin(std::make_shared<TestNode>());
     
