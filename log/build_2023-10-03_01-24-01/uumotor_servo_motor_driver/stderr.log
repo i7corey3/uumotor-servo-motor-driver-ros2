@@ -1,0 +1,7 @@
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:8[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:69:37:[m[K [01;31m[Kerror: [m[K‘[01m[KController::monitor[m[K’ is not a type
+   69 |         std::thread monitor_thread ([01;31m[KController[m[K::monitor);
+      |                                     [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

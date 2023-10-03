@@ -1,0 +1,14 @@
+[ 18%] Built target fun
+[ 36%] Built target cmd
+[ 63%] Built target uumotor_servo_motor_driver
+[ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:8[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:69:37:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K&[m[K’ token
+   69 |         std::thread monitor_thread ([01;31m[K&[m[KController::monitor, this);
+      |                                     [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:69:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’
+   69 |         std::thread monitor_thread (&[01;31m[KController[m[K::monitor, this);
+      |                                      [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

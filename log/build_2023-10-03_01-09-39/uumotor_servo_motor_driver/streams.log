@@ -1,0 +1,12 @@
+[0.175s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.208s] [ 25%] Built target fun
+[0.210s] [ 50%] Built target cmd
+[0.211s] [ 87%] Built target uumotor_servo_motor_driver
+[0.215s] [100%] [32m[1mLinking CXX executable driver[0m
+[0.242s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.242s] (.text+0x24): undefined reference to `main'
+[0.242s] collect2: error: ld returned 1 exit status
+[0.243s] make[2]: *** [CMakeFiles/driver.dir/build.make:131: driver] Error 1
+[0.243s] make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+[0.243s] make: *** [Makefile:146: all] Error 2
+[0.247s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

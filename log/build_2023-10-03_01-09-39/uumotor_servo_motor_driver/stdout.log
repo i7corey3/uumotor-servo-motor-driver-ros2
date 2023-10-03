@@ -1,0 +1,4 @@
+[ 25%] Built target fun
+[ 50%] Built target cmd
+[ 87%] Built target uumotor_servo_motor_driver
+[100%] [32m[1mLinking CXX executable driver[0m

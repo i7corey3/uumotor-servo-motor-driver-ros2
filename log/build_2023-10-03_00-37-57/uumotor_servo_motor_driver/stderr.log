@@ -1,0 +1,34 @@
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:34:37:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K[[m[K’ token
+   34 |         std::thread monitor_thread ([01;31m[K[[m[Kthis, &start]{monitor(true);});
+      |                                     [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:34:38:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ at top level
+   34 |         std::thread monitor_thread ([[01;31m[Kthis[m[K, &start]{monitor(true);});
+      |                                      [01;31m[K^~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:34:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before ‘[01m[K,[m[K’ token
+   34 |         std::thread monitor_thread ([this[01;31m[K,[m[K &start]{monitor(true);});
+      |                                          [01;31m[K^[m[K
+      |                                          [32m[K][m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:34:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K,[m[K’ token
+   34 |         std::thread monitor_thread [34m[K([m[K[this[01;31m[K,[m[K &start]{monitor(true);});
+      |                                    [34m[K~[m[K     [01;31m[K^[m[K
+      |                                          [32m[K)[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:34:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   34 |         std::thread monitor_thread ([this, &[01;31m[Kstart[m[K]{monitor(true);});
+      |                                             [01;31m[K^~~~~[m[K
+      |                                                  [32m[K;[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:34:50:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K][m[K’ token
+   34 |         std::thread monitor_thread ([this, &start[01;31m[K][m[K{monitor(true);});
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:34:67:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+   34 |         std::thread monitor_thread ([this, &start]{monitor(true);}[01;31m[K)[m[K;
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In constructor ‘[01m[KTestNode::TestNode()[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:19:9:[m[K [01;31m[Kerror: [m[Kuninitialized reference member in ‘[01m[Kclass std::thread&[m[K’ [[01;31m[K-fpermissive[m[K]
+   19 |         [01;31m[KTestNode[m[K()
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:34:45:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::thread& TestNode::start[m[K’ should be initialized
+   34 |         std::thread monitor_thread ([this, &[01;36m[Kstart[m[K]{monitor(true);});
+      |                                             [01;36m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

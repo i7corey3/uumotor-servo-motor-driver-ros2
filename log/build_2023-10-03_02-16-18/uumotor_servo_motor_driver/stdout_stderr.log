@@ -1,0 +1,45 @@
+[ 18%] Built target fun
+[ 45%] Built target uumotor_servo_motor_driver
+[ 63%] Built target cmd
+[ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:8[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:[m[K In member function ‘[01m[Kbool Controller::motor_running(int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:48:13:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kelse[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+   48 |             [01;35m[Kelse[m[K std::cout << "Invalid Motor" << '\n'; return false;
+      |             [01;35m[K^~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:48:56:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kelse[m[K’
+   48 |             else std::cout << "Invalid Motor" << '\n'; [01;36m[Kreturn[m[K false;
+      |                                                        [01;36m[K^~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:[m[K In member function ‘[01m[Kfloat Controller::read_temp(int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:54:13:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kelse[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+   54 |             [01;35m[Kelse[m[K std::cout << "Invalid Motor" << '\n'; return 0.0
+      |             [01;35m[K^~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:54:56:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kelse[m[K’
+   54 |             else std::cout << "Invalid Motor" << '\n'; [01;36m[Kreturn[m[K 0.0
+      |                                                        [01;36m[K^~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:54:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   54 |             else std::cout << "Invalid Motor" << '\n'; return 0.0
+      |                                                                  [01;31m[K^[m[K
+      |                                                                  [32m[K;[m[K
+   55 |         [32m[K}[m[K
+      |         [32m[K~[m[K                                                         
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:[m[K In member function ‘[01m[Kfloat Controller::read_volt(int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:59:36:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   59 |             if (motor == 1) return [01;35m[KMC[m[K,read_temp(motor);
+      |                                    [01;35m[K^~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:60:13:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kelse[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+   60 |             [01;35m[Kelse[m[K std::cout << "Invalid Motor" << '\n'; return 0.0;
+      |             [01;35m[K^~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:60:56:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kelse[m[K’
+   60 |             else std::cout << "Invalid Motor" << '\n'; [01;36m[Kreturn[m[K 0.0;
+      |                                                        [01;36m[K^~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:[m[K In member function ‘[01m[Klong int Controller::get_absolute_position(int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:66:13:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kelse[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+   66 |             [01;35m[Kelse[m[K std::cout << "Invalid Motor" << '\n'; return 0;
+      |             [01;35m[K^~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:66:56:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kelse[m[K’
+   66 |             else std::cout << "Invalid Motor" << '\n'; [01;36m[Kreturn[m[K 0;
+      |                                                        [01;36m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

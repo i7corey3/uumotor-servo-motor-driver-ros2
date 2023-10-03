@@ -1,0 +1,16 @@
+[0.139s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.171s] [ 18%] Built target fun
+[0.172s] [ 36%] Built target cmd
+[0.172s] [ 63%] Built target uumotor_servo_motor_driver
+[0.190s] [ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[1.346s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.346s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:33:5:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[1.346s]    33 |     [01;31m[K{[m[K
+[1.346s]       |     [01;31m[K^[m[K
+[1.347s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:40:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kmonitor[m[K’ was not declared in this scope
+[1.347s]    40 |     std::thread monitor_thread([01;31m[Kmonitor[m[K);
+[1.347s]       |                                [01;31m[K^~~~~~~[m[K
+[1.804s] make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+[1.804s] make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+[1.804s] make: *** [Makefile:146: all] Error 2
+[1.808s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

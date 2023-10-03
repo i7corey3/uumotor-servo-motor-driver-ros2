@@ -13,8 +13,9 @@ class MotorController
 {
 
     public:
-        Comms serial_;
-        Commands commands_;
+        bool run_motor = false;
+        bool is_calibrate = false;
+        std::string command;
 
         MotorController() = default;
 
@@ -181,6 +182,8 @@ class MotorController
     
 
     private:
+        Comms serial_;
+        Commands commands_;
         Functions fun_;
         std::vector<uint8_t> cmd;
         std::vector<uint8_t> msg;

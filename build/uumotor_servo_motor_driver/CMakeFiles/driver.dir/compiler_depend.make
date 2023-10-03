@@ -822,6 +822,7 @@ CMakeFiles/driver.dir/src/functions.cpp.o: /home/corey/uumotor-servo-motor-drive
 CMakeFiles/driver.dir/src/test_node.cpp.o: /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp \
   /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h \
   /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp \
+  /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp \
   /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h \
   /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp \
   /opt/ros/galactic/include/ament_index_cpp/get_package_share_directory.hpp \
@@ -1488,6 +1489,8 @@ CMakeFiles/driver.dir/src/test_node.cpp.o: /home/corey/uumotor-servo-motor-drive
 /usr/include/libserial/SerialPort.h:
 
 /opt/ros/galactic/include/ament_index_cpp/visibility_control.h:
+
+/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:
 
 /home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:
 

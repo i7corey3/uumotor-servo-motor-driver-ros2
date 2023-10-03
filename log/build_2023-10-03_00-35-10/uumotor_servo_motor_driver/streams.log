@@ -1,0 +1,26 @@
+[0.141s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.172s] [ 18%] Built target fun
+[0.174s] [ 36%] Built target cmd
+[0.175s] [ 63%] Built target uumotor_servo_motor_driver
+[0.189s] [ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[1.330s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:34:37:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K[[m[K’ token
+[1.330s]    34 |         std::thread monitor_thread ([01;31m[K[[m[Kthis]{monitor();});
+[1.330s]       |                                     [01;31m[K^[m[K
+[1.330s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:34:38:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ at top level
+[1.331s]    34 |         std::thread monitor_thread ([[01;31m[Kthis[m[K]{monitor();});
+[1.331s]       |                                      [01;31m[K^~~~[m[K
+[1.331s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:34:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
+[1.331s]    34 |         std::thread monitor_thread [34m[K([m[K[this][01;31m[K{[m[Kmonitor();});
+[1.331s]       |                                    [34m[K~[m[K      [01;31m[K^[m[K
+[1.331s]       |                                           [32m[K)[m[K
+[1.331s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:34:55:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[1.331s]    34 |         std::thread monitor_thread ([this]{monitor();}[01;31m[K)[m[K;
+[1.331s]       |                                                       [01;31m[K^[m[K
+[1.331s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In member function ‘[01m[Kstd::thread TestNode::monitor_thread()[m[K’:
+[1.331s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:34:54:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.331s]    34 |         std::thread monitor_thread ([this]{monitor();[01;35m[K}[m[K);
+[1.331s]       |                                                      [01;35m[K^[m[K
+[1.781s] make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+[1.781s] make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+[1.781s] make: *** [Makefile:146: all] Error 2
+[1.784s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

@@ -1,0 +1,123 @@
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:8[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:24:17:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   24 |                 [01;35m[K"[m[KMotor Controller Test\n
+      |                 [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:24:17:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+   24 |                 [01;31m[K"Motor Controller Test\n[m[K
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:25:38:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+   25 |                 Type ca to calibrate,[01;31m[K\[m[Kn
+      |                                      [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:26:37:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+   26 |                 Type s to run motor,[01;31m[K\[m[Kn
+      |                                     [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:27:38:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+   27 |                 Type x to stop motor,[01;31m[K\[m[Kn
+      |                                      [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:28:49:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+   28 |                 Type cs (value) to change speed,[01;31m[K\[m[Kn
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:29:55:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+   29 |                 Type cc (value) to change the current,[01;31m[K\[m[Kn
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:30:54:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+   30 |                 Type mr to check if motor is running,[01;31m[K\[m[Kn
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:31:44:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+   31 |                 Type rt to read motor temp,[01;31m[K\[m[Kn
+      |                                            [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:32:45:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+   32 |                 Type rv to read bus voltage,[01;31m[K\[m[Kn
+      |                                             [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:33:51:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+   33 |                 Type ap to read absolute position,[01;31m[K\[m[Kn
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   34 |                 Type q to quit[01;35m[K"[m[K );
+      |                               [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:34:31:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+   34 |                 Type q to quit[01;31m[K" );[m[K
+      |                               [01;31m[K^~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:[m[K In member function ‘[01m[Kvoid Controller::start_demo()[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:25:17:[m[K [01;31m[Kerror: [m[K‘[01m[KType[m[K’ was not declared in this scope
+   25 |                 [01;31m[KType[m[K ca to calibrate,\n
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:25:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kn[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+   25 |                 Type ca to calibrate,\[01;31m[Kn[m[K
+      |                                       [01;31m[K^[m[K
+      |                                       [32m[Kyn[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:26:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KType[m[K’
+   26 |                 Type s to run motor,\n
+      |                                       [01;31m[K^[m[K
+      |                                       [32m[K)[m[K
+   27 |                 [32m[KType[m[K x to stop motor,\n
+      |                 [32m[K~~~~[m[K                   
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:23:23:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   23 |                 printf[01;36m[K([m[Kbuff,
+      |                       [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:27:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KType[m[K’
+   27 |                 Type x to stop motor,\n
+      |                                        [01;31m[K^[m[K
+      |                                        [32m[K)[m[K
+   28 |                 [32m[KType[m[K cs (value) to change speed,\n
+      |                 [32m[K~~~~[m[K                    
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:23:23:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   23 |                 printf[01;36m[K([m[Kbuff,
+      |                       [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:28:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KType[m[K’
+   28 |                 Type cs (value) to change speed,\n
+      |                                                   [01;31m[K^[m[K
+      |                                                   [32m[K)[m[K
+   29 |                 [32m[KType[m[K cc (value) to change the current,\n
+      |                 [32m[K~~~~[m[K                               
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:23:23:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   23 |                 printf[01;36m[K([m[Kbuff,
+      |                       [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:29:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KType[m[K’
+   29 |                 Type cc (value) to change the current,\n
+      |                                                         [01;31m[K^[m[K
+      |                                                         [32m[K)[m[K
+   30 |                 [32m[KType[m[K mr to check if motor is running,\n
+      |                 [32m[K~~~~[m[K                                     
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:23:23:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   23 |                 printf[01;36m[K([m[Kbuff,
+      |                       [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:30:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KType[m[K’
+   30 |                 Type mr to check if motor is running,\n
+      |                                                        [01;31m[K^[m[K
+      |                                                        [32m[K)[m[K
+   31 |                 [32m[KType[m[K rt to read motor temp,\n
+      |                 [32m[K~~~~[m[K                                    
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:23:23:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   23 |                 printf[01;36m[K([m[Kbuff,
+      |                       [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:31:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KType[m[K’
+   31 |                 Type rt to read motor temp,\n
+      |                                              [01;31m[K^[m[K
+      |                                              [32m[K)[m[K
+   32 |                 [32m[KType[m[K rv to read bus voltage,\n
+      |                 [32m[K~~~~[m[K                          
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:23:23:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   23 |                 printf[01;36m[K([m[Kbuff,
+      |                       [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:32:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KType[m[K’
+   32 |                 Type rv to read bus voltage,\n
+      |                                               [01;31m[K^[m[K
+      |                                               [32m[K)[m[K
+   33 |                 [32m[KType[m[K ap to read absolute position,\n
+      |                 [32m[K~~~~[m[K                           
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:23:23:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   23 |                 printf[01;36m[K([m[Kbuff,
+      |                       [01;36m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:33:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KType[m[K’
+   33 |                 Type ap to read absolute position,\n
+      |                                                     [01;31m[K^[m[K
+      |                                                     [32m[K)[m[K
+   34 |                 [32m[KType[m[K q to quit" );
+      |                 [32m[K~~~~[m[K                                 
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:23:23:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   23 |                 printf[01;36m[K([m[Kbuff,
+      |                       [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

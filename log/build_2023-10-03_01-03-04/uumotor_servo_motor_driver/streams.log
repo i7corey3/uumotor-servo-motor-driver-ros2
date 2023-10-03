@@ -1,0 +1,916 @@
+[0.147s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.177s] [ 18%] Built target fun
+[0.179s] [ 36%] Built target cmd
+[0.180s] [ 63%] Built target uumotor_servo_motor_driver
+[0.195s] [ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[1.342s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.342s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:188:30:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > MotorController::cmd[m[K’
+[1.342s]   188 |         std::vector<uint8_t> [01;31m[Kcmd[m[K;
+[1.342s]       |                              [01;31m[K^~~[m[K
+[1.342s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.342s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:18:21:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::string MotorController::cmd[m[K’
+[1.342s]    18 |         std::string [01;36m[Kcmd[m[K;
+[1.343s]       |                     [01;36m[K^~~[m[K
+[1.343s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kvoid MotorController::drive_motor(int)[m[K’:
+[1.343s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:34:57:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’)
+[1.343s]    34 |             cmd = commands_.control_motor(motor, "start"[01;31m[K)[m[K;
+[1.343s]       |                                                         [01;31m[K^[m[K
+[1.343s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.344s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[1.344s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[1.344s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[1.344s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[1.344s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.344s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:1[m[K:
+[1.344s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.344s]   669 |       [01;36m[Koperator[m[K=(const basic_string& __str)
+[1.344s]       |       [01;36m[K^~~~~~~~[m[K
+[1.345s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[1.345s]   669 |       operator=([01;36m[Kconst basic_string& __str[m[K)
+[1.345s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.345s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.345s]   708 |       [01;36m[Koperator[m[K=(const _CharT* __s)
+[1.345s]       |       [01;36m[K^~~~~~~~[m[K
+[1.345s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst char*[m[K’
+[1.345s]   708 |       operator=([01;36m[Kconst _CharT* __s[m[K)
+[1.345s]       |                 [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[1.345s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.345s]   719 |       [01;36m[Koperator[m[K=(_CharT __c)
+[1.345s]       |       [01;36m[K^~~~~~~~[m[K
+[1.346s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kchar[m[K’
+[1.346s]   719 |       operator=([01;36m[K_CharT __c[m[K)
+[1.346s]       |                 [01;36m[K~~~~~~~^~~[m[K
+[1.346s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.346s]   736 |       [01;36m[Koperator[m[K=(basic_string&& __str)
+[1.346s]       |       [01;36m[K^~~~~~~~[m[K
+[1.346s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[1.346s]   736 |       operator=([01;36m[Kbasic_string&& __str[m[K)
+[1.346s]       |                 [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[1.346s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.346s]   799 |       [01;36m[Koperator[m[K=(initializer_list<_CharT> __l)
+[1.346s]       |       [01;36m[K^~~~~~~~[m[K
+[1.346s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+[1.346s]   799 |       operator=([01;36m[Kinitializer_list<_CharT> __l[m[K)
+[1.346s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.347s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _Tp&) [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.347s]   813 |        [01;36m[Koperator[m[K=(const _Tp& __svt)
+[1.347s]       |        [01;36m[K^~~~~~~~[m[K
+[1.347s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.347s] In file included from [01m[K/usr/include/c++/9/bits/move.h:55[m[K,
+[1.347s]                  from [01m[K/usr/include/c++/9/bits/nested_exception.h:40[m[K,
+[1.347s]                  from [01m[K/usr/include/c++/9/exception:144[m[K,
+[1.347s]                  from [01m[K/usr/include/c++/9/ios:39[m[K,
+[1.347s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[1.347s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.347s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:1[m[K:
+[1.347s] /usr/include/c++/9/type_traits: In substitution of ‘[01m[Ktemplate<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = std::integral_constant<bool, false>::value; _Tp = std::__cxx11::basic_string<char>&][m[K’:
+[1.347s] [01m[K/usr/include/c++/9/bits/basic_string.h:121:8:[m[K   required by substitution of ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> template<class _Tp, class _Res> using _If_sv = std::enable_if_t<std::__and_<std::is_convertible<const _Tp&, std::basic_string_view<_CharT, _Traits> >, std::__not_<std::is_convertible<const _Tp*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>*> >, std::__not_<std::is_convertible<const _Tp&, const _CharT*> > >::value, _Res> [with _Tp = std::vector<unsigned char, std::allocator<unsigned char> >; _Res = std::__cxx11::basic_string<char>&; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.347s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K   required by substitution of ‘[01m[Ktemplate<class _Tp> std::__cxx11::basic_string<char>::_If_sv<_Tp, std::__cxx11::basic_string<char>&> std::__cxx11::basic_string<char>::operator=<_Tp>(const _Tp&) [with _Tp = std::vector<unsigned char, std::allocator<unsigned char> >][m[K’
+[1.347s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:34:57:[m[K   required from here
+[1.347s] [01m[K/usr/include/c++/9/type_traits:2378:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::__cxx11::basic_string<char>&>[m[K’
+[1.347s]  2378 |     using [01;31m[Kenable_if_t[m[K = typename enable_if<_Cond, _Tp>::type;
+[1.347s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[1.347s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.348s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:35:34:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::vector<unsigned char, std::allocator<unsigned char> >&[m[K’
+[1.348s]    35 |             serial_.send_command([01;31m[Kcmd[m[K);
+[1.348s]       |                                  [01;31m[K^~~[m[K
+[1.348s]       |                                  [01;31m[K|[m[K
+[1.348s]       |                                  [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[1.348s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[1.348s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.348s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:71:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+[1.348s]    56 |         std::vector<uint8_t> send_command([01;36m[Kconst std::vector<uint8_t> &cmd[m[K, int msg_length=8, bool print_output=true)
+[1.348s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.348s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.348s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kvoid MotorController::set_motor_parameters(int, std::string, int, int, int, std::string)[m[K’:
+[1.348s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:42:65:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’)
+[1.348s]    42 |             cmd = commands_.set_control_mode(motor, control_mode[01;31m[K)[m[K;
+[1.349s]       |                                                                 [01;31m[K^[m[K
+[1.349s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.349s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[1.349s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[1.349s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[1.349s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[1.349s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.349s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:1[m[K:
+[1.349s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.349s]   669 |       [01;36m[Koperator[m[K=(const basic_string& __str)
+[1.349s]       |       [01;36m[K^~~~~~~~[m[K
+[1.349s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[1.349s]   669 |       operator=([01;36m[Kconst basic_string& __str[m[K)
+[1.349s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.349s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.349s]   708 |       [01;36m[Koperator[m[K=(const _CharT* __s)
+[1.349s]       |       [01;36m[K^~~~~~~~[m[K
+[1.349s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst char*[m[K’
+[1.349s]   708 |       operator=([01;36m[Kconst _CharT* __s[m[K)
+[1.350s]       |                 [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[1.350s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.350s]   719 |       [01;36m[Koperator[m[K=(_CharT __c)
+[1.350s]       |       [01;36m[K^~~~~~~~[m[K
+[1.350s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kchar[m[K’
+[1.350s]   719 |       operator=([01;36m[K_CharT __c[m[K)
+[1.350s]       |                 [01;36m[K~~~~~~~^~~[m[K
+[1.350s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.350s]   736 |       [01;36m[Koperator[m[K=(basic_string&& __str)
+[1.350s]       |       [01;36m[K^~~~~~~~[m[K
+[1.350s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[1.350s]   736 |       operator=([01;36m[Kbasic_string&& __str[m[K)
+[1.350s]       |                 [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[1.350s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.350s]   799 |       [01;36m[Koperator[m[K=(initializer_list<_CharT> __l)
+[1.350s]       |       [01;36m[K^~~~~~~~[m[K
+[1.350s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+[1.350s]   799 |       operator=([01;36m[Kinitializer_list<_CharT> __l[m[K)
+[1.350s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.350s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _Tp&) [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.350s]   813 |        [01;36m[Koperator[m[K=(const _Tp& __svt)
+[1.350s]       |        [01;36m[K^~~~~~~~[m[K
+[1.351s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.351s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.351s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:43:34:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::vector<unsigned char, std::allocator<unsigned char> >&[m[K’
+[1.351s]    43 |             serial_.send_command([01;31m[Kcmd[m[K);
+[1.351s]       |                                  [01;31m[K^~~[m[K
+[1.351s]       |                                  [01;31m[K|[m[K
+[1.351s]       |                                  [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[1.351s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[1.351s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.351s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:71:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+[1.351s]    56 |         std::vector<uint8_t> send_command([01;36m[Kconst std::vector<uint8_t> &cmd[m[K, int msg_length=8, bool print_output=true)
+[1.351s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.351s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.351s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:44:66:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’)
+[1.351s]    44 |             cmd = commands_.set_acceleration_max(motor, max_speed[01;31m[K)[m[K;
+[1.351s]       |                                                                  [01;31m[K^[m[K
+[1.351s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.351s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[1.351s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[1.351s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[1.351s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[1.351s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.352s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:1[m[K:
+[1.352s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.352s]   669 |       [01;36m[Koperator[m[K=(const basic_string& __str)
+[1.352s]       |       [01;36m[K^~~~~~~~[m[K
+[1.352s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[1.352s]   669 |       operator=([01;36m[Kconst basic_string& __str[m[K)
+[1.352s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.352s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.352s]   708 |       [01;36m[Koperator[m[K=(const _CharT* __s)
+[1.352s]       |       [01;36m[K^~~~~~~~[m[K
+[1.352s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst char*[m[K’
+[1.352s]   708 |       operator=([01;36m[Kconst _CharT* __s[m[K)
+[1.352s]       |                 [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[1.352s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.352s]   719 |       [01;36m[Koperator[m[K=(_CharT __c)
+[1.352s]       |       [01;36m[K^~~~~~~~[m[K
+[1.352s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kchar[m[K’
+[1.352s]   719 |       operator=([01;36m[K_CharT __c[m[K)
+[1.352s]       |                 [01;36m[K~~~~~~~^~~[m[K
+[1.352s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.352s]   736 |       [01;36m[Koperator[m[K=(basic_string&& __str)
+[1.352s]       |       [01;36m[K^~~~~~~~[m[K
+[1.353s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[1.353s]   736 |       operator=([01;36m[Kbasic_string&& __str[m[K)
+[1.353s]       |                 [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[1.353s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.353s]   799 |       [01;36m[Koperator[m[K=(initializer_list<_CharT> __l)
+[1.353s]       |       [01;36m[K^~~~~~~~[m[K
+[1.353s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+[1.353s]   799 |       operator=([01;36m[Kinitializer_list<_CharT> __l[m[K)
+[1.353s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.353s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _Tp&) [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.353s]   813 |        [01;36m[Koperator[m[K=(const _Tp& __svt)
+[1.353s]       |        [01;36m[K^~~~~~~~[m[K
+[1.353s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.353s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.353s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:45:34:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::vector<unsigned char, std::allocator<unsigned char> >&[m[K’
+[1.353s]    45 |             serial_.send_command([01;31m[Kcmd[m[K);
+[1.353s]       |                                  [01;31m[K^~~[m[K
+[1.353s]       |                                  [01;31m[K|[m[K
+[1.353s]       |                                  [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[1.353s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[1.353s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.353s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:71:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+[1.354s]    56 |         std::vector<uint8_t> send_command([01;36m[Kconst std::vector<uint8_t> &cmd[m[K, int msg_length=8, bool print_output=true)
+[1.354s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.354s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.354s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:46:66:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’)
+[1.354s]    46 |             cmd = commands_.set_deceleration_max(motor, min_speed[01;31m[K)[m[K;
+[1.354s]       |                                                                  [01;31m[K^[m[K
+[1.354s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.354s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[1.354s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[1.354s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[1.354s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[1.354s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.354s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:1[m[K:
+[1.354s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.354s]   669 |       [01;36m[Koperator[m[K=(const basic_string& __str)
+[1.354s]       |       [01;36m[K^~~~~~~~[m[K
+[1.354s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[1.354s]   669 |       operator=([01;36m[Kconst basic_string& __str[m[K)
+[1.354s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.354s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.354s]   708 |       [01;36m[Koperator[m[K=(const _CharT* __s)
+[1.354s]       |       [01;36m[K^~~~~~~~[m[K
+[1.355s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst char*[m[K’
+[1.355s]   708 |       operator=([01;36m[Kconst _CharT* __s[m[K)
+[1.355s]       |                 [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[1.355s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.355s]   719 |       [01;36m[Koperator[m[K=(_CharT __c)
+[1.355s]       |       [01;36m[K^~~~~~~~[m[K
+[1.355s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kchar[m[K’
+[1.355s]   719 |       operator=([01;36m[K_CharT __c[m[K)
+[1.355s]       |                 [01;36m[K~~~~~~~^~~[m[K
+[1.355s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.355s]   736 |       [01;36m[Koperator[m[K=(basic_string&& __str)
+[1.355s]       |       [01;36m[K^~~~~~~~[m[K
+[1.355s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[1.355s]   736 |       operator=([01;36m[Kbasic_string&& __str[m[K)
+[1.355s]       |                 [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[1.355s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.355s]   799 |       [01;36m[Koperator[m[K=(initializer_list<_CharT> __l)
+[1.355s]       |       [01;36m[K^~~~~~~~[m[K
+[1.355s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+[1.355s]   799 |       operator=([01;36m[Kinitializer_list<_CharT> __l[m[K)
+[1.355s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.355s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _Tp&) [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.356s]   813 |        [01;36m[Koperator[m[K=(const _Tp& __svt)
+[1.356s]       |        [01;36m[K^~~~~~~~[m[K
+[1.356s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.356s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.356s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:47:34:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::vector<unsigned char, std::allocator<unsigned char> >&[m[K’
+[1.356s]    47 |             serial_.send_command([01;31m[Kcmd[m[K);
+[1.356s]       |                                  [01;31m[K^~~[m[K
+[1.356s]       |                                  [01;31m[K|[m[K
+[1.356s]       |                                  [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[1.356s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[1.356s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.356s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:71:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+[1.356s]    56 |         std::vector<uint8_t> send_command([01;36m[Kconst std::vector<uint8_t> &cmd[m[K, int msg_length=8, bool print_output=true)
+[1.356s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.356s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.356s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:48:55:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’)
+[1.356s]    48 |             cmd = commands_.set_current(motor, max_amp[01;31m[K)[m[K;
+[1.356s]       |                                                       [01;31m[K^[m[K
+[1.356s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.356s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[1.356s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[1.356s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[1.356s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[1.357s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.357s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:1[m[K:
+[1.357s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.357s]   669 |       [01;36m[Koperator[m[K=(const basic_string& __str)
+[1.357s]       |       [01;36m[K^~~~~~~~[m[K
+[1.357s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[1.357s]   669 |       operator=([01;36m[Kconst basic_string& __str[m[K)
+[1.357s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.357s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.357s]   708 |       [01;36m[Koperator[m[K=(const _CharT* __s)
+[1.357s]       |       [01;36m[K^~~~~~~~[m[K
+[1.357s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst char*[m[K’
+[1.357s]   708 |       operator=([01;36m[Kconst _CharT* __s[m[K)
+[1.357s]       |                 [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[1.357s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.357s]   719 |       [01;36m[Koperator[m[K=(_CharT __c)
+[1.357s]       |       [01;36m[K^~~~~~~~[m[K
+[1.357s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kchar[m[K’
+[1.357s]   719 |       operator=([01;36m[K_CharT __c[m[K)
+[1.357s]       |                 [01;36m[K~~~~~~~^~~[m[K
+[1.357s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.357s]   736 |       [01;36m[Koperator[m[K=(basic_string&& __str)
+[1.358s]       |       [01;36m[K^~~~~~~~[m[K
+[1.358s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[1.358s]   736 |       operator=([01;36m[Kbasic_string&& __str[m[K)
+[1.358s]       |                 [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[1.358s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.358s]   799 |       [01;36m[Koperator[m[K=(initializer_list<_CharT> __l)
+[1.358s]       |       [01;36m[K^~~~~~~~[m[K
+[1.358s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+[1.358s]   799 |       operator=([01;36m[Kinitializer_list<_CharT> __l[m[K)
+[1.358s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.358s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _Tp&) [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.358s]   813 |        [01;36m[Koperator[m[K=(const _Tp& __svt)
+[1.358s]       |        [01;36m[K^~~~~~~~[m[K
+[1.358s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.358s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.358s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:49:34:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::vector<unsigned char, std::allocator<unsigned char> >&[m[K’
+[1.358s]    49 |             serial_.send_command([01;31m[Kcmd[m[K);
+[1.358s]       |                                  [01;31m[K^~~[m[K
+[1.358s]       |                                  [01;31m[K|[m[K
+[1.358s]       |                                  [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[1.358s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[1.358s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.359s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:71:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+[1.359s]    56 |         std::vector<uint8_t> send_command([01;36m[Kconst std::vector<uint8_t> &cmd[m[K, int msg_length=8, bool print_output=true)
+[1.359s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.359s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.359s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:50:63:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’)
+[1.359s]    50 |             cmd = commands_.set_sensor_type(motor, sensor_type[01;31m[K)[m[K;
+[1.359s]       |                                                               [01;31m[K^[m[K
+[1.359s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.359s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[1.359s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[1.359s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[1.359s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[1.359s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.359s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:1[m[K:
+[1.359s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.359s]   669 |       [01;36m[Koperator[m[K=(const basic_string& __str)
+[1.359s]       |       [01;36m[K^~~~~~~~[m[K
+[1.359s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[1.359s]   669 |       operator=([01;36m[Kconst basic_string& __str[m[K)
+[1.359s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.359s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.359s]   708 |       [01;36m[Koperator[m[K=(const _CharT* __s)
+[1.359s]       |       [01;36m[K^~~~~~~~[m[K
+[1.360s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst char*[m[K’
+[1.360s]   708 |       operator=([01;36m[Kconst _CharT* __s[m[K)
+[1.360s]       |                 [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[1.360s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.360s]   719 |       [01;36m[Koperator[m[K=(_CharT __c)
+[1.360s]       |       [01;36m[K^~~~~~~~[m[K
+[1.360s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kchar[m[K’
+[1.360s]   719 |       operator=([01;36m[K_CharT __c[m[K)
+[1.360s]       |                 [01;36m[K~~~~~~~^~~[m[K
+[1.360s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.360s]   736 |       [01;36m[Koperator[m[K=(basic_string&& __str)
+[1.360s]       |       [01;36m[K^~~~~~~~[m[K
+[1.360s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[1.360s]   736 |       operator=([01;36m[Kbasic_string&& __str[m[K)
+[1.360s]       |                 [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[1.360s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.360s]   799 |       [01;36m[Koperator[m[K=(initializer_list<_CharT> __l)
+[1.360s]       |       [01;36m[K^~~~~~~~[m[K
+[1.360s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+[1.360s]   799 |       operator=([01;36m[Kinitializer_list<_CharT> __l[m[K)
+[1.360s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.360s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _Tp&) [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.361s]   813 |        [01;36m[Koperator[m[K=(const _Tp& __svt)
+[1.361s]       |        [01;36m[K^~~~~~~~[m[K
+[1.361s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.361s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.361s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kvoid MotorController::change_current(int, float)[m[K’:
+[1.361s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:56:59:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’)
+[1.361s]    56 |             cmd = commands_.set_current(motor, current_fix[01;31m[K)[m[K;
+[1.361s]       |                                                           [01;31m[K^[m[K
+[1.361s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.361s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[1.361s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[1.361s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[1.361s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[1.361s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.361s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:1[m[K:
+[1.361s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.361s]   669 |       [01;36m[Koperator[m[K=(const basic_string& __str)
+[1.361s]       |       [01;36m[K^~~~~~~~[m[K
+[1.361s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[1.361s]   669 |       operator=([01;36m[Kconst basic_string& __str[m[K)
+[1.361s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.362s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.362s]   708 |       [01;36m[Koperator[m[K=(const _CharT* __s)
+[1.362s]       |       [01;36m[K^~~~~~~~[m[K
+[1.362s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst char*[m[K’
+[1.362s]   708 |       operator=([01;36m[Kconst _CharT* __s[m[K)
+[1.362s]       |                 [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[1.362s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.362s]   719 |       [01;36m[Koperator[m[K=(_CharT __c)
+[1.362s]       |       [01;36m[K^~~~~~~~[m[K
+[1.362s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kchar[m[K’
+[1.362s]   719 |       operator=([01;36m[K_CharT __c[m[K)
+[1.362s]       |                 [01;36m[K~~~~~~~^~~[m[K
+[1.362s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.362s]   736 |       [01;36m[Koperator[m[K=(basic_string&& __str)
+[1.362s]       |       [01;36m[K^~~~~~~~[m[K
+[1.362s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[1.362s]   736 |       operator=([01;36m[Kbasic_string&& __str[m[K)
+[1.362s]       |                 [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[1.362s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.362s]   799 |       [01;36m[Koperator[m[K=(initializer_list<_CharT> __l)
+[1.362s]       |       [01;36m[K^~~~~~~~[m[K
+[1.362s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+[1.363s]   799 |       operator=([01;36m[Kinitializer_list<_CharT> __l[m[K)
+[1.363s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.363s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _Tp&) [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.363s]   813 |        [01;36m[Koperator[m[K=(const _Tp& __svt)
+[1.363s]       |        [01;36m[K^~~~~~~~[m[K
+[1.363s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.363s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.363s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:57:34:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::vector<unsigned char, std::allocator<unsigned char> >&[m[K’
+[1.363s]    57 |             serial_.send_command([01;31m[Kcmd[m[K);
+[1.363s]       |                                  [01;31m[K^~~[m[K
+[1.363s]       |                                  [01;31m[K|[m[K
+[1.363s]       |                                  [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[1.363s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[1.363s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.363s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:71:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+[1.363s]    56 |         std::vector<uint8_t> send_command([01;36m[Kconst std::vector<uint8_t> &cmd[m[K, int msg_length=8, bool print_output=true)
+[1.363s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.363s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.363s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kvoid MotorController::set_motor_speed(int, int)[m[K’:
+[1.363s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:62:51:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’)
+[1.363s]    62 |             cmd = commands_.set_speed(motor, speed[01;31m[K)[m[K;
+[1.363s]       |                                                   [01;31m[K^[m[K
+[1.363s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.364s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[1.364s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[1.364s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[1.364s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[1.364s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.364s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:1[m[K:
+[1.364s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.364s]   669 |       [01;36m[Koperator[m[K=(const basic_string& __str)
+[1.364s]       |       [01;36m[K^~~~~~~~[m[K
+[1.364s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[1.364s]   669 |       operator=([01;36m[Kconst basic_string& __str[m[K)
+[1.364s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.364s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.364s]   708 |       [01;36m[Koperator[m[K=(const _CharT* __s)
+[1.364s]       |       [01;36m[K^~~~~~~~[m[K
+[1.364s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst char*[m[K’
+[1.364s]   708 |       operator=([01;36m[Kconst _CharT* __s[m[K)
+[1.364s]       |                 [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[1.364s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.364s]   719 |       [01;36m[Koperator[m[K=(_CharT __c)
+[1.364s]       |       [01;36m[K^~~~~~~~[m[K
+[1.364s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kchar[m[K’
+[1.364s]   719 |       operator=([01;36m[K_CharT __c[m[K)
+[1.365s]       |                 [01;36m[K~~~~~~~^~~[m[K
+[1.365s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.365s]   736 |       [01;36m[Koperator[m[K=(basic_string&& __str)
+[1.365s]       |       [01;36m[K^~~~~~~~[m[K
+[1.365s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[1.365s]   736 |       operator=([01;36m[Kbasic_string&& __str[m[K)
+[1.365s]       |                 [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[1.365s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.365s]   799 |       [01;36m[Koperator[m[K=(initializer_list<_CharT> __l)
+[1.365s]       |       [01;36m[K^~~~~~~~[m[K
+[1.365s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+[1.365s]   799 |       operator=([01;36m[Kinitializer_list<_CharT> __l[m[K)
+[1.365s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.365s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _Tp&) [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.365s]   813 |        [01;36m[Koperator[m[K=(const _Tp& __svt)
+[1.365s]       |        [01;36m[K^~~~~~~~[m[K
+[1.365s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.365s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.365s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:63:34:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::vector<unsigned char, std::allocator<unsigned char> >&[m[K’
+[1.365s]    63 |             serial_.send_command([01;31m[Kcmd[m[K);
+[1.365s]       |                                  [01;31m[K^~~[m[K
+[1.366s]       |                                  [01;31m[K|[m[K
+[1.366s]       |                                  [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[1.366s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[1.366s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.366s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:71:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+[1.366s]    56 |         std::vector<uint8_t> send_command([01;36m[Kconst std::vector<uint8_t> &cmd[m[K, int msg_length=8, bool print_output=true)
+[1.366s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.366s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.366s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kvoid MotorController::stop_motor(int)[m[K’:
+[1.366s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:68:56:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’)
+[1.366s]    68 |             cmd = commands_.control_motor(motor, "stop"[01;31m[K)[m[K;
+[1.366s]       |                                                        [01;31m[K^[m[K
+[1.366s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.366s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[1.366s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[1.366s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[1.366s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[1.366s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.366s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:1[m[K:
+[1.366s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.366s]   669 |       [01;36m[Koperator[m[K=(const basic_string& __str)
+[1.366s]       |       [01;36m[K^~~~~~~~[m[K
+[1.366s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[1.367s]   669 |       operator=([01;36m[Kconst basic_string& __str[m[K)
+[1.367s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.367s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.367s]   708 |       [01;36m[Koperator[m[K=(const _CharT* __s)
+[1.367s]       |       [01;36m[K^~~~~~~~[m[K
+[1.367s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst char*[m[K’
+[1.367s]   708 |       operator=([01;36m[Kconst _CharT* __s[m[K)
+[1.367s]       |                 [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[1.367s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.367s]   719 |       [01;36m[Koperator[m[K=(_CharT __c)
+[1.367s]       |       [01;36m[K^~~~~~~~[m[K
+[1.367s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kchar[m[K’
+[1.367s]   719 |       operator=([01;36m[K_CharT __c[m[K)
+[1.367s]       |                 [01;36m[K~~~~~~~^~~[m[K
+[1.367s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.367s]   736 |       [01;36m[Koperator[m[K=(basic_string&& __str)
+[1.367s]       |       [01;36m[K^~~~~~~~[m[K
+[1.367s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[1.367s]   736 |       operator=([01;36m[Kbasic_string&& __str[m[K)
+[1.367s]       |                 [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[1.367s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.367s]   799 |       [01;36m[Koperator[m[K=(initializer_list<_CharT> __l)
+[1.367s]       |       [01;36m[K^~~~~~~~[m[K
+[1.368s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+[1.368s]   799 |       operator=([01;36m[Kinitializer_list<_CharT> __l[m[K)
+[1.368s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.368s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _Tp&) [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.368s]   813 |        [01;36m[Koperator[m[K=(const _Tp& __svt)
+[1.368s]       |        [01;36m[K^~~~~~~~[m[K
+[1.368s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.368s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.368s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kbool MotorController::motor_running(int)[m[K’:
+[1.368s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:73:48:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’)
+[1.368s]    73 |             cmd = commands_.motor_running(motor[01;31m[K)[m[K;
+[1.368s]       |                                                [01;31m[K^[m[K
+[1.368s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.368s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[1.368s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[1.368s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[1.368s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[1.368s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.368s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:1[m[K:
+[1.368s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.368s]   669 |       [01;36m[Koperator[m[K=(const basic_string& __str)
+[1.369s]       |       [01;36m[K^~~~~~~~[m[K
+[1.369s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[1.369s]   669 |       operator=([01;36m[Kconst basic_string& __str[m[K)
+[1.369s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.369s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.369s]   708 |       [01;36m[Koperator[m[K=(const _CharT* __s)
+[1.369s]       |       [01;36m[K^~~~~~~~[m[K
+[1.369s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst char*[m[K’
+[1.369s]   708 |       operator=([01;36m[Kconst _CharT* __s[m[K)
+[1.369s]       |                 [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[1.369s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.369s]   719 |       [01;36m[Koperator[m[K=(_CharT __c)
+[1.369s]       |       [01;36m[K^~~~~~~~[m[K
+[1.369s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kchar[m[K’
+[1.369s]   719 |       operator=([01;36m[K_CharT __c[m[K)
+[1.369s]       |                 [01;36m[K~~~~~~~^~~[m[K
+[1.369s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.369s]   736 |       [01;36m[Koperator[m[K=(basic_string&& __str)
+[1.369s]       |       [01;36m[K^~~~~~~~[m[K
+[1.369s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[1.369s]   736 |       operator=([01;36m[Kbasic_string&& __str[m[K)
+[1.369s]       |                 [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[1.369s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.370s]   799 |       [01;36m[Koperator[m[K=(initializer_list<_CharT> __l)
+[1.370s]       |       [01;36m[K^~~~~~~~[m[K
+[1.370s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+[1.370s]   799 |       operator=([01;36m[Kinitializer_list<_CharT> __l[m[K)
+[1.370s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.370s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _Tp&) [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.370s]   813 |        [01;36m[Koperator[m[K=(const _Tp& __svt)
+[1.370s]       |        [01;36m[K^~~~~~~~[m[K
+[1.370s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.370s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.370s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:74:40:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::vector<unsigned char, std::allocator<unsigned char> >&[m[K’
+[1.370s]    74 |             msg = serial_.send_command([01;31m[Kcmd[m[K, 7);
+[1.370s]       |                                        [01;31m[K^~~[m[K
+[1.370s]       |                                        [01;31m[K|[m[K
+[1.370s]       |                                        [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[1.370s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[1.370s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.370s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:71:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+[1.370s]    56 |         std::vector<uint8_t> send_command([01;36m[Kconst std::vector<uint8_t> &cmd[m[K, int msg_length=8, bool print_output=true)
+[1.370s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.370s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.370s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kfloat MotorController::read_temp(int)[m[K’:
+[1.371s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:91:45:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’)
+[1.371s]    91 |             cmd = commands_.motor_temp(motor[01;31m[K)[m[K;
+[1.371s]       |                                             [01;31m[K^[m[K
+[1.371s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.371s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[1.371s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[1.371s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[1.371s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[1.371s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.371s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:1[m[K:
+[1.371s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.371s]   669 |       [01;36m[Koperator[m[K=(const basic_string& __str)
+[1.371s]       |       [01;36m[K^~~~~~~~[m[K
+[1.371s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[1.371s]   669 |       operator=([01;36m[Kconst basic_string& __str[m[K)
+[1.371s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.371s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.371s]   708 |       [01;36m[Koperator[m[K=(const _CharT* __s)
+[1.371s]       |       [01;36m[K^~~~~~~~[m[K
+[1.371s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst char*[m[K’
+[1.371s]   708 |       operator=([01;36m[Kconst _CharT* __s[m[K)
+[1.371s]       |                 [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[1.372s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.372s]   719 |       [01;36m[Koperator[m[K=(_CharT __c)
+[1.372s]       |       [01;36m[K^~~~~~~~[m[K
+[1.372s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kchar[m[K’
+[1.372s]   719 |       operator=([01;36m[K_CharT __c[m[K)
+[1.372s]       |                 [01;36m[K~~~~~~~^~~[m[K
+[1.372s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.372s]   736 |       [01;36m[Koperator[m[K=(basic_string&& __str)
+[1.372s]       |       [01;36m[K^~~~~~~~[m[K
+[1.372s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[1.372s]   736 |       operator=([01;36m[Kbasic_string&& __str[m[K)
+[1.372s]       |                 [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[1.372s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.372s]   799 |       [01;36m[Koperator[m[K=(initializer_list<_CharT> __l)
+[1.372s]       |       [01;36m[K^~~~~~~~[m[K
+[1.372s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+[1.372s]   799 |       operator=([01;36m[Kinitializer_list<_CharT> __l[m[K)
+[1.372s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.372s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _Tp&) [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.372s]   813 |        [01;36m[Koperator[m[K=(const _Tp& __svt)
+[1.372s]       |        [01;36m[K^~~~~~~~[m[K
+[1.372s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.373s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.373s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:92:40:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::vector<unsigned char, std::allocator<unsigned char> >&[m[K’
+[1.373s]    92 |             msg = serial_.send_command([01;31m[Kcmd[m[K, 7);
+[1.373s]       |                                        [01;31m[K^~~[m[K
+[1.373s]       |                                        [01;31m[K|[m[K
+[1.373s]       |                                        [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[1.373s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[1.373s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.373s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:71:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+[1.373s]    56 |         std::vector<uint8_t> send_command([01;36m[Kconst std::vector<uint8_t> &cmd[m[K, int msg_length=8, bool print_output=true)
+[1.373s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.373s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.373s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kfloat MotorController::read_volt(int)[m[K’:
+[1.373s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:109:46:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’)
+[1.373s]   109 |             cmd = commands_.bus_voltage(motor[01;31m[K)[m[K;
+[1.373s]       |                                              [01;31m[K^[m[K
+[1.373s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.373s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[1.373s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[1.373s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[1.373s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[1.373s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.374s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:1[m[K:
+[1.374s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.374s]   669 |       [01;36m[Koperator[m[K=(const basic_string& __str)
+[1.374s]       |       [01;36m[K^~~~~~~~[m[K
+[1.374s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[1.374s]   669 |       operator=([01;36m[Kconst basic_string& __str[m[K)
+[1.374s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.374s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.374s]   708 |       [01;36m[Koperator[m[K=(const _CharT* __s)
+[1.374s]       |       [01;36m[K^~~~~~~~[m[K
+[1.374s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst char*[m[K’
+[1.374s]   708 |       operator=([01;36m[Kconst _CharT* __s[m[K)
+[1.374s]       |                 [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[1.374s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.374s]   719 |       [01;36m[Koperator[m[K=(_CharT __c)
+[1.374s]       |       [01;36m[K^~~~~~~~[m[K
+[1.374s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kchar[m[K’
+[1.374s]   719 |       operator=([01;36m[K_CharT __c[m[K)
+[1.374s]       |                 [01;36m[K~~~~~~~^~~[m[K
+[1.374s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.374s]   736 |       [01;36m[Koperator[m[K=(basic_string&& __str)
+[1.374s]       |       [01;36m[K^~~~~~~~[m[K
+[1.375s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[1.375s]   736 |       operator=([01;36m[Kbasic_string&& __str[m[K)
+[1.375s]       |                 [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[1.375s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.375s]   799 |       [01;36m[Koperator[m[K=(initializer_list<_CharT> __l)
+[1.375s]       |       [01;36m[K^~~~~~~~[m[K
+[1.375s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+[1.375s]   799 |       operator=([01;36m[Kinitializer_list<_CharT> __l[m[K)
+[1.375s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.375s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _Tp&) [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.375s]   813 |        [01;36m[Koperator[m[K=(const _Tp& __svt)
+[1.375s]       |        [01;36m[K^~~~~~~~[m[K
+[1.375s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.375s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.375s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:110:40:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::vector<unsigned char, std::allocator<unsigned char> >&[m[K’
+[1.375s]   110 |             msg = serial_.send_command([01;31m[Kcmd[m[K, 7);
+[1.375s]       |                                        [01;31m[K^~~[m[K
+[1.375s]       |                                        [01;31m[K|[m[K
+[1.375s]       |                                        [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[1.375s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[1.375s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.375s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:71:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+[1.375s]    56 |         std::vector<uint8_t> send_command([01;36m[Kconst std::vector<uint8_t> &cmd[m[K, int msg_length=8, bool print_output=true)
+[1.376s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.376s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.376s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Klong int MotorController::get_absolute_position(int)[m[K’:
+[1.376s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:127:52:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’)
+[1.376s]   127 |             cmd = commands_.absolute_position(motor[01;31m[K)[m[K;
+[1.376s]       |                                                    [01;31m[K^[m[K
+[1.376s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.376s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[1.376s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[1.376s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[1.376s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[1.376s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.376s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:1[m[K:
+[1.376s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.376s]   669 |       [01;36m[Koperator[m[K=(const basic_string& __str)
+[1.376s]       |       [01;36m[K^~~~~~~~[m[K
+[1.376s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[1.376s]   669 |       operator=([01;36m[Kconst basic_string& __str[m[K)
+[1.376s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.376s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.376s]   708 |       [01;36m[Koperator[m[K=(const _CharT* __s)
+[1.377s]       |       [01;36m[K^~~~~~~~[m[K
+[1.377s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst char*[m[K’
+[1.377s]   708 |       operator=([01;36m[Kconst _CharT* __s[m[K)
+[1.377s]       |                 [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[1.377s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.377s]   719 |       [01;36m[Koperator[m[K=(_CharT __c)
+[1.377s]       |       [01;36m[K^~~~~~~~[m[K
+[1.377s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kchar[m[K’
+[1.377s]   719 |       operator=([01;36m[K_CharT __c[m[K)
+[1.377s]       |                 [01;36m[K~~~~~~~^~~[m[K
+[1.377s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.377s]   736 |       [01;36m[Koperator[m[K=(basic_string&& __str)
+[1.377s]       |       [01;36m[K^~~~~~~~[m[K
+[1.377s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[1.377s]   736 |       operator=([01;36m[Kbasic_string&& __str[m[K)
+[1.377s]       |                 [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[1.377s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.377s]   799 |       [01;36m[Koperator[m[K=(initializer_list<_CharT> __l)
+[1.377s]       |       [01;36m[K^~~~~~~~[m[K
+[1.377s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+[1.377s]   799 |       operator=([01;36m[Kinitializer_list<_CharT> __l[m[K)
+[1.377s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.378s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _Tp&) [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.378s]   813 |        [01;36m[Koperator[m[K=(const _Tp& __svt)
+[1.378s]       |        [01;36m[K^~~~~~~~[m[K
+[1.378s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.378s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.378s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:128:40:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::vector<unsigned char, std::allocator<unsigned char> >&[m[K’
+[1.378s]   128 |             msg = serial_.send_command([01;31m[Kcmd[m[K, 9);
+[1.378s]       |                                        [01;31m[K^~~[m[K
+[1.378s]       |                                        [01;31m[K|[m[K
+[1.378s]       |                                        [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[1.378s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[1.378s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.378s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:71:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+[1.378s]    56 |         std::vector<uint8_t> send_command([01;36m[Kconst std::vector<uint8_t> &cmd[m[K, int msg_length=8, bool print_output=true)
+[1.378s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.378s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.378s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kvoid MotorController::calibrate(int)[m[K’:
+[1.378s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:145:44:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’)
+[1.378s]   145 |             cmd = commands_.calibrate(motor[01;31m[K)[m[K;
+[1.378s]       |                                            [01;31m[K^[m[K
+[1.378s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.379s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[1.379s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[1.379s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[1.379s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[1.379s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.379s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:1[m[K:
+[1.379s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.379s]   669 |       [01;36m[Koperator[m[K=(const basic_string& __str)
+[1.379s]       |       [01;36m[K^~~~~~~~[m[K
+[1.379s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[1.379s]   669 |       operator=([01;36m[Kconst basic_string& __str[m[K)
+[1.379s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.379s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.379s]   708 |       [01;36m[Koperator[m[K=(const _CharT* __s)
+[1.379s]       |       [01;36m[K^~~~~~~~[m[K
+[1.379s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst char*[m[K’
+[1.379s]   708 |       operator=([01;36m[Kconst _CharT* __s[m[K)
+[1.379s]       |                 [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[1.379s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.379s]   719 |       [01;36m[Koperator[m[K=(_CharT __c)
+[1.379s]       |       [01;36m[K^~~~~~~~[m[K
+[1.379s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kchar[m[K’
+[1.379s]   719 |       operator=([01;36m[K_CharT __c[m[K)
+[1.380s]       |                 [01;36m[K~~~~~~~^~~[m[K
+[1.380s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.380s]   736 |       [01;36m[Koperator[m[K=(basic_string&& __str)
+[1.380s]       |       [01;36m[K^~~~~~~~[m[K
+[1.380s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[1.380s]   736 |       operator=([01;36m[Kbasic_string&& __str[m[K)
+[1.380s]       |                 [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[1.380s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.380s]   799 |       [01;36m[Koperator[m[K=(initializer_list<_CharT> __l)
+[1.380s]       |       [01;36m[K^~~~~~~~[m[K
+[1.380s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+[1.380s]   799 |       operator=([01;36m[Kinitializer_list<_CharT> __l[m[K)
+[1.380s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.380s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _Tp&) [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.380s]   813 |        [01;36m[Koperator[m[K=(const _Tp& __svt)
+[1.380s]       |        [01;36m[K^~~~~~~~[m[K
+[1.380s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.380s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.380s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:146:34:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::vector<unsigned char, std::allocator<unsigned char> >&[m[K’
+[1.380s]   146 |             serial_.send_command([01;31m[Kcmd[m[K);
+[1.380s]       |                                  [01;31m[K^~~[m[K
+[1.381s]       |                                  [01;31m[K|[m[K
+[1.381s]       |                                  [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[1.381s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[1.381s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.381s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:71:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+[1.381s]    56 |         std::vector<uint8_t> send_command([01;36m[Kconst std::vector<uint8_t> &cmd[m[K, int msg_length=8, bool print_output=true)
+[1.381s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.381s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.381s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kint MotorController::calibration_status(int)[m[K’:
+[1.381s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:151:53:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’)
+[1.381s]   151 |             cmd = commands_.calibration_status(motor[01;31m[K)[m[K;
+[1.381s]       |                                                     [01;31m[K^[m[K
+[1.381s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.381s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[1.381s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[1.381s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[1.381s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[1.381s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.381s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:1[m[K:
+[1.381s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.381s]   669 |       [01;36m[Koperator[m[K=(const basic_string& __str)
+[1.381s]       |       [01;36m[K^~~~~~~~[m[K
+[1.382s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[1.382s]   669 |       operator=([01;36m[Kconst basic_string& __str[m[K)
+[1.382s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.382s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.382s]   708 |       [01;36m[Koperator[m[K=(const _CharT* __s)
+[1.382s]       |       [01;36m[K^~~~~~~~[m[K
+[1.382s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst char*[m[K’
+[1.382s]   708 |       operator=([01;36m[Kconst _CharT* __s[m[K)
+[1.382s]       |                 [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[1.382s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.382s]   719 |       [01;36m[Koperator[m[K=(_CharT __c)
+[1.382s]       |       [01;36m[K^~~~~~~~[m[K
+[1.382s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kchar[m[K’
+[1.382s]   719 |       operator=([01;36m[K_CharT __c[m[K)
+[1.382s]       |                 [01;36m[K~~~~~~~^~~[m[K
+[1.382s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.382s]   736 |       [01;36m[Koperator[m[K=(basic_string&& __str)
+[1.382s]       |       [01;36m[K^~~~~~~~[m[K
+[1.382s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[1.382s]   736 |       operator=([01;36m[Kbasic_string&& __str[m[K)
+[1.382s]       |                 [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[1.382s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.382s]   799 |       [01;36m[Koperator[m[K=(initializer_list<_CharT> __l)
+[1.383s]       |       [01;36m[K^~~~~~~~[m[K
+[1.383s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+[1.383s]   799 |       operator=([01;36m[Kinitializer_list<_CharT> __l[m[K)
+[1.383s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.383s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _Tp&) [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.383s]   813 |        [01;36m[Koperator[m[K=(const _Tp& __svt)
+[1.383s]       |        [01;36m[K^~~~~~~~[m[K
+[1.383s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.383s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.383s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:152:40:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::vector<unsigned char, std::allocator<unsigned char> >&[m[K’
+[1.383s]   152 |             msg = serial_.send_command([01;31m[Kcmd[m[K);
+[1.383s]       |                                        [01;31m[K^~~[m[K
+[1.383s]       |                                        [01;31m[K|[m[K
+[1.383s]       |                                        [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[1.383s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[1.383s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.383s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:71:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+[1.383s]    56 |         std::vector<uint8_t> send_command([01;36m[Kconst std::vector<uint8_t> &cmd[m[K, int msg_length=8, bool print_output=true)
+[1.383s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.383s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.383s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kint MotorController::error_status(int)[m[K’:
+[1.383s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:168:47:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’)
+[1.383s]   168 |             cmd = commands_.error_status(motor[01;31m[K)[m[K;
+[1.384s]       |                                               [01;31m[K^[m[K
+[1.384s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[1.384s]                  from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+[1.384s]                  from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+[1.384s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[1.384s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[1.384s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.384s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:1[m[K:
+[1.384s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.384s]   669 |       [01;36m[Koperator[m[K=(const basic_string& __str)
+[1.384s]       |       [01;36m[K^~~~~~~~[m[K
+[1.384s] [01m[K/usr/include/c++/9/bits/basic_string.h:669:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’
+[1.384s]   669 |       operator=([01;36m[Kconst basic_string& __str[m[K)
+[1.384s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[1.384s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.384s]   708 |       [01;36m[Koperator[m[K=(const _CharT* __s)
+[1.384s]       |       [01;36m[K^~~~~~~~[m[K
+[1.384s] [01m[K/usr/include/c++/9/bits/basic_string.h:708:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kconst char*[m[K’
+[1.384s]   708 |       operator=([01;36m[Kconst _CharT* __s[m[K)
+[1.384s]       |                 [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[1.384s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.384s]   719 |       [01;36m[Koperator[m[K=(_CharT __c)
+[1.385s]       |       [01;36m[K^~~~~~~~[m[K
+[1.385s] [01m[K/usr/include/c++/9/bits/basic_string.h:719:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kchar[m[K’
+[1.385s]   719 |       operator=([01;36m[K_CharT __c[m[K)
+[1.385s]       |                 [01;36m[K~~~~~~~^~~[m[K
+[1.385s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.385s]   736 |       [01;36m[Koperator[m[K=(basic_string&& __str)
+[1.385s]       |       [01;36m[K^~~~~~~~[m[K
+[1.385s] [01m[K/usr/include/c++/9/bits/basic_string.h:736:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’
+[1.385s]   736 |       operator=([01;36m[Kbasic_string&& __str[m[K)
+[1.385s]       |                 [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[1.385s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.385s]   799 |       [01;36m[Koperator[m[K=(initializer_list<_CharT> __l)
+[1.385s]       |       [01;36m[K^~~~~~~~[m[K
+[1.385s] [01m[K/usr/include/c++/9/bits/basic_string.h:799:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kstd::initializer_list<char>[m[K’
+[1.385s]   799 |       operator=([01;36m[Kinitializer_list<_CharT> __l[m[K)
+[1.385s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.385s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_If_sv<_Tp, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _Tp&) [with _Tp = _Tp; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[1.385s]   813 |        [01;36m[Koperator[m[K=(const _Tp& __svt)
+[1.385s]       |        [01;36m[K^~~~~~~~[m[K
+[1.385s] [01m[K/usr/include/c++/9/bits/basic_string.h:813:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.385s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.385s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:169:34:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::vector<unsigned char, std::allocator<unsigned char> >&[m[K’
+[1.385s]   169 |             serial_.send_command([01;31m[Kcmd[m[K);
+[1.386s]       |                                  [01;31m[K^~~[m[K
+[1.386s]       |                                  [01;31m[K|[m[K
+[1.386s]       |                                  [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[1.386s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[1.386s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:11[m[K:
+[1.386s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:71:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+[1.386s]    56 |         std::vector<uint8_t> send_command([01;36m[Kconst std::vector<uint8_t> &cmd[m[K, int msg_length=8, bool print_output=true)
+[1.386s]       |                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.803s] make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+[1.803s] make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+[1.803s] make: *** [Makefile:146: all] Error 2
+[1.807s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

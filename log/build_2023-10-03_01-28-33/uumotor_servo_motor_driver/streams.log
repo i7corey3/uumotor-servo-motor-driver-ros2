@@ -1,0 +1,53 @@
+[0.138s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.169s] [ 18%] Built target fun
+[0.171s] [ 63%] Built target cmd
+[0.172s] [ 63%] Built target uumotor_servo_motor_driver
+[0.181s] [ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[0.274s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:8[m[K:
+[0.274s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:23:17:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[0.275s]    23 |                 [01;35m[K"[m[KMotor Controller Test\n
+[0.275s]       |                 [01;35m[K^[m[K
+[0.275s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:23:17:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+[0.275s]    23 |                 [01;31m[K"Motor Controller Test\n[m[K
+[0.275s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.275s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:24:38:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+[0.275s]    24 |                 Type ca to calibrate,[01;31m[K\[m[Kn
+[0.275s]       |                                      [01;31m[K^[m[K
+[0.275s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:25:37:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+[0.275s]    25 |                 Type s to run motor,[01;31m[K\[m[Kn
+[0.275s]       |                                     [01;31m[K^[m[K
+[0.275s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:26:38:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+[0.275s]    26 |                 Type x to stop motor,[01;31m[K\[m[Kn
+[0.275s]       |                                      [01;31m[K^[m[K
+[0.275s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:27:49:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+[0.275s]    27 |                 Type cs (value) to change speed,[01;31m[K\[m[Kn
+[0.275s]       |                                                 [01;31m[K^[m[K
+[0.275s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:28:55:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+[0.275s]    28 |                 Type cc (value) to change the current,[01;31m[K\[m[Kn
+[0.275s]       |                                                       [01;31m[K^[m[K
+[0.275s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:29:54:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+[0.275s]    29 |                 Type mr to check if motor is running,[01;31m[K\[m[Kn
+[0.275s]       |                                                      [01;31m[K^[m[K
+[0.276s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:30:44:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+[0.276s]    30 |                 Type rt to read motor temp,[01;31m[K\[m[Kn
+[0.276s]       |                                            [01;31m[K^[m[K
+[0.276s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:31:45:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+[0.276s]    31 |                 Type rv to read bus voltage,[01;31m[K\[m[Kn
+[0.276s]       |                                             [01;31m[K^[m[K
+[0.276s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:32:51:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+[0.276s]    32 |                 Type ap to read absolute position,[01;31m[K\[m[Kn
+[0.276s]       |                                                   [01;31m[K^[m[K
+[0.276s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:33:31:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[0.276s]    33 |                 Type q to quit[01;35m[K"[m[K << std::endl;
+[0.276s]       |                               [01;35m[K^[m[K
+[0.276s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:33:31:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+[0.276s]    33 |                 Type q to quit[01;31m[K" << std::endl;[m[K
+[0.276s]       |                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.342s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:[m[K In member function ‘[01m[Kvoid Controller::start_demo()[m[K’:
+[1.342s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:24:17:[m[K [01;31m[Kerror: [m[K‘[01m[KType[m[K’ was not declared in this scope
+[1.342s]    24 |                 [01;31m[KType[m[K ca to calibrate,\n
+[1.342s]       |                 [01;31m[K^~~~[m[K
+[1.810s] make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+[1.810s] make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+[1.810s] make: *** [Makefile:146: all] Error 2
+[1.814s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

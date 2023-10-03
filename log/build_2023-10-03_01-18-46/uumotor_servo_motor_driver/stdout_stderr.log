@@ -1,0 +1,46 @@
+[ 18%] Built target fun
+[ 54%] Built target cmd
+[ 63%] Built target uumotor_servo_motor_driver
+[ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:8[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:67:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kmonitor[m[K’ is not a type
+   67 |         std::thread monitor_thread ([01;31m[Kmonitor[m[K);
+      |                                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:69:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   69 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:[m[K In member function ‘[01m[Kvoid Controller::start_demo()[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:19:25:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+   19 |                 sprintf([01;35m[K"test"[m[K);
+      |                         [01;35m[K^~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:19:31:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kint sprintf(char*, const char*, ...)[m[K’
+   19 |                 sprintf("test"[01;31m[K)[m[K;
+      |                               [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/cstdio:42[m[K,
+                 from [01m[K/usr/include/c++/9/ext/string_conversions.h:43[m[K,
+                 from [01m[K/usr/include/c++/9/bits/basic_string.h:6496[m[K,
+                 from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/9/ios:42[m[K,
+                 from [01m[K/usr/include/c++/9/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/9/iostream:39[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:1[m[K:
+[01m[K/usr/include/stdio.h:334:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  334 | extern int [01;36m[Ksprintf[m[K (char *__restrict __s,
+      |            [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:8[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:[m[K In member function ‘[01m[Kvoid Controller::monitor()[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:46:33:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KMotorController::calibrate[m[K’ from type ‘[01m[Kvoid (MotorController::)(int)[m[K’ to type ‘[01m[Kbool[m[K’
+   46 |                 if (MC.calibrate[01;31m[K)[m[K
+      |                                 [01;31m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:51:28:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kvoid MotorController::calibrate(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   51 |                         [01;31m[KMC.calibrate[m[K = false;
+      |                         [01;31m[K~~~^~~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:56:28:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kvoid MotorController::calibrate(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   56 |                         [01;31m[KMC.calibrate[m[K = false;
+      |                         [01;31m[K~~~^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

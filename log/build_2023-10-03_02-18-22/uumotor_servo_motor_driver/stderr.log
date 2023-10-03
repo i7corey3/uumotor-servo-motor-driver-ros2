@@ -1,0 +1,12 @@
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:8[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:[m[K In member function ‘[01m[Kbool Controller::motor_running(int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:48:13:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kelse[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+   48 |             [01;35m[Kelse[m[K std::cout << "Invalid Motor" << '\n'; return false;
+      |             [01;35m[K^~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:48:56:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kelse[m[K’
+   48 |             else std::cout << "Invalid Motor" << '\n'; [01;36m[Kreturn[m[K false;
+      |                                                        [01;36m[K^~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:[m[K In member function ‘[01m[Kvoid Controller::monitor()[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:144:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kencoder_val[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  144 |             long [01;35m[Kencoder_val[m[K;
+      |                  [01;35m[K^~~~~~~~~~~[m[K

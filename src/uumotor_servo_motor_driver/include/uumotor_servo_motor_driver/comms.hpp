@@ -53,7 +53,7 @@ class Comms
             return serial_.IsOpen();
         }
 
-        std::vector<uint8_t> send_command(const std::vector<uint8_t> &cmd, int msg_length=8, bool print_output=true)
+        std::vector<uint8_t> send_command(const std::vector<uint8_t> &cmd, int msg_length=8, bool print_output=false)
         {
             serial_.FlushIOBuffers();
             serial_.Write(cmd);

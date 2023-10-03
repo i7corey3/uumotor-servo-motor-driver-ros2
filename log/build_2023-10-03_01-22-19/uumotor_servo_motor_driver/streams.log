@@ -1,0 +1,23 @@
+[0.144s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.175s] [ 18%] Built target fun
+[0.177s] [ 36%] Built target cmd
+[0.177s] [ 63%] Built target uumotor_servo_motor_driver
+[0.194s] [ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[1.367s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:8[m[K:
+[1.367s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:69:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kmonitor[m[K’ is not a type
+[1.367s]    69 |         std::thread monitor_thread ([01;31m[Kmonitor[m[K);
+[1.367s]       |                                     [01;31m[K^~~~~~~[m[K
+[1.367s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:[m[K In member function ‘[01m[Kvoid Controller::monitor()[m[K’:
+[1.367s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:48:33:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KMotorController::calibrate[m[K’ from type ‘[01m[Kvoid (MotorController::)(int)[m[K’ to type ‘[01m[Kbool[m[K’
+[1.367s]    48 |                 if (MC.calibrate[01;31m[K)[m[K
+[1.367s]       |                                 [01;31m[K^[m[K
+[1.368s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:53:28:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kvoid MotorController::calibrate(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[1.368s]    53 |                         [01;31m[KMC.calibrate[m[K = false;
+[1.368s]       |                         [01;31m[K~~~^~~~~~~~~[m[K
+[1.368s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:58:28:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kvoid MotorController::calibrate(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[1.368s]    58 |                         [01;31m[KMC.calibrate[m[K = false;
+[1.368s]       |                         [01;31m[K~~~^~~~~~~~~[m[K
+[1.821s] make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+[1.821s] make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+[1.821s] make: *** [Makefile:146: all] Error 2
+[1.825s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

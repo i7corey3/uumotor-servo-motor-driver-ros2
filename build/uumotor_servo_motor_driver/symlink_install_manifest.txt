@@ -1,6 +1,7 @@
 /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/lib/uumotor_servo_motor_driver/libuumotor_servo_motor_driver.so
 /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver//commands.h
 /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver//comms.hpp
+/home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver//controller.hpp
 /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver//functions.h
 /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver//motor_controller.hpp
 /home/corey/uumotor-servo-motor-driver-ros2/install/uumotor_servo_motor_driver/lib/uumotor_servo_motor_driver/driver
