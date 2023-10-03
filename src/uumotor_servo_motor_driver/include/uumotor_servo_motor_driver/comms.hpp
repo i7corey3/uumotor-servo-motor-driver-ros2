@@ -40,6 +40,7 @@ class Comms
             timeout_ms_ = timeout_ms;
             serial_.Open(serial_device);
             serial_.SetBaudRate(convert_baud_rate(baud_rate));
+            
         }
 
         void disconnect()
@@ -52,7 +53,7 @@ class Comms
             return serial_.IsOpen();
         }
 
-        std::vector<uint8_t> send_command(const std::vector<uint8_t> &cmd, bool print_output=true)
+        std::vector<uint8_t> send_command(const std::vector<uint8_t> &cmd, int msg_length=8, bool print_output=true)
         {
             serial_.FlushIOBuffers();
             serial_.Write(cmd);
@@ -61,35 +62,31 @@ class Comms
             std::vector<int> output;
             uint8_t hex_value;
             std::vector<uint8_t> hex_num;
-            for (auto d : msg)
-            {
-                hex_num.push_back(static_cast<uint8_t>(d));
-            }
             
-
             try
             {   
-                for (int i = 0; i < 8; i++)
+                for (int i = 0; i < msg_length; i++)
                 {
                     serial_.ReadByte(hex_value, timeout_ms_);
                     output.push_back(static_cast<int>(hex_value));
                     // std::cout << " Hex: " << std::hex << std::setw(2) << static_cast<int>(hex_value) << std::endl;                     
                 }
-                
-             
-                
+               
             }
             catch(const LibSerial::ReadTimeout&)
             {
                 RCLCPP_INFO(rclcpp::get_logger("Serial"), "Error: Serial Timeout");
             }
 
-
+            for (auto d : output)
+            {
+                hex_num.push_back(static_cast<uint8_t>(d));
+            }
 
             if (print_output)
             {
                 
-                for (int &i: hex_num) {
+                for (int &i: output) {
                     std::cout << std::hex << std::setw(2) << std::setfill('0') << i << ' ';
                 }
                 std::cout << std::endl;
@@ -103,6 +100,7 @@ class Comms
     private:
         LibSerial::SerialPort serial_;
         Commands commands_;
+        Functions fun_;
         int timeout_ms_;
 
 

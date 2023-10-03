@@ -37,6 +37,7 @@ class MotorController
         void set_motor_parameters(int motor, std::string control_mode, int max_speed, int min_speed, 
                                   int max_amp, std::string sensor_type)
         {
+            
             cmd = commands_.set_control_mode(motor, control_mode);
             serial_.send_command(cmd);
             cmd = commands_.set_acceleration_max(motor, max_speed);
@@ -69,38 +70,73 @@ class MotorController
         bool motor_running(int motor)
         {
             cmd = commands_.motor_running(motor);
-            std::vector<uint8_t> msg = serial_.send_command(cmd);
-            int check = fun_.check_message(msg);
-            if (check) RCLCPP_INFO(rclcpp::get_logger("Serial"), "Error: Invalid Message");
-            else
+            msg = serial_.send_command(cmd, 7);
+            
+            bool check = fun_.check_message(msg.data(), msg.size());
+            if (check)
             {
-                int running = fun_.message_decoder(msg, 16, true);
+                int running = fun_.message_decoder(msg.data(), 16, true, msg.size());
+
                 if (running) return true;
                 else return false;
+                
             }
+            else RCLCPP_INFO(rclcpp::get_logger("motor_running"), "Error: Invalid Message"); return false;
+            
         }
 
         float read_temp(int motor)
         {
             cmd = commands_.motor_temp(motor);
-            serial_.send_command(cmd);
-            return 0.0; 
+            msg = serial_.send_command(cmd, 7);
+            
+            bool check = fun_.check_message(msg.data(), msg.size());
+            if (check)
+            {
+                int temp = fun_.message_decoder(msg.data(), 16, false, msg.size());
+                // float temp_fix = static_cast<float>(temp);
+                
+                return temp / -10.0;
+                
+            }
+            else RCLCPP_INFO(rclcpp::get_logger("read_temp"), "Error: Invalid Message"); return 0.0;
+            
         }
 
         float read_volt(int motor)
         {
             cmd = commands_.bus_voltage(motor);
-            serial_.send_command(cmd);
+            msg = serial_.send_command(cmd, 7);
 
-            return 0.0;
+            bool check = fun_.check_message(msg.data(), msg.size());
+            if (check)
+            {
+                int volt = fun_.message_decoder(msg.data(), 16, false, msg.size());
+                // float temp_fix = static_cast<float>(temp);
+                
+                return volt / 10.0;
+                
+            }
+            else RCLCPP_INFO(rclcpp::get_logger("read_volt"), "Error: Invalid Message"); return 0.0;
+            
         }
 
-        double get_absolute_position(int motor)
+        long get_absolute_position(int motor)
         {
             cmd = commands_.absolute_position(motor);
-            serial_.send_command(cmd);
+            msg = serial_.send_command(cmd, 9);
 
-            return 0.0;
+            bool check = fun_.check_message(msg.data(), msg.size());
+            if (check)
+            {
+                int encoder = fun_.message_decoder(msg.data(), 32, false, msg.size());
+                // float temp_fix = static_cast<float>(temp);
+                
+                return encoder;
+                
+            }
+            else RCLCPP_INFO(rclcpp::get_logger("get_absolute_position"), "Error: Invalid Message"); return 0.0;
+            
         }
 
         void calibrate(int motor)
@@ -112,9 +148,18 @@ class MotorController
         int calibration_status(int motor)
         {
             cmd = commands_.calibration_status(motor);
-            serial_.send_command(cmd);
+            msg = serial_.send_command(cmd);
 
-            return 0;
+            bool check = fun_.check_message(msg.data(), msg.size());
+            if (check)
+            {
+                int status = fun_.message_decoder(msg.data(), 16, true, msg.size());
+                
+                return status;
+                
+            }
+            else RCLCPP_INFO(rclcpp::get_logger("calibration_status"), "Error: Invalid Message"); return 0.0;
+            
         }
 
         int error_status(int motor)
@@ -122,13 +167,24 @@ class MotorController
             cmd = commands_.error_status(motor);
             serial_.send_command(cmd);
 
-            return 0;
+            bool check = fun_.check_message(msg.data(), msg.size());
+            if (check)
+            {
+                int error = fun_.message_decoder(msg.data(), 32, true, msg.size());
+                
+                return error;
+                
+            }
+            else RCLCPP_INFO(rclcpp::get_logger("error_status"), "Error: Invalid Message"); return 0.0;
+            
         }
     
 
     private:
         Functions fun_;
         std::vector<uint8_t> cmd;
+        std::vector<uint8_t> msg;
+
         
 
 };

@@ -1,0 +1,22 @@
+[0.131s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.161s] [ 18%] Built target fun
+[0.164s] [ 45%] Built target uumotor_servo_motor_driver
+[0.164s] [ 63%] Built target cmd
+[0.180s] [ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[1.336s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[1.336s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[1.336s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:[m[K In member function ‘[01m[Kstd::vector<int> Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, bool)[m[K’:
+[1.336s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:74:28:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K"0"[m[K’ from ‘[01m[Kconst char [2][m[K’ to ‘[01m[Kstd::vector<int>[m[K’
+[1.336s]    74 |                     return [01;31m[K"0"[m[K;
+[1.336s]       |                            [01;31m[K^~~[m[K
+[1.336s]       |                            [01;31m[K|[m[K
+[1.336s]       |                            [01;31m[Kconst char [2][m[K
+[1.336s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:80:24:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K"invalid message"[m[K’ from ‘[01m[Kconst char [16][m[K’ to ‘[01m[Kstd::vector<int>[m[K’
+[1.336s]    80 |                 return [01;31m[K"invalid message"[m[K;
+[1.336s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.336s]       |                        [01;31m[K|[m[K
+[1.336s]       |                        [01;31m[Kconst char [16][m[K
+[1.799s] make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+[1.799s] make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+[1.799s] make: *** [Makefile:146: all] Error 2
+[1.803s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

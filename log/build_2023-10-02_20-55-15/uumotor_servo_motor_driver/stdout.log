@@ -1,0 +1,4 @@
+[ 18%] Built target fun
+[ 54%] Built target uumotor_servo_motor_driver
+[ 63%] Built target cmd
+[ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m

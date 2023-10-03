@@ -1,0 +1,15 @@
+[ 18%] Built target fun
+[ 36%] Built target cmd
+[ 63%] Built target uumotor_servo_motor_driver
+[ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:51:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ktemp[m[K’ was not declared in this scope; did you mean ‘[01m[Kmktemp[m[K’?
+   51 |     std::cout << static_cast<float>([01;31m[Ktemp[m[K) << std::endl;
+      |                                     [01;31m[K^~~~[m[K
+      |                                     [32m[Kmktemp[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:49:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvolt[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   49 |     float [01;35m[Kvolt[m[K = MC.read_volt(1);
+      |           [01;35m[K^~~~[m[K
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

@@ -30,10 +30,11 @@ uint16_t Functions::Calc_Crc(uint8_t *pack_buff, int pack_len)
 
 }
 
-bool Functions::check_message(uint8_t *msg)
+bool Functions::check_message(uint8_t *msg, int size)
 {
 
-    uint16_t crc = Calc_Crc(msg, 6);
+    
+    uint16_t crc = Calc_Crc(msg, size-2);
     
     uint8_t partA = static_cast<uint8_t>((crc & 0xFF00) >> 8);
     uint8_t partB = static_cast<uint8_t>((crc & 0x00FF));
@@ -43,15 +44,13 @@ bool Functions::check_message(uint8_t *msg)
     // std::cout << std::hex << static_cast<int>(msg[6]) << " ";
     // std::cout << std::hex << static_cast<int>(msg[7]) << std::endl;
 
-    if (msg[6] != partA or msg[7] != partB)
+    if (msg[size-2] != partA || msg[size-1] != partB)
     {
         return false;
     }
     else
     {
-        
-        return true;
-        
+        return true; 
     }
 }
 
@@ -109,36 +108,31 @@ std::vector<uint8_t> Functions::int2hex(int value, int range, bool unsign)
 }
 
 
-int Functions::message_decoder(uint8_t *msg, int bit, bool unsign)
+int Functions::message_decoder(uint8_t *msg, int bit, bool unsign, int msg_length)
 {
-    
+    int value;
     if (bit == 16)
     {
         // msg[4] msg[5]
-        int value;
-        value = (msg[4] << 8) | msg[5];
         
-        if (!unsign)
-        {
-            value = (value & 0xFFFF);
-            // printf("%u\n", value);
-            // std::cout << value << "    " << std::endl;
-            return value;
-        }
-        else 
-        {
-            // printf("%u\n", value);
-            // std::cout << value << "    " << std::endl;
-            return value;
-        }
+        value = (msg[msg_length - 4] << 8) | msg[msg_length - 3];
+        
+        if (!unsign) return (value ^ 0x8000) - 0x8000;
 
-    
-        // std::cout << std::hex << static_cast<int>(msg[4]) << " ";
-        // std::cout << std::hex << static_cast<int>(msg[5]) << std::endl;
+        else return value;
 
+    }
+    else if (bit == 32)
+    {
+        value = (msg[msg_length - 6] << 24) | (msg[msg_length - 5] << 16) | (msg[msg_length - 4] << 8) | msg[msg_length - 3];
+        
+        if (!unsign) return (value ^ 0x80000000) - 0x80000000;
+
+        else return value;
     }
     else
     {
+        std::cout << "Error: Invalid Bit Count (16 or 32)" << std::endl;
         return 0;
     }
 }

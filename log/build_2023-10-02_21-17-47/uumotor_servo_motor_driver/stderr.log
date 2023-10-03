@@ -1,0 +1,21 @@
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:111:5:[m[K [01;31m[Kerror: [m[Kdefault argument given for parameter 4 of ‘[01m[Kint Functions::message_decoder(uint8_t*, int, bool, int)[m[K’ [[01;31m[K-fpermissive[m[K]
+  111 | int [01;31m[KFunctions[m[K::message_decoder(uint8_t *msg, int bit, bool unsign, int msg_length=8)
+      |     [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:1[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:26:9:[m[K [01;36m[Knote: [m[Kprevious specification in ‘[01m[Kint Functions::message_decoder(uint8_t*, int, bool, int)[m[K’ here
+   26 |     int [01;36m[Kmessage_decoder[m[K(uint8_t *msg, int bit, bool unsign, int msg_length=8);
+      |         [01;36m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/fun.dir/build.make:76: CMakeFiles/fun.dir/src/functions.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/fun.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:111:5:[m[K [01;31m[Kerror: [m[Kdefault argument given for parameter 4 of ‘[01m[Kint Functions::message_decoder(uint8_t*, int, bool, int)[m[K’ [[01;31m[K-fpermissive[m[K]
+  111 | int [01;31m[KFunctions[m[K::message_decoder(uint8_t *msg, int bit, bool unsign, int msg_length=8)
+      |     [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:1[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:26:9:[m[K [01;36m[Knote: [m[Kprevious specification in ‘[01m[Kint Functions::message_decoder(uint8_t*, int, bool, int)[m[K’ here
+   26 |     int [01;36m[Kmessage_decoder[m[K(uint8_t *msg, int bit, bool unsign, int msg_length=8);
+      |         [01;36m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:90: CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

@@ -1,0 +1,143 @@
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kvoid MotorController::drive_motor(int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:34:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KComms::send_command(std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’
+   34 |             serial_.send_command(cmd[01;31m[K)[m[K;
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+   56 |         std::vector<uint8_t> [01;36m[Ksend_command[m[K(const std::vector<uint8_t> &cmd, int msg_length, bool print_output=true)
+      |                              [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kvoid MotorController::set_motor_parameters(int, std::string, int, int, int, std::string)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:42:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KComms::send_command(std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’
+   42 |             serial_.send_command(cmd[01;31m[K)[m[K;
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+   56 |         std::vector<uint8_t> [01;36m[Ksend_command[m[K(const std::vector<uint8_t> &cmd, int msg_length, bool print_output=true)
+      |                              [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:44:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KComms::send_command(std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’
+   44 |             serial_.send_command(cmd[01;31m[K)[m[K;
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+   56 |         std::vector<uint8_t> [01;36m[Ksend_command[m[K(const std::vector<uint8_t> &cmd, int msg_length, bool print_output=true)
+      |                              [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:46:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KComms::send_command(std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’
+   46 |             serial_.send_command(cmd[01;31m[K)[m[K;
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+   56 |         std::vector<uint8_t> [01;36m[Ksend_command[m[K(const std::vector<uint8_t> &cmd, int msg_length, bool print_output=true)
+      |                              [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:48:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KComms::send_command(std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’
+   48 |             serial_.send_command(cmd[01;31m[K)[m[K;
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+   56 |         std::vector<uint8_t> [01;36m[Ksend_command[m[K(const std::vector<uint8_t> &cmd, int msg_length, bool print_output=true)
+      |                              [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kvoid MotorController::change_current(int, float)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:56:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KComms::send_command(std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’
+   56 |             serial_.send_command(cmd[01;31m[K)[m[K;
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+   56 |         std::vector<uint8_t> [01;36m[Ksend_command[m[K(const std::vector<uint8_t> &cmd, int msg_length, bool print_output=true)
+      |                              [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kvoid MotorController::set_motor_speed(int, int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:62:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KComms::send_command(std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’
+   62 |             serial_.send_command(cmd[01;31m[K)[m[K;
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+   56 |         std::vector<uint8_t> [01;36m[Ksend_command[m[K(const std::vector<uint8_t> &cmd, int msg_length, bool print_output=true)
+      |                              [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kfloat MotorController::read_temp(int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:91:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KComms::send_command(std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’
+   91 |             serial_.send_command(cmd[01;31m[K)[m[K;
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+   56 |         std::vector<uint8_t> [01;36m[Ksend_command[m[K(const std::vector<uint8_t> &cmd, int msg_length, bool print_output=true)
+      |                              [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kfloat MotorController::read_volt(int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:98:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KComms::send_command(std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’
+   98 |             serial_.send_command(cmd[01;31m[K)[m[K;
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+   56 |         std::vector<uint8_t> [01;36m[Ksend_command[m[K(const std::vector<uint8_t> &cmd, int msg_length, bool print_output=true)
+      |                              [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kdouble MotorController::get_absolute_position(int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:106:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KComms::send_command(std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’
+  106 |             serial_.send_command(cmd[01;31m[K)[m[K;
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+   56 |         std::vector<uint8_t> [01;36m[Ksend_command[m[K(const std::vector<uint8_t> &cmd, int msg_length, bool print_output=true)
+      |                              [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kvoid MotorController::calibrate(int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:114:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KComms::send_command(std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’
+  114 |             serial_.send_command(cmd[01;31m[K)[m[K;
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+   56 |         std::vector<uint8_t> [01;36m[Ksend_command[m[K(const std::vector<uint8_t> &cmd, int msg_length, bool print_output=true)
+      |                              [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kint MotorController::calibration_status(int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:120:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KComms::send_command(std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’
+  120 |             serial_.send_command(cmd[01;31m[K)[m[K;
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+   56 |         std::vector<uint8_t> [01;36m[Ksend_command[m[K(const std::vector<uint8_t> &cmd, int msg_length, bool print_output=true)
+      |                              [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kint MotorController::error_status(int)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:128:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KComms::send_command(std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’
+  128 |             serial_.send_command(cmd[01;31m[K)[m[K;
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, int, bool)[m[K’
+   56 |         std::vector<uint8_t> [01;36m[Ksend_command[m[K(const std::vector<uint8_t> &cmd, int msg_length, bool print_output=true)
+      |                              [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:56:30:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

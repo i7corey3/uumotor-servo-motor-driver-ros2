@@ -1,0 +1,136 @@
+[0.102s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.150s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.152s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.152s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.153s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.153s]   the cmake_policy command to set the policy and suppress this warning.
+[0.153s] 
+[0.153s] Call Stack (most recent call first):
+[0.153s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.153s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.153s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.153s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.153s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.153s]   CMakeLists.txt:11 (find_package)
+[0.153s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.153s] [0m
+[0.167s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.206s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.222s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.262s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.267s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.377s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.431s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.433s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.452s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.626s] -- Configuring done (0.5s)
+[0.644s] -- Generating done (0.0s)
+[0.646s] -- Build files have been written to: /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver
+[0.659s] [  9%] [32mBuilding CXX object CMakeFiles/fun.dir/src/functions.cpp.o[0m
+[0.674s] [ 36%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o[0m
+[0.674s] [ 36%] [32mBuilding CXX object CMakeFiles/cmd.dir/src/commands.cpp.o[0m
+[0.674s] [ 36%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o[0m
+[0.901s] [ 45%] [32m[1mLinking CXX static library libfun.a[0m
+[0.911s] [ 45%] Built target fun
+[2.483s] [ 54%] [32m[1mLinking CXX shared library libuumotor_servo_motor_driver.so[0m
+[2.525s] [ 63%] [32m[1mLinking CXX static library libcmd.a[0m
+[2.532s] [ 63%] Built target cmd
+[2.548s] [ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[2.549s] [ 81%] [32mBuilding CXX object CMakeFiles/driver.dir/src/functions.cpp.o[0m
+[2.549s] [ 90%] [32mBuilding CXX object CMakeFiles/driver.dir/src/commands.cpp.o[0m
+[2.580s] [ 90%] Built target uumotor_servo_motor_driver
+[3.724s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[3.724s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[3.724s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Comms::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, bool)[m[K’:
+[3.724s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:64:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[3.724s]    64 |             for (auto d : [01;31m[Kmsg[m[K)
+[3.724s]       |                           [01;31m[K^~~[m[K
+[3.724s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:64:27:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[3.724s] In file included from [01m[K/opt/ros/galactic/include/builtin_interfaces/msg/duration.hpp:7[m[K,
+[3.724s]                  from [01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:20[m[K,
+[3.724s]                  from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+[3.724s]                  from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[3.725s]                  from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+[3.725s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[3.725s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[3.725s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[3.725s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[3.725s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[3.725s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[3.725s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[3.725s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[3.725s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.725s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:9[m[K:
+[3.725s] [01m[K/opt/ros/galactic/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[3.725s]    26 | namespace [01;36m[Kmsg[m[K
+[3.725s]       |           [01;36m[K^~~[m[K
+[3.725s] In file included from [01m[K/opt/ros/galactic/include/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+[3.725s]                  from [01m[K/opt/ros/galactic/include/rclcpp/qos_overriding_options.hpp:28[m[K,
+[3.725s]                  from [01m[K/opt/ros/galactic/include/rclcpp/subscription_options.hpp:29[m[K,
+[3.725s]                  from [01m[K/opt/ros/galactic/include/rclcpp/subscription.hpp:45[m[K,
+[3.725s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:25[m[K,
+[3.725s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[3.725s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[3.726s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[3.726s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[3.726s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[3.726s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[3.726s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.726s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:9[m[K:
+[3.726s] [01m[K/opt/ros/galactic/include/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[3.726s]    26 | namespace [01;36m[Kmsg[m[K
+[3.726s]       |           [01;36m[K^~~[m[K
+[3.726s] In file included from [01m[K/opt/ros/galactic/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22[m[K,
+[3.726s]                  from [01m[K/opt/ros/galactic/include/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[3.726s]                  from [01m[K/opt/ros/galactic/include/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[3.726s]                  from [01m[K/opt/ros/galactic/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[3.726s]                  from [01m[K/opt/ros/galactic/include/rclcpp/subscription.hpp:50[m[K,
+[3.726s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:25[m[K,
+[3.726s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[3.726s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[3.726s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[3.726s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[3.727s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[3.727s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[3.727s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.727s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:9[m[K:
+[3.727s] [01m[K/opt/ros/galactic/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[3.727s]    26 | namespace [01;36m[Kmsg[m[K
+[3.727s]       |           [01;36m[K^~~[m[K
+[3.727s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[3.727s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[3.727s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:92:30:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kint&[m[K’ to an rvalue of type ‘[01m[Kint[m[K’
+[3.727s]    92 |                 for (int &i: [01;31m[Khex_num[m[K) {
+[3.727s]       |                              [01;31m[K^~~~~~~[m[K
+[3.727s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[3.727s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kbool MotorController::motor_running(int)[m[K’:
+[3.727s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:73:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kuint8_t*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’}
+[3.727s]    73 |             int check = fun_.check_message([01;31m[Kmsg[m[K);
+[3.727s]       |                                            [01;31m[K^~~[m[K
+[3.727s]       |                                            [01;31m[K|[m[K
+[3.727s]       |                                            [01;31m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K
+[3.727s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h:6[m[K,
+[3.728s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:7[m[K,
+[3.728s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[3.728s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[3.728s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:20:33:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool Functions::check_message(uint8_t*)[m[K’
+[3.728s]    20 |     bool check_message([01;36m[Kuint8_t *msg[m[K);
+[3.728s]       |                        [01;36m[K~~~~~~~~~^~~[m[K
+[3.728s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[3.728s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:77:52:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ to ‘[01m[Kuint8_t*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’}
+[3.728s]    77 |                 int running = fun_.message_decoder([01;31m[Kmsg[m[K, 16, true);
+[3.728s]       |                                                    [01;31m[K^~~[m[K
+[3.728s]       |                                                    [01;31m[K|[m[K
+[3.728s]       |                                                    [01;31m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K
+[3.728s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h:6[m[K,
+[3.728s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/comms.hpp:7[m[K,
+[3.728s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:8[m[K,
+[3.728s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[3.728s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h:26:34:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint Functions::message_decoder(uint8_t*, int, bool)[m[K’
+[3.728s]    26 |     int message_decoder([01;36m[Kuint8_t *msg[m[K, int bit, bool unsign);
+[3.728s]       |                         [01;36m[K~~~~~~~~~^~~[m[K
+[4.192s] make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+[4.192s] make[2]: *** Waiting for unfinished jobs....
+[4.322s] make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+[4.322s] make: *** [Makefile:146: all] Error 2
+[4.326s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16

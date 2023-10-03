@@ -1,0 +1,15 @@
+[0.132s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
+[0.163s] [ 18%] Built target fun
+[0.166s] [ 36%] Built target cmd
+[0.166s] [ 63%] Built target uumotor_servo_motor_driver
+[0.182s] [ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[1.336s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:10[m[K:
+[1.336s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:[m[K In member function ‘[01m[Kbool MotorController::motor_running(int)[m[K’:
+[1.336s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/motor_controller.hpp:74:45:[m[K [01;31m[Kerror: [m[K‘[01m[Khex_num[m[K’ was not declared in this scope; did you mean ‘[01m[Kenum[m[K’?
+[1.337s]    74 |             bool check = fun_.check_message([01;31m[Khex_num[m[K.data());
+[1.337s]       |                                             [01;31m[K^~~~~~~[m[K
+[1.337s]       |                                             [32m[Kenum[m[K
+[1.803s] make[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+[1.803s] make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/driver.dir/all] Error 2
+[1.803s] make: *** [Makefile:146: all] Error 2
+[1.807s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j16 -l16
