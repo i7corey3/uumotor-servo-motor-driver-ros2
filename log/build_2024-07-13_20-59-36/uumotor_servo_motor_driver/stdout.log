@@ -1,0 +1,5 @@
+[ 18%] Built target fun
+[ 36%] Built target cmd
+[ 63%] Built target uumotor_servo_motor_driver
+[35m[1mScanning dependencies of target driver[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m

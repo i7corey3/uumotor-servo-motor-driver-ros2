@@ -19,9 +19,9 @@ class Functions
 
     bool check_message(uint8_t *msg, int size);
 
-    std::vector<uint8_t> int2hex(int value, int range, bool unsign);
+    std::vector<uint8_t> int2hex(double value, double range, bool unsign);
 
-    int map_range(int x, int in_min, int in_max, int out_min, int out_max);
+    long map_range(double x, double in_min, double in_max, double out_min, double out_max);
 
     int message_decoder(uint8_t *msg, int bit, bool unsign, int msg_length);
  

@@ -1,0 +1,26 @@
+[0.007s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j32 -l32
+[0.028s] [35m[1mScanning dependencies of target fun[0m
+[0.029s] [35m[1mScanning dependencies of target uumotor_servo_motor_driver[0m
+[0.034s] [  9%] [32mBuilding CXX object CMakeFiles/fun.dir/src/functions.cpp.o[0m
+[0.036s] [ 27%] Built target cmd
+[0.038s] [ 36%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o[0m
+[0.160s] [ 45%] [32m[1mLinking CXX static library libfun.a[0m
+[0.173s] [ 45%] Built target fun
+[0.177s] [ 54%] [32m[1mLinking CXX shared library libuumotor_servo_motor_driver.so[0m
+[0.179s] [35m[1mScanning dependencies of target driver[0m
+[0.193s] [ 63%] [32mBuilding CXX object CMakeFiles/driver.dir/src/test_node.cpp.o[0m
+[0.193s] [ 72%] [32mBuilding CXX object CMakeFiles/driver.dir/src/functions.cpp.o[0m
+[0.227s] [ 81%] Built target uumotor_servo_motor_driver
+[0.864s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:8[m[K:
+[0.864s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:[m[K In member function ‘[01m[Kvoid Controller::monitor()[m[K’:
+[0.864s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:148:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kencoder_val[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[0.864s]   148 |             long [01;35m[Kencoder_val[m[K;
+[0.864s]       |                  [01;35m[K^~~~~~~~~~~[m[K
+[0.865s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.865s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:36:30:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+[0.865s]    36 |     std::vector<uint8_t> k = [01;31m[K.[m[KMC.set_motor_speed(1, 0.1);
+[0.865s]       |                              [01;31m[K^[m[K
+[1.158s] make[2]: *** [CMakeFiles/driver.dir/build.make:63: CMakeFiles/driver.dir/src/test_node.cpp.o] Error 1
+[1.158s] make[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/driver.dir/all] Error 2
+[1.158s] make: *** [Makefile:141: all] Error 2
+[1.161s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j32 -l32

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/functions.h
+string
+-
+vector
+-
+
+/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp
+uumotor_servo_motor_driver/functions.h
+/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/uumotor_servo_motor_driver/functions.h
+sstream
+-
+iostream
+-
+

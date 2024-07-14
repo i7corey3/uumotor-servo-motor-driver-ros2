@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cmd.dir/src/commands.cpp.o"
-  "CMakeFiles/cmd.dir/src/commands.cpp.o.d"
   "libcmd.a"
   "libcmd.pdb"
 )

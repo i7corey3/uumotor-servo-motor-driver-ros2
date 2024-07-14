@@ -31,6 +31,7 @@ class MotorController
 
         void drive_motor(int motor)
         {
+           
             cmd = commands_.control_motor(motor, "start");
             serial_.send_command(cmd);
         }
@@ -52,15 +53,18 @@ class MotorController
 
         void change_current(int motor, float current)
         {
-            int current_fix = static_cast<int>(current*100);
+            int current_fix = static_cast<int>(current*10);
             cmd = commands_.set_current(motor, current_fix);
             serial_.send_command(cmd);
         }
 
-        void set_motor_speed(int motor, int speed)
+        void set_motor_speed(int motor, double speed)
         {
+            cmd = commands_.control_motor(motor, "clear");
+            serial_.send_command(cmd);
             cmd = commands_.set_speed(motor, speed);
             serial_.send_command(cmd);
+            
         }
 
         void stop_motor(int motor)

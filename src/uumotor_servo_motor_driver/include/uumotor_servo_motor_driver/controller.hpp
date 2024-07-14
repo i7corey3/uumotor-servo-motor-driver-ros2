@@ -11,20 +11,22 @@ class Controller
 {
 
     public:
-
+        
         Controller() = default;
 
-        void change_speed(int motor, int speed)
+        void change_speed(int motor, double speed)
         {
+            
             if (motor == 1)
             {
                 MC.command = "change_speed";
                 motor_speed = speed;
+                
             }
             else std::cout << "Invalid Motor" << '\n';
         }
 
-        void change_current(int motor, float current)
+        void change_current(int motor, double current)
         {
             if (motor == 1) MC.change_current(motor, current);
             else std::cout << "Invalid Motor" << '\n';
@@ -115,25 +117,29 @@ class Controller
 
 
             while (true){
-                
-                std::cout << text << std::endl;
-                getline( cin, cmd);
+                try {
+                    std::cout << text << std::endl;
+                    getline( cin, cmd);
 
-                del_pos = cmd.find(" ");
-                cm = cmd.substr(0, del_pos);
-                val = cmd.substr(del_pos);
-                
-                if (cm == "ca") calibrate_motor(1);
-                else if (cm == "s") start_motor(1);
-                else if (cm == "x") stop_motor(1);
-                else if (cm == "cs") change_speed(1, std::atoi(val.c_str()));
-                else if (cm == "cc") change_current(1, std::atoi(val.c_str()));
-                else if (cm == "mr") motor_running(1);
-                else if (cm == "rt") read_temp(1);
-                else if (cm == "rv") read_volt(1);
-                else if (cm == "ap") get_absolute_position(1);
-                else if (cm == "q") break; 
-                
+                    del_pos = cmd.find(" ");
+                    cm = cmd.substr(0, del_pos);
+                    val = cmd.substr(del_pos);
+                    
+                    if (cm == "ca") calibrate_motor(1);
+                    else if (cm == "s") start_motor(1);
+                    else if (cm == "x") stop_motor(1);
+                    else if (cm == "cs") change_speed(1, std::atof(val.c_str()));
+                    else if (cm == "cc") change_current(1, std::atof(val.c_str()));
+                    else if (cm == "mr") std::cout << motor_running(1) << std::endl;
+                    else if (cm == "rt") std::cout << read_temp(1)<< std::endl;
+                    else if (cm == "rv") std::cout << read_volt(1) << std::endl;
+                    else if (cm == "ap") std::cout << get_absolute_position(1) << std::endl;
+                    else if (cm == "q") break; 
+                }
+                catch (int e)
+                {
+
+                }
             }
 
         }
@@ -141,19 +147,21 @@ class Controller
 
     private:
         MotorController MC;
-        int motor_speed = 0;
+        double motor_speed = 0;
         void monitor()
         {
             
             long encoder_val;
-            MC.select_model("svd6h2");
+            MC.select_model("svh4d");
             MC.connect_to_driver("/dev/ttyUSB0", 115200, 1000);
             MC.set_motor_parameters(1, "speed", 200, -200, 2,"hall");
             while (true)
             {
                 if (MC.command == "change_speed")
                 {
+                    
                     MC.set_motor_speed(1, motor_speed);
+                    MC.command = "";
                 }
                 if (MC.run_motor)
                 {
@@ -178,7 +186,7 @@ class Controller
                         std::cout << "Calibrating" << std::endl;
                     }
                 }
-                MC.command = "";
+                
             }
         }
 

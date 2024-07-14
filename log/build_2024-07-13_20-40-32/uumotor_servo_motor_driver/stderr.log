@@ -1,0 +1,12 @@
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In member function ‘[01m[Klong int Functions::map_range(double, double, double, double, double)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:84:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   84 |         double [01;35m[Kv[m[K = (x - in_min) / (in_max - in_min);
+      |                [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In member function ‘[01m[Klong int Functions::map_range(double, double, double, double, double)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:84:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   84 |         double [01;35m[Kv[m[K = (x - in_min) / (in_max - in_min);
+      |                [01;35m[K^[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In member function ‘[01m[Klong int Functions::map_range(double, double, double, double, double)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:84:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   84 |         double [01;35m[Kv[m[K = (x - in_min) / (in_max - in_min);
+      |                [01;35m[K^[m[K

@@ -1,0 +1,45 @@
+[0.007s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j32 -l32
+[0.028s] [35m[1mScanning dependencies of target fun[0m
+[0.028s] [35m[1mScanning dependencies of target uumotor_servo_motor_driver[0m
+[0.033s] [  9%] [32mBuilding CXX object CMakeFiles/fun.dir/src/functions.cpp.o[0m
+[0.035s] [ 27%] Built target cmd
+[0.037s] [ 36%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o[0m
+[0.120s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Functions::int2hex(int, int, bool)[m[K’:
+[0.120s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:94:65:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kdouble[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator&[m[K’
+[0.120s]    94 |         actual = [32m[Kmap_range(value, -range, range, -32768, 32767)[m[K [01;31m[K&[m[K [34m[K0xFFFF[m[K;
+[0.120s]       |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~[m[K
+[0.120s]       |                           [32m[K|[m[K                                       [34m[K|[m[K
+[0.120s]       |                           [32m[Kdouble[m[K                                  [34m[Kint[m[K
+[0.120s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:104:50:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kdouble[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator&[m[K’
+[0.120s]   104 |     uint8_t partA = static_cast<uint8_t>(([32m[Kactual[m[K [01;31m[K&[m[K [34m[K0xFF00[m[K) >> 8);
+[0.120s]       |                                           [32m[K~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~[m[K
+[0.120s]       |                                           [32m[K|[m[K        [34m[K|[m[K
+[0.120s]       |                                           [32m[Kdouble[m[K   [34m[Kint[m[K
+[0.120s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:105:50:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kdouble[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator&[m[K’
+[0.120s]   105 |     uint8_t partB = static_cast<uint8_t>(([32m[Kactual[m[K [01;31m[K&[m[K [34m[K0x00FF[m[K));
+[0.121s]       |                                           [32m[K~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~[m[K
+[0.121s]       |                                           [32m[K|[m[K        [34m[K|[m[K
+[0.121s]       |                                           [32m[Kdouble[m[K   [34m[Kint[m[K
+[0.135s] make[2]: *** [CMakeFiles/fun.dir/build.make:63: CMakeFiles/fun.dir/src/functions.cpp.o] Error 1
+[0.135s] make[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/fun.dir/all] Error 2
+[0.135s] make[1]: *** Waiting for unfinished jobs....
+[0.138s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Functions::int2hex(int, int, bool)[m[K’:
+[0.138s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:94:65:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kdouble[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator&[m[K’
+[0.138s]    94 |         actual = [32m[Kmap_range(value, -range, range, -32768, 32767)[m[K [01;31m[K&[m[K [34m[K0xFFFF[m[K;
+[0.138s]       |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~[m[K
+[0.138s]       |                           [32m[K|[m[K                                       [34m[K|[m[K
+[0.138s]       |                           [32m[Kdouble[m[K                                  [34m[Kint[m[K
+[0.138s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:104:50:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kdouble[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator&[m[K’
+[0.138s]   104 |     uint8_t partA = static_cast<uint8_t>(([32m[Kactual[m[K [01;31m[K&[m[K [34m[K0xFF00[m[K) >> 8);
+[0.138s]       |                                           [32m[K~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~[m[K
+[0.138s]       |                                           [32m[K|[m[K        [34m[K|[m[K
+[0.138s]       |                                           [32m[Kdouble[m[K   [34m[Kint[m[K
+[0.138s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:105:50:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kdouble[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator&[m[K’
+[0.138s]   105 |     uint8_t partB = static_cast<uint8_t>(([32m[Kactual[m[K [01;31m[K&[m[K [34m[K0x00FF[m[K));
+[0.138s]       |                                           [32m[K~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~[m[K
+[0.138s]       |                                           [32m[K|[m[K        [34m[K|[m[K
+[0.138s]       |                                           [32m[Kdouble[m[K   [34m[Kint[m[K
+[0.162s] make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:76: CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o] Error 1
+[0.162s] make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+[0.163s] make: *** [Makefile:141: all] Error 2
+[0.164s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j32 -l32

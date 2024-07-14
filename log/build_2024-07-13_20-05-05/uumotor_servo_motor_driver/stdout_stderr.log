@@ -1,0 +1,43 @@
+[35m[1mScanning dependencies of target fun[0m
+[35m[1mScanning dependencies of target uumotor_servo_motor_driver[0m
+[  9%] [32mBuilding CXX object CMakeFiles/fun.dir/src/functions.cpp.o[0m
+[ 27%] Built target cmd
+[ 36%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o[0m
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Functions::int2hex(int, int, bool)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:94:65:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kdouble[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator&[m[K’
+   94 |         actual = [32m[Kmap_range(value, -range, range, -32768, 32767)[m[K [01;31m[K&[m[K [34m[K0xFFFF[m[K;
+      |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~[m[K
+      |                           [32m[K|[m[K                                       [34m[K|[m[K
+      |                           [32m[Kdouble[m[K                                  [34m[Kint[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:104:50:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kdouble[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator&[m[K’
+  104 |     uint8_t partA = static_cast<uint8_t>(([32m[Kactual[m[K [01;31m[K&[m[K [34m[K0xFF00[m[K) >> 8);
+      |                                           [32m[K~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~[m[K
+      |                                           [32m[K|[m[K        [34m[K|[m[K
+      |                                           [32m[Kdouble[m[K   [34m[Kint[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:105:50:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kdouble[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator&[m[K’
+  105 |     uint8_t partB = static_cast<uint8_t>(([32m[Kactual[m[K [01;31m[K&[m[K [34m[K0x00FF[m[K));
+      |                                           [32m[K~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~[m[K
+      |                                           [32m[K|[m[K        [34m[K|[m[K
+      |                                           [32m[Kdouble[m[K   [34m[Kint[m[K
+make[2]: *** [CMakeFiles/fun.dir/build.make:63: CMakeFiles/fun.dir/src/functions.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/fun.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Functions::int2hex(int, int, bool)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:94:65:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kdouble[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator&[m[K’
+   94 |         actual = [32m[Kmap_range(value, -range, range, -32768, 32767)[m[K [01;31m[K&[m[K [34m[K0xFFFF[m[K;
+      |                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~[m[K
+      |                           [32m[K|[m[K                                       [34m[K|[m[K
+      |                           [32m[Kdouble[m[K                                  [34m[Kint[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:104:50:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kdouble[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator&[m[K’
+  104 |     uint8_t partA = static_cast<uint8_t>(([32m[Kactual[m[K [01;31m[K&[m[K [34m[K0xFF00[m[K) >> 8);
+      |                                           [32m[K~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~[m[K
+      |                                           [32m[K|[m[K        [34m[K|[m[K
+      |                                           [32m[Kdouble[m[K   [34m[Kint[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/functions.cpp:105:50:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kdouble[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator&[m[K’
+  105 |     uint8_t partB = static_cast<uint8_t>(([32m[Kactual[m[K [01;31m[K&[m[K [34m[K0x00FF[m[K));
+      |                                           [32m[K~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~[m[K
+      |                                           [32m[K|[m[K        [34m[K|[m[K
+      |                                           [32m[Kdouble[m[K   [34m[Kint[m[K
+make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:76: CMakeFiles/uumotor_servo_motor_driver.dir/src/functions.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

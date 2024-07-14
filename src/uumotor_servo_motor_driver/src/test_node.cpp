@@ -31,9 +31,10 @@ int main(int argc, char * argv[])
 {
     rclcpp::init(argc, argv);
 
+
     Controller cc;
+    
     cc.start_demo();
-  
     
     // rclcpp::spin(std::make_shared<TestNode>());
     

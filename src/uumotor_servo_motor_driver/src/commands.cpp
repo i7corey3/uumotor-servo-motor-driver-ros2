@@ -15,6 +15,13 @@ void Commands::setup(const std::string &model_name)
         max_amp_ = 20;
         max_torque_ = 20;
     }
+    else if (model_name == "svh4d")
+    {
+        model_ = model_name;
+        max_speed_ = 200;
+        max_amp_ = 8;
+        max_torque_ = 3;
+    }
     // default driver
     else
     {
@@ -220,7 +227,7 @@ std::vector<uint8_t> Commands::set_location_mode(int motor, std::string mode)
 
 }
 
-std::vector<uint8_t> Commands::set_acceleration_max(int motor, int value)
+std::vector<uint8_t> Commands::set_acceleration_max(int motor, double value)
 {
     std::vector<uint8_t> command = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
     std::vector<uint8_t> v = fun.int2hex(value, max_speed_, true);
@@ -244,7 +251,7 @@ std::vector<uint8_t> Commands::set_acceleration_max(int motor, int value)
     }
 }
 
-std::vector<uint8_t> Commands::set_deceleration_max(int motor, int value)
+std::vector<uint8_t> Commands::set_deceleration_max(int motor, double value)
 {
     std::vector<uint8_t> command = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
     std::vector<uint8_t> v = fun.int2hex(value, max_speed_, true);
@@ -268,16 +275,17 @@ std::vector<uint8_t> Commands::set_deceleration_max(int motor, int value)
     }
 }
 
-std::vector<uint8_t> Commands::set_speed(int motor, int speed)
+std::vector<uint8_t> Commands::set_speed(int motor, double speed)
 {
     std::vector<uint8_t> command = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
-    std::vector<uint8_t> v = fun.int2hex(speed, max_speed_, true);
+    std::vector<uint8_t> v = fun.int2hex(speed, max_speed_, false);
+   
     switch (motor)
     {
         case 1:
             command = {0xEE, 0x06, 0x53, 0x04, v[0], v[1], 0xFF, 0xFF};
             fun.get_hex_msg(command.data());
-
+            
             return command;
 
         case 2:
@@ -292,10 +300,10 @@ std::vector<uint8_t> Commands::set_speed(int motor, int speed)
     }
 }
 
-std::vector<uint8_t> Commands::set_current(int motor, int current)
+std::vector<uint8_t> Commands::set_current(int motor, double current)
 {
     std::vector<uint8_t> command = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
-    std::vector<uint8_t> v = fun.int2hex(current, max_amp_, true);
+    std::vector<uint8_t> v = fun.int2hex(current, max_amp_, false);
     switch (motor)
     {
         case 1:

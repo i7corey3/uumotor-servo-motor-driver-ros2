@@ -68,30 +68,33 @@ void Functions::get_hex_msg(uint8_t *data)
     
 }
 
-int Functions::map_range(int x, int in_min, int in_max, int out_min, int out_max)
+long Functions::map_range(double x, double in_min, double in_max, double out_min, double out_max)
 {
     if (x > in_max)
     {
         return out_max;
     }
-    else if (x  < in_min)
+    else if (x < in_min)
     {
+        
         return out_min;
     }
     else
     {
-        int val = (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+  
+        long val = (long)((x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min);
+       
         return val;
     }
 }
 
-std::vector<uint8_t> Functions::int2hex(int value, int range, bool unsign)
+std::vector<uint8_t> Functions::int2hex(double value, double range, bool unsign)
 {
     long actual;
 
     if (!unsign)
     {
-        actual = (map_range(value, -range, range, -32768, 32767) & 0xFFFF);
+        actual = map_range(value, -range, range, -32768, 32767) & 0xFFFF;
         
     }
     else
@@ -99,6 +102,8 @@ std::vector<uint8_t> Functions::int2hex(int value, int range, bool unsign)
         actual = map_range(value, 0, range, 0, 65535);
         
     }
+    
+    
     uint8_t partA = static_cast<uint8_t>((actual & 0xFF00) >> 8);
     uint8_t partB = static_cast<uint8_t>((actual & 0x00FF));
 

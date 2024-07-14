@@ -1,0 +1,53 @@
+[35m[1mScanning dependencies of target cmd[0m
+[35m[1mScanning dependencies of target uumotor_servo_motor_driver[0m
+[ 18%] Built target fun
+[ 36%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/cmd.dir/src/commands.cpp.o[0m
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_speed(int, double)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:288:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kbegin[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::begin[m[K’?
+  288 |             for (auto a: command.data([01;31m[K)[m[K) {
+      |                                       [01;31m[K^[m[K
+      |                                       [32m[Kstd::begin[m[K
+In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h:4[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/range_access.h:105:37:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::begin[m[K’ declared here
+  105 |   template<typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&);
+      |                                     [01;36m[K^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:288:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kend[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::end[m[K’?
+  288 |             for (auto a: command.data([01;31m[K)[m[K) {
+      |                                       [01;31m[K^[m[K
+      |                                       [32m[Kstd::end[m[K
+In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h:4[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/range_access.h:107:37:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::end[m[K’ declared here
+  107 |   template<typename _Tp> const _Tp* [01;36m[Kend[m[K(const valarray<_Tp>&);
+      |                                     [01;36m[K^~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_speed(int, double)[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:288:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kbegin[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::begin[m[K’?
+  288 |             for (auto a: command.data([01;31m[K)[m[K) {
+      |                                       [01;31m[K^[m[K
+      |                                       [32m[Kstd::begin[m[K
+In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h:4[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/range_access.h:105:37:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::begin[m[K’ declared here
+  105 |   template<typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&);
+      |                                     [01;36m[K^~~~~[m[K
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:288:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kend[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::end[m[K’?
+  288 |             for (auto a: command.data([01;31m[K)[m[K) {
+      |                                       [01;31m[K^[m[K
+      |                                       [32m[Kstd::end[m[K
+In file included from [01m[K/usr/include/c++/9/string:54[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h:4[m[K,
+                 from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/range_access.h:107:37:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::end[m[K’ declared here
+  107 |   template<typename _Tp> const _Tp* [01;36m[Kend[m[K(const valarray<_Tp>&);
+      |                                     [01;36m[K^~~[m[K
+make[2]: *** [CMakeFiles/cmd.dir/build.make:63: CMakeFiles/cmd.dir/src/commands.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/cmd.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:63: CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

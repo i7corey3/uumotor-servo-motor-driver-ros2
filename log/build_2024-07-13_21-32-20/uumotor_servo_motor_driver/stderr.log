@@ -1,0 +1,5 @@
+In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/test_node.cpp:8[m[K:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:[m[K In member function ‘[01m[Kvoid Controller::monitor()[m[K’:
+[01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/controller.hpp:148:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kencoder_val[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  148 |             long [01;35m[Kencoder_val[m[K;
+      |                  [01;35m[K^~~~~~~~~~~[m[K

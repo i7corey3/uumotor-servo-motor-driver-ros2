@@ -26,13 +26,13 @@ public:
     
     std::vector<uint8_t> set_location_mode(int motor, std::string mode);
 
-    std::vector<uint8_t> set_acceleration_max(int motor, int value);
+    std::vector<uint8_t> set_acceleration_max(int motor, double value);
 
-    std::vector<uint8_t> set_deceleration_max(int motor, int value);
+    std::vector<uint8_t> set_deceleration_max(int motor, double value);
 
-    std::vector<uint8_t> set_speed(int motor, int speed);
+    std::vector<uint8_t> set_speed(int motor, double speed);
 
-    std::vector<uint8_t> set_current(int motor, int current);
+    std::vector<uint8_t> set_current(int motor, double current);
 
     std::vector<uint8_t> set_sensor_type(int motor, std::string type);
 

@@ -1,0 +1,43 @@
+[0.006s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j32 -l32
+[0.028s] [35m[1mScanning dependencies of target cmd[0m
+[0.028s] [35m[1mScanning dependencies of target uumotor_servo_motor_driver[0m
+[0.032s] [ 18%] Built target fun
+[0.044s] [ 36%] [32mBuilding CXX object CMakeFiles/cmd.dir/src/commands.cpp.o[0m
+[0.044s] [ 36%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o[0m
+[0.735s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[0.736s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[0.736s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[0.736s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[0.736s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.736s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[0.736s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[0.736s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.736s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[0.736s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[0.736s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:2[m[K:
+[0.736s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_speed(int, double)[m[K’:
+[0.736s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:289:67:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kdata[m[K’ in ‘[01m[Ka[m[K’, which is of non-class type ‘[01m[Kunsigned char[m[K’
+[0.736s]   289 |             RCLCPP_INFO(rclcpp::get_logger("set_control_mode"), a.[01;31m[Kdata[m[K());
+[0.736s]       |                                                                   [01;31m[K^~~~[m[K
+[0.736s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[0.736s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[0.736s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[0.736s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[0.737s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.737s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[0.737s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[0.737s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.737s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[0.737s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[0.737s]                  from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:2[m[K:
+[0.737s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Commands::set_speed(int, double)[m[K’:
+[0.737s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:289:67:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kdata[m[K’ in ‘[01m[Ka[m[K’, which is of non-class type ‘[01m[Kunsigned char[m[K’
+[0.737s]   289 |             RCLCPP_INFO(rclcpp::get_logger("set_control_mode"), a.[01;31m[Kdata[m[K());
+[0.737s]       |                                                                   [01;31m[K^~~~[m[K
+[1.026s] make[2]: *** [CMakeFiles/cmd.dir/build.make:63: CMakeFiles/cmd.dir/src/commands.cpp.o] Error 1
+[1.026s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/cmd.dir/all] Error 2
+[1.026s] make[1]: *** Waiting for unfinished jobs....
+[1.028s] make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:63: CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o] Error 1
+[1.028s] make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+[1.028s] make: *** [Makefile:141: all] Error 2
+[1.029s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j32 -l32

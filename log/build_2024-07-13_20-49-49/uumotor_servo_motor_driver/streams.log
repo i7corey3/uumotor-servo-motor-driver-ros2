@@ -1,0 +1,31 @@
+[0.005s] Invoking command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j32 -l32
+[0.032s] [ 18%] Built target fun
+[0.034s] [ 27%] [32mBuilding CXX object CMakeFiles/cmd.dir/src/commands.cpp.o[0m
+[0.035s] [ 36%] [32mBuilding CXX object CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o[0m
+[0.715s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:278:22:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::vector<unsigned char> Commands::set_speed(int, double)[m[K’
+[0.715s]   278 | std::vector<uint8_t> [01;31m[KCommands[m[K::set_speed(int motor, double speed)
+[0.715s]       |                      [01;31m[K^~~~~~~~[m[K
+[0.715s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:1[m[K:
+[0.715s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h:33:26:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstd::vector<unsigned char> Commands::set_speed(int, int)[m[K’
+[0.715s]    33 |     std::vector<uint8_t> [01;36m[Kset_speed[m[K(int motor, int speed);
+[0.715s]       |                          [01;36m[K^~~~~~~~~[m[K
+[0.715s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h:10:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Commands[m[K’ defined here
+[0.715s]    10 | class [01;36m[KCommands[m[K
+[0.715s]       |       [01;36m[K^~~~~~~~[m[K
+[0.715s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:278:22:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::vector<unsigned char> Commands::set_speed(int, double)[m[K’
+[0.715s]   278 | std::vector<uint8_t> [01;31m[KCommands[m[K::set_speed(int motor, double speed)
+[0.715s]       |                      [01;31m[K^~~~~~~~[m[K
+[0.715s] In file included from [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/src/commands.cpp:1[m[K:
+[0.715s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h:33:26:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstd::vector<unsigned char> Commands::set_speed(int, int)[m[K’
+[0.715s]    33 |     std::vector<uint8_t> [01;36m[Kset_speed[m[K(int motor, int speed);
+[0.715s]       |                          [01;36m[K^~~~~~~~~[m[K
+[0.715s] [01m[K/home/corey/uumotor-servo-motor-driver-ros2/src/uumotor_servo_motor_driver/include/uumotor_servo_motor_driver/commands.h:10:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Commands[m[K’ defined here
+[0.716s]    10 | class [01;36m[KCommands[m[K
+[0.716s]       |       [01;36m[K^~~~~~~~[m[K
+[1.006s] make[2]: *** [CMakeFiles/cmd.dir/build.make:63: CMakeFiles/cmd.dir/src/commands.cpp.o] Error 1
+[1.006s] make[2]: *** [CMakeFiles/uumotor_servo_motor_driver.dir/build.make:63: CMakeFiles/uumotor_servo_motor_driver.dir/src/commands.cpp.o] Error 1
+[1.007s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/cmd.dir/all] Error 2
+[1.007s] make[1]: *** Waiting for unfinished jobs....
+[1.007s] make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/uumotor_servo_motor_driver.dir/all] Error 2
+[1.007s] make: *** [Makefile:141: all] Error 2
+[1.008s] Invoked command in '/home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/corey/uumotor-servo-motor-driver-ros2/build/uumotor_servo_motor_driver -- -j32 -l32
